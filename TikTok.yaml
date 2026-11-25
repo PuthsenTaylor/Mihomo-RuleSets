@@ -1,4 +1,4 @@
-# 版本 v1.0.3 · 更新 2026-11-25 · 共 113 条
+# 版本 v1.0.4 · 更新 2026-11-25 · 共 113 条
 # 涵盖：TikTok、CapCut、Coze、Lark 海外版、BytePlus 等字节跳动海外服务
 payload:
   - PROCESS-NAME,com.zhiliaoapp.musically
@@ -10,7 +10,6 @@ payload:
   - DOMAIN,roovza.launches.appsflyersdk.com
   - DOMAIN,roovza.skadsdk.appsflyersdk.com
   - DOMAIN,sf3-ttcdn-tos.pstatp.com
-  - DOMAIN,trae-api-sg.mchost.guru
   - DOMAIN-SUFFIX,frontier-lark-lb-v3.lf.bytelb.net
   - DOMAIN-SUFFIX,tiktokcdn-us.com.edgesuite.net
   - DOMAIN-SUFFIX,larkoffice.com.bytedns1.com
@@ -22,6 +21,7 @@ payload:
   - DOMAIN-SUFFIX,larksuite.com.ttdns2.com
   - DOMAIN-SUFFIX,lark-passport-qa-sg.net
   - DOMAIN-SUFFIX,tiktokv.com.edgekey.net
+  - DOMAIN-SUFFIX,trae-api-sg.mchost.guru
   - DOMAIN-SUFFIX,byteplus-api-test.com
   - DOMAIN-SUFFIX,larkofficeapp-boe.com
   - DOMAIN-SUFFIX,larkofficeapp-pre.com
