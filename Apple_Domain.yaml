@@ -1,5 +1,6 @@
-# 版本 v1.0.0 · 更新 2026-11-25 · 共 1469 条
-# 涵盖：iCloud、App Store、Apple Music、Apple TV、Beats 等苹果全线服务
+# Apple_Domain
+# 版本 v2.0.0 · 日期 2026-11-25 · 时间 07:28 · 共 1469 条
+# 内容：iCloud、App Store、Apple Music、Apple TV、Beats 等苹果全线服务
 payload:
   - PROCESS-NAME,apsd
   - PROCESS-NAME,com.apple.Maps
