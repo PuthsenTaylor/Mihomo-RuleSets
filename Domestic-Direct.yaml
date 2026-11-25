@@ -1,5 +1,5 @@
-# Domestic Direct v1.0.1 · 2026-11-25 · 2896 条
-# 涵盖：Binance（币安）、OKX（欧易）、Gate、Bitget、Bybit 五家交易所；腾讯全系（微信、QQ、腾讯视频、QQ 音乐、王者荣耀、和平精英、腾讯游戏、腾讯云、搜狗、阅文、Riot / 英雄联盟等，含海外面）
+# Domestic Direct v1.0.2 · 2026-11-25 · 2898 条
+# 涵盖：Binance（币安）、OKX（欧易）、Gate、Bitget、Bybit 五家交易所；腾讯全系（微信、QQ、腾讯视频、QQ 音乐、王者荣耀、和平精英、腾讯游戏、腾讯云、搜狗、阅文、Riot / 英雄联盟等，含海外面）；kuwo.com 为用户点名补入（全网作者无出处）；含腾讯 ASN（IP-ASN,132203）
 payload:
   - PROCESS-NAME,binance.exe
   - PROCESS-NAME,okx.exe
@@ -2608,6 +2608,7 @@ payload:
   - DOMAIN-SUFFIX,joox.com
   - DOMAIN-SUFFIX,koowo.cn
   - DOMAIN-SUFFIX,kumi.com
+  - DOMAIN-SUFFIX,kuwo.com
   - DOMAIN-SUFFIX,kwsou.cn
   - DOMAIN-SUFFIX,lldlf.cn
   - DOMAIN-SUFFIX,mps.live
@@ -2897,3 +2898,4 @@ payload:
   - IP-CIDR,::ffff:c612:651/128
   - IP-CIDR,::ffff:c612:653/128
   - IP-CIDR,::ffff:dff0:bfee/128
+  - IP-ASN,132203
