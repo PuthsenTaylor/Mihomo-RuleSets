@@ -14,7 +14,7 @@
 | [Netflix_Domain.yaml](Netflix_Domain.yaml) | v1.0.0 | 23 | Netflix、Fast.com 等奈飞服务域名 |
 | [Netflix_IP.yaml](Netflix_IP.yaml) | v1.0.0 | 1121 | 奈飞全球 IP 地址段 |
 | [Disney_Domain.yaml](Disney_Domain.yaml) | v1.0.2 | 242 | Disney+、Hulu、ESPN、ABC、Marvel、Star Wars、国家地理、Hotstar 等迪士尼家族服务 |
-| [Emby.yaml](Emby.yaml) | v1.0.2 | 18 | Emby、Infuse、VidHub、Forward、Fileball、AfuseKt、FinFlow 等服务与进程名 |
+| [Emby_Domain.yaml](Emby_Domain.yaml) | v1.0.2 | 18 | Emby、Infuse、VidHub、Forward、Fileball、AfuseKt、FinFlow 等服务与进程名 |
 | [TikTok_Domain.yaml](TikTok_Domain.yaml) | v1.0.7 | 136 | TikTok、CapCut、Coze、Lark 海外版、BytePlus、Pico 等字节跳动海外服务 |
 | [Spotify_Domain.yaml](Spotify_Domain.yaml) | v1.0.0 | 32 | Spotify、Anchor 等服务域名 |
 | [Spotify_IP.yaml](Spotify_IP.yaml) | v1.0.0 | 2 | Spotify 全球 IP 地址段 |
