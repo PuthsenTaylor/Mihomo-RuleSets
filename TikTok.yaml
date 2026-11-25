@@ -1,5 +1,5 @@
-# 版本 v1.0.4 · 更新 2026-11-25 · 共 113 条
-# 涵盖：TikTok、CapCut、Coze、Lark 海外版、BytePlus 等字节跳动海外服务
+# 版本 v1.0.5 · 更新 2026-11-25 · 共 114 条
+# 涵盖：TikTok、CapCut、Coze、Lark 海外版、BytePlus 等字节跳动海外服务；Pico 全球站 picoxr.com 为用户授权点名补入（七家作者均未发布、无作者出处）
 payload:
   - PROCESS-NAME,com.zhiliaoapp.musically
   - DOMAIN,lf16-effectcdn.byteeffecttos-g.com
@@ -99,6 +99,7 @@ payload:
   - DOMAIN-SUFFIX,larkvc.com
   - DOMAIN-SUFFIX,muscdn.com
   - DOMAIN-SUFFIX,musical.ly
+  - DOMAIN-SUFFIX,picoxr.com
   - DOMAIN-SUFFIX,snssdk.com
   - DOMAIN-SUFFIX,tiktok.com
   - DOMAIN-SUFFIX,tiktokv.eu
