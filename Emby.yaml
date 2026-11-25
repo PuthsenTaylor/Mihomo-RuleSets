@@ -1,0 +1,11 @@
+# 版本 v1.0.0 · 更新 2026-11-25 · 共 8 条
+# 涵盖：Emby 官方服务（emby.media、mb3admin.com、emby.org、emby.tv）、UHD 服务域名与 FinFlow 客户端进程
+payload:
+  - PROCESS-NAME,com.riri.finflow
+  - DOMAIN-SUFFIX,emby.media
+  - DOMAIN-SUFFIX,mb3admin.com
+  - DOMAIN-SUFFIX,emby.org
+  - DOMAIN-SUFFIX,emby.tv
+  - DOMAIN-SUFFIX,uhdgo.com
+  - DOMAIN-SUFFIX,uhdnow.com
+  - DOMAIN-SUFFIX,uhdnow.online
