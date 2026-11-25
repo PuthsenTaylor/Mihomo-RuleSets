@@ -9,7 +9,8 @@
 | [NTP_Domain.yaml](NTP_Domain.yaml) | v1.0.0 | 169 | NTP Pool、NIST 等全球 NTP 时间服务器域名 |
 | [Google_Domain.yaml](Google_Domain.yaml) | v1.0.0 | 885 | YouTube、Gmail、Gemini、Google Play、Google Search、Google Maps、Google Drive、Google Photos 等谷歌全线服务 |
 | [Google_IP.yaml](Google_IP.yaml) | v1.0.0 | 7090 | 谷歌全球 IP 地址段 |
-| [Apple.yaml](Apple.yaml) | v1.0.3 | 1482 | iCloud、App Store、Apple Music、Apple TV、Beats 等苹果全线服务与苹果 IP 段 |
+| [Apple_Domain.yaml](Apple_Domain.yaml) | v1.0.0 | 1469 | iCloud、App Store、Apple Music、Apple TV、Beats 等苹果全线服务 |
+| [Apple_IP.yaml](Apple_IP.yaml) | v1.0.0 | 13 | 苹果全球 IP 地址段 |
 | [Netflix.yaml](Netflix.yaml) | v1.0.1 | 1144 | Netflix、Fast.com 等服务与奈飞 IP 段 |
 | [Disney.yaml](Disney.yaml) | v1.0.2 | 242 | Disney+、Hulu、ESPN、ABC、Marvel、Star Wars、国家地理、Hotstar 等迪士尼家族服务 |
 | [Emby.yaml](Emby.yaml) | v1.0.2 | 18 | Emby、Infuse、VidHub、Forward、Fileball、AfuseKt、FinFlow 等服务与进程名 |
