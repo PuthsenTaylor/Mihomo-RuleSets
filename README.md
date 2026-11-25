@@ -20,4 +20,4 @@
 | [Meta.yaml](Meta.yaml) | v1.0.0 | 2026-11-25 | 707 | Facebook、Instagram、WhatsApp、Messenger、Threads、Meta Quest、Meta AI 及 Meta IP 段 |
 | [Twitter.yaml](Twitter.yaml) | v1.0.0 | 2026-11-25 | 48 | X / Twitter、t.co 短链、xAI / Grok 及 Twitter IP 段 |
 | [AI.yaml](AI.yaml) | v1.0.1 | 2026-11-25 | 180 | ChatGPT、Claude、Perplexity、Poe、Groq、HuggingFace、Cursor、Manus 等海外 AI 服务 |
-| [Domestic-Direct.yaml](Domestic-Direct.yaml) | v1.0.1 | 2026-11-25 | 2896 | Binance（币安）、OKX（欧易）、Gate、Bitget、Bybit 五家交易所；腾讯全系（微信、QQ、腾讯视频、QQ 音乐、王者荣耀、和平精英、腾讯游戏、腾讯云、搜狗、阅文、Riot 等，含海外面）（国内直连重构第二步，余下国内服务待补） |
+| [Domestic-Direct.yaml](Domestic-Direct.yaml) | v1.0.2 | 2026-11-25 | 2898 | Binance（币安）、OKX（欧易）、Gate、Bitget、Bybit 五家交易所；腾讯全系（微信、QQ、腾讯视频、QQ 音乐、王者荣耀、和平精英、腾讯游戏、腾讯云、搜狗、阅文、Riot 等，含海外面）（国内直连重构第二步收尾：kuwo.com 用户点名补入、腾讯 ASN 132203 纳回；余下国内服务待补） |
