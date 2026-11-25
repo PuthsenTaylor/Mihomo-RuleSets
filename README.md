@@ -15,7 +15,7 @@
 | [Netflix.yaml](Netflix.yaml) | v1.0.1 | 2026-11-25 | 1144 | Netflix 流媒体、Fast.com 测速等服务与奈飞 IP 段 |
 | [Disney.yaml](Disney.yaml) | v1.0.2 | 2026-11-25 | 242 | Disney+、Hulu、ESPN、ABC、Marvel、Star Wars、国家地理、Hotstar 等迪士尼家族服务 |
 | [Emby.yaml](Emby.yaml) | v1.0.2 | 2026-11-25 | 18 | Emby 官方服务（emby.media、mb3admin.com、emby.org、emby.tv）、UHD 服务域名；第三方 Emby 客户端官方域名（Infuse、VidHub、Forward、Fileball、AfuseKt）；进程名：FinFlow 与 Emby 官方应用（Android/Android TV/Windows 客户端与 Emby Server） |
-| [TikTok.yaml](TikTok.yaml) | v1.0.6 | 2026-11-25 | 123 | TikTok、CapCut、Coze、Lark 海外版、BytePlus 等字节跳动海外服务；Pico 全球站 picoxr.com 为用户授权点名补入（无作者出处）；BytePlus 基础设施域名 ivolces.com / ivolces-test.com（自 DD 集改判移入）与 bytepluses.com、cr.volces.com 海外实证主机 6 条经官方文档实证补入 |
+| [TikTok.yaml](TikTok.yaml) | v1.0.7 | 2026-11-25 | 136 | TikTok、CapCut、Coze、Lark 海外版、BytePlus 等字节跳动海外服务；Pico 全球站 picoxr.com 为用户授权点名补入（无作者出处）；BytePlus 基础设施域名 ivolces.com / ivolces-test.com（自 DD 集改判移入）与 bytepluses.com、cr.volces.com 海外实证主机 6 条经官方文档实证补入；全量捕获复查补入海外产品官方域名 7 条（Gauth 三域、Hypic、Fizzo、Pangle、picovr.com，均官方实证、无作者出处）与 BytePlus 区域戳关键词 6 条，6 台精确 CDN/SDK 主机放宽为后缀 |
 | [Spotify.yaml](Spotify.yaml) | v1.0.1 | 2026-11-25 | 34 | Spotify 音乐流媒体、Anchor 播客服务域名与 IP 段 |
 | [Telegram.yaml](Telegram.yaml) | v1.0.1 | 2026-11-25 | 53 | Telegram 客户端、Telegra.ph、Fragment 与 TON 入口及 Telegram IP 段 |
 | [Meta.yaml](Meta.yaml) | v1.0.1 | 2026-11-25 | 709 | Facebook、Instagram、WhatsApp、Messenger、Threads、Meta Quest、Meta AI 及 Meta IP 段 |
