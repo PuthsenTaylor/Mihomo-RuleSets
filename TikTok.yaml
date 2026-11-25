@@ -1,5 +1,5 @@
-# 版本 v1.0.5 · 更新 2026-11-25 · 共 114 条
-# 涵盖：TikTok、CapCut、Coze、Lark 海外版、BytePlus 等字节跳动海外服务；Pico 全球站 picoxr.com 为用户授权点名补入（七家作者均未发布、无作者出处）
+# 版本 v1.0.6 · 更新 2026-11-25 · 共 123 条
+# 涵盖：TikTok、CapCut、Coze、Lark 海外版、BytePlus 等字节跳动海外服务；Pico 全球站 picoxr.com 为用户授权点名补入（七家作者均未发布、无作者出处）；BytePlus 基础设施域名 ivolces.com / ivolces-test.com（v2fly、MCX 有出处，原误判国内、自 DD 集改判移入）与 bytepluses.com、cr.volces.com 海外实证主机 6 条经 BytePlus 官方文档实证补入
 payload:
   - PROCESS-NAME,com.zhiliaoapp.musically
   - DOMAIN,lf16-effectcdn.byteeffecttos-g.com
@@ -10,7 +10,13 @@ payload:
   - DOMAIN,roovza.launches.appsflyersdk.com
   - DOMAIN,roovza.skadsdk.appsflyersdk.com
   - DOMAIN,sf3-ttcdn-tos.pstatp.com
+  - DOMAIN-SUFFIX,dataleap-johor-ap-southeast-1.cr.volces.com
+  - DOMAIN-SUFFIX,ai-containers-ap-southeast-1.cr.volces.com
+  - DOMAIN-SUFFIX,cp-enterprise-ap-southeast-1.cr.volces.com
+  - DOMAIN-SUFFIX,elkeid-ap-southeast-1.cr.volces.com
+  - DOMAIN-SUFFIX,vemlp-ap-southeast-1.cr.volces.com
   - DOMAIN-SUFFIX,frontier-lark-lb-v3.lf.bytelb.net
+  - DOMAIN-SUFFIX,vke-ap-southeast-1.cr.volces.com
   - DOMAIN-SUFFIX,tiktokcdn-us.com.edgesuite.net
   - DOMAIN-SUFFIX,larkoffice.com.bytedns1.com
   - DOMAIN-SUFFIX,tiktokcdn.com.akamaized.net
@@ -45,6 +51,7 @@ payload:
   - DOMAIN-SUFFIX,tiktokstaticb.com
   - DOMAIN-SUFFIX,capcutcdn-us.com
   - DOMAIN-SUFFIX,capcutstatic.com
+  - DOMAIN-SUFFIX,ivolces-test.com
   - DOMAIN-SUFFIX,larkmeetings.com
   - DOMAIN-SUFFIX,larksuitecdn.com
   - DOMAIN-SUFFIX,larksuiteimg.com
@@ -58,6 +65,7 @@ payload:
   - DOMAIN-SUFFIX,byteoversea.net
   - DOMAIN-SUFFIX,tiktokmusic.app
   - DOMAIN-SUFFIX,ttoverseaus.net
+  - DOMAIN-SUFFIX,bytepluses.com
   - DOMAIN-SUFFIX,larkoffice.com
   - DOMAIN-SUFFIX,lemon8-app.com
   - DOMAIN-SUFFIX,tik-tokapi.com
@@ -89,6 +97,7 @@ payload:
   - DOMAIN-SUFFIX,byteglb.com
   - DOMAIN-SUFFIX,ipstatp.com
   - DOMAIN-SUFFIX,isnssdk.com
+  - DOMAIN-SUFFIX,ivolces.com
   - DOMAIN-SUFFIX,tiktokd.net
   - DOMAIN-SUFFIX,tiktokd.org
   - DOMAIN-SUFFIX,tiktokv.com
