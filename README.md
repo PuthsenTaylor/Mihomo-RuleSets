@@ -13,7 +13,7 @@
 ### Apple.yaml
 
 - 用途：苹果（Apple）规则集，覆盖苹果及其服务（iCloud、Apple Music、App Store、Apple TV 等）域名与苹果 IP 地址段。
-- 条目数：1,619 条（2026-11-25 按用户裁决删除共用设施条目 7 条；同日按新口径补入进程规则 13 条）。
+- 条目数：1,614 条（2026-11-25 按用户裁决删除共用设施条目 7 条；同日按新口径补入进程规则 8 条，另 5 条系统通用进程名按误杀门槛未收）。
 - 构建日期：2026-11-25。
 - 数据来源：MetaCubeX、blackmatrix7、v2fly、ddranic、ACL4SSR、DustinWin、Loyalsoldier，共 7 家作者。
 
