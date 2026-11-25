@@ -1,5 +1,5 @@
 # CN
-# 版本 v1.0.0 · 更新 2026-11-25 · 共 4817 条
+# 版本 v1.0.1 · 更新 2026-11-25 · 共 4816 条
 # 涵盖：腾讯、阿里、京东、拼多多、美团、得物、三网运营商、OPPO/OnePlus、国产 AI、币安/欧易/Gate/Bybit/Bitget 交易所等国内服务
 payload:
   - PROCESS-NAME,Binance.exe
@@ -3041,7 +3041,6 @@ payload:
   - DOMAIN-SUFFIX,tencentuc.cn
   - DOMAIN-SUFFIX,tencentwf.cn
   - DOMAIN-SUFFIX,theduapp.com
-  - DOMAIN-SUFFIX,thepoizon.ru
   - DOMAIN-SUFFIX,timibase.com
   - DOMAIN-SUFFIX,timmerse.com
   - DOMAIN-SUFFIX,tingbook.com
