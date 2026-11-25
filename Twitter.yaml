@@ -1,5 +1,5 @@
 # 版本 v1.0.0 · 更新 2026-11-25 · 共 48 条
-# 涵盖：X / Twitter、t.co 短链、xAI / Grok 及 Twitter IP 段
+# 涵盖：X / Twitter、t.co、xAI / Grok 等服务及 IP 段
 payload:
   - DOMAIN-SUFFIX,cms-twdigitalassets.com
   - DOMAIN-SUFFIX,twitterflightschool.com
