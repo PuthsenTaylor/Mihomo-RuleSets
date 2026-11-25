@@ -28,10 +28,10 @@ payload:
   - DOMAIN-SUFFIX,tospotify.com
   - DOMAIN-SUFFIX,spotify.link
   - DOMAIN-SUFFIX,spotify.com
+  - DOMAIN-SUFFIX,anchor.fm
   - DOMAIN-SUFFIX,pscdn.co
   - DOMAIN-SUFFIX,spoti.fi
   - DOMAIN-SUFFIX,scdn.co
-  - DOMAIN-SUFFIX,anchor.fm
   - DOMAIN-KEYWORD,spotify
   - IP-CIDR,35.186.224.47/32
   - IP-CIDR,104.154.127.126/32
