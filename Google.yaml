@@ -4,7 +4,7 @@
 #       其子品牌（YouTube、Gmail、Google Play 等）域名与谷歌 IP 地址段；
 #       命中后的走向由调用方配置决定。
 # 构建日期：2026-11-25
-# 条目统计：共 7982 条（PROCESS-NAME 6 条 / DOMAIN 1 条 / DOMAIN-SUFFIX 879 条 / DOMAIN-KEYWORD 6 条 / IP-CIDR 7090 条）
+# 条目统计：共 7974 条（PROCESS-NAME 6 条 / DOMAIN 1 条 / DOMAIN-SUFFIX 872 条 / DOMAIN-KEYWORD 5 条 / IP-CIDR 7090 条）
 # 数据来源：MetaCubeX、blackmatrix7、v2fly、ddranic、ACL4SSR、DustinWin、
 #           Loyalsoldier，共 7 家作者公开发布的谷歌清单（其中 ddranic 与
 #           Loyalsoldier 为 v2fly 数据的转制导出）。
@@ -16,6 +16,12 @@
 #           （PROCESS-NAME，置于 payload 首部）：出自 blackmatrix7 公开
 #           清单、逐字收录、零自建。此前构建按旧口径（进程规则不入集）
 #           未收，现按新口径（作者有发布即列入）补齐。
+# 终审记录：2026-11-25 海外段终审剔除 8 条——真冗余 1 条：
+# DOMAIN-KEYWORD,www.google（被同集 KEYWORD,google 完全遮蔽）；
+# 已关停服务 7 条：googleplus.com（Google+，2019-04-02 关停）、
+# picasa.com、picasaweb.com、picasaweb.net、picasaweb.org（Picasa，
+# 2016-05-01 关停）、panoramio.com（Panoramio，2016-11 关停）、
+# stadia.dev（Stadia，2023-01-18 关停）。明细见终审报告。
 payload:
   - PROCESS-NAME,BackupandSync
   - PROCESS-NAME,com.android.vending
@@ -246,7 +252,6 @@ payload:
   - DOMAIN-SUFFIX,googlemail.com
   - DOMAIN-SUFFIX,googlemaps.com
   - DOMAIN-SUFFIX,googleplay.com
-  - DOMAIN-SUFFIX,googleplus.com
   - DOMAIN-SUFFIX,gstatic-cn.com
   - DOMAIN-SUFFIX,gwtproject.org
   - DOMAIN-SUFFIX,html5rocks.com
@@ -386,10 +391,6 @@ payload:
   - DOMAIN-SUFFIX,oasisfeng.com
   - DOMAIN-SUFFIX,openthread.io
   - DOMAIN-SUFFIX,pageview.mobi
-  - DOMAIN-SUFFIX,panoramio.com
-  - DOMAIN-SUFFIX,picasaweb.com
-  - DOMAIN-SUFFIX,picasaweb.net
-  - DOMAIN-SUFFIX,picasaweb.org
   - DOMAIN-SUFFIX,recaptcha.net
   - DOMAIN-SUFFIX,solveforx.com
   - DOMAIN-SUFFIX,synergyse.com
@@ -603,7 +604,6 @@ payload:
   - DOMAIN-SUFFIX,kaggle.com
   - DOMAIN-SUFFIX,kaggle.net
   - DOMAIN-SUFFIX,oauthz.com
-  - DOMAIN-SUFFIX,picasa.com
   - DOMAIN-SUFFIX,picnik.com
   - DOMAIN-SUFFIX,pixate.com
   - DOMAIN-SUFFIX,plus.codes
@@ -612,7 +612,6 @@ payload:
   - DOMAIN-SUFFIX,schema.org
   - DOMAIN-SUFFIX,sheets.new
   - DOMAIN-SUFFIX,slides.new
-  - DOMAIN-SUFFIX,stadia.dev
   - DOMAIN-SUFFIX,urchin.com
   - DOMAIN-SUFFIX,verily.com
   - DOMAIN-SUFFIX,wallet.com
@@ -908,7 +907,6 @@ payload:
   - DOMAIN-KEYWORD,gmail
   - DOMAIN-KEYWORD,google
   - DOMAIN-KEYWORD,recaptcha
-  - DOMAIN-KEYWORD,www.google
   - IP-CIDR,136.36.15.81/32
   - IP-CIDR,136.36.35.215/32
   - IP-CIDR,136.36.40.115/32
