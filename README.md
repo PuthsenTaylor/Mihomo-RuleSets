@@ -73,6 +73,13 @@
 - 构建日期：2026-11-25。
 - 数据来源：MetaCubeX、blackmatrix7、v2fly、ddranic、ACL4SSR、DustinWin、Loyalsoldier，共 7 家作者。
 
+### Tencent.yaml
+
+- 用途：腾讯（Tencent）规则集，覆盖腾讯家族（微信、QQ、腾讯视频、腾讯游戏、腾讯音乐、搜狗、阅文、腾讯云国内面等）域名与腾讯 IP 地址段。
+- 条目数：2,652 条。
+- 构建日期：2026-11-25。
+- 数据来源：blackmatrix7、MetaCubeX、v2fly、ddranic、ACL4SSR，共 5 家作者。
+
 ### TikTok.yaml
 
 - 用途：海外字节（TikTok）规则集，覆盖 TikTok、Musical.ly、CapCut 海外版等海外字节系服务域名；只收海外分类，不含国内字节数据。
