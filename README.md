@@ -52,6 +52,13 @@
 - 构建日期：2026-11-25。
 - 数据来源：v2fly、MetaCubeX、ddranic、blackmatrix7，共 4 家作者。
 
+### TikTok.yaml
+
+- 用途：海外字节（TikTok）规则集，覆盖 TikTok、Musical.ly、CapCut 海外版等海外字节系服务域名；只收海外分类，不含国内字节数据。
+- 条目数：61 条。
+- 构建日期：2026-11-25。
+- 数据来源：MetaCubeX、blackmatrix7、v2fly、ddranic、ACL4SSR、DustinWin，共 6 家作者。
+
 ## 维护说明
 
 - 本仓库按段逐个新增文件：每完成一段自建集，即在本仓库新增对应文件，并同步更新本索引中的条目数、构建日期与数据来源。
