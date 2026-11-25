@@ -26,5 +26,5 @@
 | [Twitter_IP.yaml](Twitter_IP.yaml) | v2.0.0 | 21 | X / Twitter 全球 IP 地址段 |
 | [AI_Domain.yaml](AI_Domain.yaml) | v2.0.0 | 206 | ChatGPT、Claude、Perplexity、Midjourney、Runway、Suno、Cursor、Copilot 等海外 AI 服务域名 |
 | [AI_IP.yaml](AI_IP.yaml) | v2.0.0 | 2 | 海外 AI 服务 IP 地址段 |
-| [Domestic-Direct_Domain.yaml](Domestic-Direct_Domain.yaml) | v2.0.0 | 5951 | 五家交易所、腾讯、阿里巴巴、京东、拼多多、美团、百度、字节跳动国内全系等国内服务域名 |
+| [Domestic-Direct_Domain.yaml](Domestic-Direct_Domain.yaml) | v2.0.0 | 5951 | 币安、欧易等交易所，腾讯、阿里巴巴、字节跳动、京东、百度、三网运营商等国内服务域名 |
 | [Domestic-Direct_IP.yaml](Domestic-Direct_IP.yaml) | v2.0.0 | 200 | 国内服务 IP 地址段 |
