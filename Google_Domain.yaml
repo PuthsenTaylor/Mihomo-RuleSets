@@ -1,5 +1,6 @@
-# 版本 v1.0.0 · 更新 2026-11-25 · 共 885 条
-# 涵盖：YouTube、Gmail、Gemini、Google Play、Google Search、Google Maps、Google Drive、Google Photos 等谷歌全线服务
+# Google_Domain
+# 版本 v2.0.0 · 日期 2026-11-25 · 时间 07:28 · 共 885 条
+# 内容：YouTube、Gmail、Gemini、Google Play、Google Search、Google Maps、Google Drive、Google Photos 等谷歌全线服务
 payload:
   - PROCESS-NAME,BackupandSync
   - PROCESS-NAME,com.android.vending
