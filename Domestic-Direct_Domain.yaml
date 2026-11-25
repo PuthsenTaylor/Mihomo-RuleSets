@@ -1,5 +1,5 @@
 # Domestic-Direct_Domain
-# 版本 v2.0.1 · 日期 2026-11-25 · 时间 09:35 · 共 5790 条
+# 版本 v2.0.2 · 日期 2026-11-25 · 时间 09:37 · 共 5840 条
 # 内容：币安、欧易等交易所，腾讯、阿里巴巴、字节跳动、京东、百度、三网运营商等国内服务域名
 payload:
   - PROCESS-NAME,binance.exe
@@ -23,6 +23,7 @@ payload:
   - DOMAIN-SUFFIX,feishuopenplatformrecord.com
   - DOMAIN-SUFFIX,shhqcftfzhj-tencentclb.cloud
   - DOMAIN-SUFFIX,shwxzfjpyzc-tencentclb.cloud
+  - DOMAIN-SUFFIX,pglstatp-snssdk-toutiao.com
   - DOMAIN-SUFFIX,shhqcftfzhj-tencentclb.work
   - DOMAIN-SUFFIX,shhqcftfzhjtencentclb.cloud
   - DOMAIN-SUFFIX,shwxzfjpyzc-tencentclb.work
@@ -53,6 +54,7 @@ payload:
   - DOMAIN-SUFFIX,vigtm-meeting-tencent.com
   - DOMAIN-SUFFIX,alibabadesign-enable.com
   - DOMAIN-SUFFIX,aliresearch-internal.com
+  - DOMAIN-SUFFIX,byteplus-api-test.com.cn
   - DOMAIN-SUFFIX,douyinmusicpromotion.com
   - DOMAIN-SUFFIX,gzlwycft-tencentclb.work
   - DOMAIN-SUFFIX,igtm-meeting-tencent.com
@@ -104,6 +106,8 @@ payload:
   - DOMAIN-SUFFIX,accessibility-union.net
   - DOMAIN-SUFFIX,accessibility-union.org
   - DOMAIN-SUFFIX,binglianhuajianzhan.com
+  - DOMAIN-SUFFIX,bytedancehermestest.com
+  - DOMAIN-SUFFIX,byteplusapi-test.com.cn
   - DOMAIN-SUFFIX,gzlwycft-tencentclb.com
   - DOMAIN-SUFFIX,gzlwycft-tencentclb.net
   - DOMAIN-SUFFIX,gzopen-tencentclb.cloud
@@ -423,6 +427,7 @@ payload:
   - DOMAIN-SUFFIX,bjjr-tencentclb.com
   - DOMAIN-SUFFIX,bjjr-tencentclb.net
   - DOMAIN-SUFFIX,butterfly-static.cn
+  - DOMAIN-SUFFIX,byteplus-api.com.cn
   - DOMAIN-SUFFIX,ca-tencentclb.cloud
   - DOMAIN-SUFFIX,cd-tencentclb.cloud
   - DOMAIN-SUFFIX,chinatelecom.com.cn
@@ -594,6 +599,13 @@ payload:
   - DOMAIN-SUFFIX,api-vod-qcloud.com
   - DOMAIN-SUFFIX,baiduyangguang.org
   - DOMAIN-SUFFIX,bj-tencentclb.work
+  - DOMAIN-SUFFIX,byteactivity11.com
+  - DOMAIN-SUFFIX,byteactivity12.com
+  - DOMAIN-SUFFIX,byteactivity13.com
+  - DOMAIN-SUFFIX,byteactivity14.com
+  - DOMAIN-SUFFIX,byteactivity15.com
+  - DOMAIN-SUFFIX,byteactivity16.com
+  - DOMAIN-SUFFIX,byteplusapi.com.cn
   - DOMAIN-SUFFIX,ca-tencentclb.work
   - DOMAIN-SUFFIX,capturetheflag.fun
   - DOMAIN-SUFFIX,carbonxprogram.com
@@ -630,6 +642,7 @@ payload:
   - DOMAIN-SUFFIX,hk-tencentclb.work
   - DOMAIN-SUFFIX,hypercachenode.com
   - DOMAIN-SUFFIX,ibdxiguastatic.com
+  - DOMAIN-SUFFIX,ibytepluses.com.cn
   - DOMAIN-SUFFIX,ihuoshanstatic.com
   - DOMAIN-SUFFIX,imagefuture101.com
   - DOMAIN-SUFFIX,in-tencentclb.work
@@ -786,6 +799,8 @@ payload:
   - DOMAIN-SUFFIX,binancefuture.com
   - DOMAIN-SUFFIX,bj-tencentclb.com
   - DOMAIN-SUFFIX,bj-tencentclb.net
+  - DOMAIN-SUFFIX,bytedance-boe.net
+  - DOMAIN-SUFFIX,bytepluses.com.cn
   - DOMAIN-SUFFIX,ca-tencentclb.com
   - DOMAIN-SUFFIX,ca-tencentclb.net
   - DOMAIN-SUFFIX,cainiaoyizhan.com
@@ -1077,6 +1092,7 @@ payload:
   - DOMAIN-SUFFIX,wework-studio.com
   - DOMAIN-SUFFIX,xindongdinglv.com
   - DOMAIN-SUFFIX,yunjiasu-test.com
+  - DOMAIN-SUFFIX,zijietiaodong.com
   - DOMAIN-SUFFIX,ztna-dingtalk.com
   - DOMAIN-SUFFIX,zw-tencentclb.com
   - DOMAIN-SUFFIX,zw-tencentclb.net
@@ -1084,6 +1100,7 @@ payload:
   - DOMAIN-SUFFIX,189smarthome.com
   - DOMAIN-SUFFIX,abetterchoice.cn
   - DOMAIN-SUFFIX,acloudrender.com
+  - DOMAIN-SUFFIX,activitybyte.com
   - DOMAIN-SUFFIX,adigifactory.com
   - DOMAIN-SUFFIX,ai-guardrail.com
   - DOMAIN-SUFFIX,ali-api-test.net
@@ -1163,6 +1180,7 @@ payload:
   - DOMAIN-SUFFIX,bfe-networks.net
   - DOMAIN-SUFFIX,bmwweb.solutions
   - DOMAIN-SUFFIX,bybit-global.com
+  - DOMAIN-SUFFIX,byteactivity.com
   - DOMAIN-SUFFIX,bytianshankd.com
   - DOMAIN-SUFFIX,cfmeutencent.com
   - DOMAIN-SUFFIX,changdunovel.com
@@ -1615,11 +1633,13 @@ payload:
   - DOMAIN-SUFFIX,volcdns-test.net
   - DOMAIN-SUFFIX,volcenginapi.com
   - DOMAIN-SUFFIX,volcengineapi.cn
+  - DOMAIN-SUFFIX,volcfcdnbyte.com
   - DOMAIN-SUFFIX,volcfcdndvs1.com
   - DOMAIN-SUFFIX,volcfcdndvs2.com
   - DOMAIN-SUFFIX,volcfcdndvs3.com
   - DOMAIN-SUFFIX,volcfcdnplus.com
   - DOMAIN-SUFFIX,volcgslb-mlt.com
+  - DOMAIN-SUFFIX,volclivebyte.com
   - DOMAIN-SUFFIX,volclivedemo.com
   - DOMAIN-SUFFIX,volcliveplus.com
   - DOMAIN-SUFFIX,volcpcs-test.com
@@ -1693,6 +1713,7 @@ payload:
   - DOMAIN-SUFFIX,bjxingzheng.com
   - DOMAIN-SUFFIX,blackdragon.com
   - DOMAIN-SUFFIX,bybitglobal.com
+  - DOMAIN-SUFFIX,bytevdn-boe.com
   - DOMAIN-SUFFIX,cainiao-inc.com
   - DOMAIN-SUFFIX,cdnoutcheck.com
   - DOMAIN-SUFFIX,chinamobile.com
@@ -2055,6 +2076,7 @@ payload:
   - DOMAIN-SUFFIX,box-anchor.com
   - DOMAIN-SUFFIX,butterflyai.cn
   - DOMAIN-SUFFIX,byodonline.com
+  - DOMAIN-SUFFIX,byteinspire.cn
   - DOMAIN-SUFFIX,cache4ever.com
   - DOMAIN-SUFFIX,caigoutong.net
   - DOMAIN-SUFFIX,cainiao.com.cn
@@ -2838,6 +2860,7 @@ payload:
   - DOMAIN-SUFFIX,gfvip08ar.com
   - DOMAIN-SUFFIX,gfvip08as.com
   - DOMAIN-SUFFIX,gfvip08at.com
+  - DOMAIN-SUFFIX,goofy-edge.cn
   - DOMAIN-SUFFIX,goselling.com
   - DOMAIN-SUFFIX,goto-game.com
   - DOMAIN-SUFFIX,goto-game.net
@@ -3264,6 +3287,9 @@ payload:
   - DOMAIN-SUFFIX,bscdnweb.com
   - DOMAIN-SUFFIX,building.fun
   - DOMAIN-SUFFIX,buydouke.com
+  - DOMAIN-SUFFIX,byte-test.cn
+  - DOMAIN-SUFFIX,bytedance.cn
+  - DOMAIN-SUFFIX,bytehouse.cn
   - DOMAIN-SUFFIX,cache666.com
   - DOMAIN-SUFFIX,cdnbuild.com
   - DOMAIN-SUFFIX,cdnbuild.net
@@ -3863,6 +3889,16 @@ payload:
   - DOMAIN-SUFFIX,zcjbgame.com
   - DOMAIN-SUFFIX,zebracdn.com
   - DOMAIN-SUFFIX,zhisheng.com
+  - DOMAIN-SUFFIX,zijieapi.com
+  - DOMAIN-SUFFIX,zijieapi.net
+  - DOMAIN-SUFFIX,zijiecdn.com
+  - DOMAIN-SUFFIX,zijiecdn.net
+  - DOMAIN-SUFFIX,zijieimg.com
+  - DOMAIN-SUFFIX,zijieimg.net
+  - DOMAIN-SUFFIX,zijieurl.com
+  - DOMAIN-SUFFIX,zijieurl.net
+  - DOMAIN-SUFFIX,zijiewap.com
+  - DOMAIN-SUFFIX,zijiewap.net
   - DOMAIN-SUFFIX,zlinkurl.com
   - DOMAIN-SUFFIX,zuoyebang.cc
   - DOMAIN-SUFFIX,zxgcloud.com
@@ -3930,6 +3966,7 @@ payload:
   - DOMAIN-SUFFIX,bvfcdn3.com
   - DOMAIN-SUFFIX,byabcde.com
   - DOMAIN-SUFFIX,bybit.cloud
+  - DOMAIN-SUFFIX,bytelove.cn
   - DOMAIN-SUFFIX,cainiao.com
   - DOMAIN-SUFFIX,cdndns1.com
   - DOMAIN-SUFFIX,cdndns2.com
@@ -4362,6 +4399,12 @@ payload:
   - DOMAIN-SUFFIX,yowhale.com
   - DOMAIN-SUFFIX,yxsgame.com
   - DOMAIN-SUFFIX,zenvideo.cn
+  - DOMAIN-SUFFIX,zijieapi.cn
+  - DOMAIN-SUFFIX,zijiecdn.cn
+  - DOMAIN-SUFFIX,zijiedj.com
+  - DOMAIN-SUFFIX,zijieimg.cn
+  - DOMAIN-SUFFIX,zijieurl.cn
+  - DOMAIN-SUFFIX,zijiewap.cn
   - DOMAIN-SUFFIX,zlinkurl.cn
   - DOMAIN-SUFFIX,ztcexam.com
   - DOMAIN-SUFFIX,ztnwork.com
@@ -4473,6 +4516,10 @@ payload:
   - DOMAIN-SUFFIX,byapps.net
   - DOMAIN-SUFFIX,bybdc6.com
   - DOMAIN-SUFFIX,byd3c3.com
+  - DOMAIN-SUFFIX,byteapk.cn
+  - DOMAIN-SUFFIX,bytecdn.cn
+  - DOMAIN-SUFFIX,byteurl.cn
+  - DOMAIN-SUFFIX,bytexns.cn
   - DOMAIN-SUFFIX,bytick.com
   - DOMAIN-SUFFIX,cdn2-go.cn
   - DOMAIN-SUFFIX,cdngot.com
@@ -4732,6 +4779,7 @@ payload:
   - DOMAIN-SUFFIX,ppxhhh.com
   - DOMAIN-SUFFIX,ppximg.com
   - DOMAIN-SUFFIX,ppxvod.com
+  - DOMAIN-SUFFIX,pstatp.com
   - DOMAIN-SUFFIX,puata.info
   - DOMAIN-SUFFIX,pubgno1.cn
   - DOMAIN-SUFFIX,qazdsa.com
@@ -5306,6 +5354,7 @@ payload:
   - DOMAIN-SUFFIX,trpc.tech
   - DOMAIN-SUFFIX,tswjs.net
   - DOMAIN-SUFFIX,tswjs.org
+  - DOMAIN-SUFFIX,ttbyte.cn
   - DOMAIN-SUFFIX,ttgtm.com
   - DOMAIN-SUFFIX,ttpod.com
   - DOMAIN-SUFFIX,ttsim.com
@@ -5375,6 +5424,7 @@ payload:
   - DOMAIN-SUFFIX,yuntus.cn
   - DOMAIN-SUFFIX,ywurl.com
   - DOMAIN-SUFFIX,zdsdp.com
+  - DOMAIN-SUFFIX,zjbyte.cn
   - DOMAIN-SUFFIX,zjcdn.com
   - DOMAIN-SUFFIX,zjytxd.cn
   - DOMAIN-SUFFIX,zjytxp.cn
