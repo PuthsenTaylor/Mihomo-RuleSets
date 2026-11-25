@@ -1,17 +1,15 @@
 # TikTok_Domain
-# 版本 v2.0.0 · 日期 2026-11-25 · 时间 07:28 · 共 136 条
-# 内容：TikTok、CapCut、Coze、Lark 海外版、BytePlus、Pico 等字节跳动海外服务
+# 版本 v2.0.1 · 日期 2026-11-25 · 时间 09:35 · 共 295 条
+# 内容：TikTok、CapCut、Coze、Lark 海外版、BytePlus、Pico 等字节跳动海外服务及全球共用基础设施
 payload:
   - PROCESS-NAME,com.zhiliaoapp.musically
   - DOMAIN,p16-tiktokcdn-com.akamaized.net
-  - DOMAIN,sf3-ttcdn-tos.pstatp.com
   - DOMAIN-SUFFIX,dataleap-johor-ap-southeast-1.cr.volces.com
   - DOMAIN-SUFFIX,ai-containers-ap-southeast-1.cr.volces.com
   - DOMAIN-SUFFIX,cp-enterprise-ap-southeast-1.cr.volces.com
   - DOMAIN-SUFFIX,elkeid-ap-southeast-1.cr.volces.com
   - DOMAIN-SUFFIX,lf16-effectcdn.byteeffecttos-g.com
   - DOMAIN-SUFFIX,vemlp-ap-southeast-1.cr.volces.com
-  - DOMAIN-SUFFIX,frontier-lark-lb-v3.lf.bytelb.net
   - DOMAIN-SUFFIX,roovza-launches.appsflyersdk.com
   - DOMAIN-SUFFIX,roovza.launches.appsflyersdk.com
   - DOMAIN-SUFFIX,vke-ap-southeast-1.cr.volces.com
@@ -19,13 +17,16 @@ payload:
   - DOMAIN-SUFFIX,roovza.skadsdk.appsflyersdk.com
   - DOMAIN-SUFFIX,roovza.inapps.appsflyersdk.com
   - DOMAIN-SUFFIX,tiktokcdn-us.com.edgesuite.net
-  - DOMAIN-SUFFIX,larkoffice.com.bytedns1.com
+  - DOMAIN-SUFFIX,pglstatp-snssdk-toutiao.com
   - DOMAIN-SUFFIX,tiktokcdn.com.akamaized.net
   - DOMAIN-SUFFIX,tiktokcdn.com.edgesuite.net
   - DOMAIN-SUFFIX,tiktokv.com.edgesuite.net
   - DOMAIN-SUFFIX,bytedance.map.fastly.net
+  - DOMAIN-SUFFIX,byteplus-api-test.com.cn
   - DOMAIN-SUFFIX,larksuite.com.ttdns1.com
   - DOMAIN-SUFFIX,larksuite.com.ttdns2.com
+  - DOMAIN-SUFFIX,bytedancehermestest.com
+  - DOMAIN-SUFFIX,byteplusapi-test.com.cn
   - DOMAIN-SUFFIX,lark-passport-qa-sg.net
   - DOMAIN-SUFFIX,tiktokv.com.edgekey.net
   - DOMAIN-SUFFIX,trae-api-sg.mchost.guru
@@ -39,8 +40,26 @@ payload:
   - DOMAIN-SUFFIX,larksuiteimg-boe.com
   - DOMAIN-SUFFIX,larksuiteimg-pre.com
   - DOMAIN-SUFFIX,statuslarkoffice.com
+  - DOMAIN-SUFFIX,byte-edgeworker.com
+  - DOMAIN-SUFFIX,byteplus-api.com.cn
   - DOMAIN-SUFFIX,bytepluses-test.com
+  - DOMAIN-SUFFIX,byteactivity11.com
+  - DOMAIN-SUFFIX,byteactivity12.com
+  - DOMAIN-SUFFIX,byteactivity13.com
+  - DOMAIN-SUFFIX,byteactivity14.com
+  - DOMAIN-SUFFIX,byteactivity15.com
+  - DOMAIN-SUFFIX,byteactivity16.com
+  - DOMAIN-SUFFIX,bytefcdnrd-tob.com
   - DOMAIN-SUFFIX,bytegecko-i18n.com
+  - DOMAIN-SUFFIX,byteplusapi.com.cn
+  - DOMAIN-SUFFIX,bytewebservice.com
+  - DOMAIN-SUFFIX,ibytepluses.com.cn
+  - DOMAIN-SUFFIX,bytedance-boe.net
+  - DOMAIN-SUFFIX,byteeffecttos.com
+  - DOMAIN-SUFFIX,bytehiservice.com
+  - DOMAIN-SUFFIX,bytepluses.com.cn
+  - DOMAIN-SUFFIX,bytevcloudapi.com
+  - DOMAIN-SUFFIX,bytevcloudvod.com
   - DOMAIN-SUFFIX,larkofficeapp.com
   - DOMAIN-SUFFIX,larkofficeboe.com
   - DOMAIN-SUFFIX,larkofficecdn.com
@@ -50,6 +69,18 @@ payload:
   - DOMAIN-SUFFIX,larksuite-pre.com
   - DOMAIN-SUFFIX,tiktokrow-cdn.com
   - DOMAIN-SUFFIX,tiktokstaticb.com
+  - DOMAIN-SUFFIX,zijietiaodong.com
+  - DOMAIN-SUFFIX,activitybyte.com
+  - DOMAIN-SUFFIX,byteactivity.com
+  - DOMAIN-SUFFIX,byted-static.com
+  - DOMAIN-SUFFIX,bytedanceapi.com
+  - DOMAIN-SUFFIX,bytedanceoss.net
+  - DOMAIN-SUFFIX,bytedancevod.com
+  - DOMAIN-SUFFIX,bytegeckoext.com
+  - DOMAIN-SUFFIX,bytemastatic.com
+  - DOMAIN-SUFFIX,bytertcmedia.com
+  - DOMAIN-SUFFIX,bytesmanager.com
+  - DOMAIN-SUFFIX,bytexservice.com
   - DOMAIN-SUFFIX,capcutcdn-us.com
   - DOMAIN-SUFFIX,capcutstatic.com
   - DOMAIN-SUFFIX,ivolces-test.com
@@ -57,17 +88,42 @@ payload:
   - DOMAIN-SUFFIX,larksuitecdn.com
   - DOMAIN-SUFFIX,larksuiteimg.com
   - DOMAIN-SUFFIX,pangleglobal.com
+  - DOMAIN-SUFFIX,searchpstatp.com
   - DOMAIN-SUFFIX,thelarkcloud.com
   - DOMAIN-SUFFIX,tiktok-minis.com
   - DOMAIN-SUFFIX,tiktokcdn-eu.com
   - DOMAIN-SUFFIX,tiktokcdn-us.com
   - DOMAIN-SUFFIX,tiktokeu-cdn.com
+  - DOMAIN-SUFFIX,volcfcdnbyte.com
+  - DOMAIN-SUFFIX,volclivebyte.com
+  - DOMAIN-SUFFIX,byte-ticket.com
+  - DOMAIN-SUFFIX,byteacctimg.com
+  - DOMAIN-SUFFIX,byteadverts.com
+  - DOMAIN-SUFFIX,bytedeliver.com
+  - DOMAIN-SUFFIX,bytedsocial.com
+  - DOMAIN-SUFFIX,byteinspire.com
   - DOMAIN-SUFFIX,byteintlapi.com
   - DOMAIN-SUFFIX,byteoversea.com
   - DOMAIN-SUFFIX,byteoversea.net
+  - DOMAIN-SUFFIX,bytetraffic.net
+  - DOMAIN-SUFFIX,bytetstatic.com
+  - DOMAIN-SUFFIX,bytetstatic.net
+  - DOMAIN-SUFFIX,bytevdn-boe.com
   - DOMAIN-SUFFIX,tiktokmusic.app
   - DOMAIN-SUFFIX,ttoverseaus.net
+  - DOMAIN-SUFFIX,vcloud-byte.com
+  - DOMAIN-SUFFIX,byted-dast.com
+  - DOMAIN-SUFFIX,bytedgames.com
+  - DOMAIN-SUFFIX,bytednsdoc.com
+  - DOMAIN-SUFFIX,bytefcdnrd.com
+  - DOMAIN-SUFFIX,bytegrowth.com
+  - DOMAIN-SUFFIX,byteinspire.cn
   - DOMAIN-SUFFIX,bytepluses.com
+  - DOMAIN-SUFFIX,bytesfield.com
+  - DOMAIN-SUFFIX,bytespeech.com
+  - DOMAIN-SUFFIX,bytesyscdn.com
+  - DOMAIN-SUFFIX,ctobsnssdk.com
+  - DOMAIN-SUFFIX,edge-byted.com
   - DOMAIN-SUFFIX,larkoffice.com
   - DOMAIN-SUFFIX,lemon8-app.com
   - DOMAIN-SUFFIX,tik-tokapi.com
@@ -75,11 +131,28 @@ payload:
   - DOMAIN-SUFFIX,tiktokminis.us
   - DOMAIN-SUFFIX,tiktokshop.com
   - DOMAIN-SUFFIX,tiktokvapp.com
+  - DOMAIN-SUFFIX,byte-edge.com
+  - DOMAIN-SUFFIX,byte-gslb.com
+  - DOMAIN-SUFFIX,byte-test.com
+  - DOMAIN-SUFFIX,byte-test.net
+  - DOMAIN-SUFFIX,bytecdntp.com
+  - DOMAIN-SUFFIX,bytecloud.com
+  - DOMAIN-SUFFIX,byted-edu.com
   - DOMAIN-SUFFIX,bytedance.com
   - DOMAIN-SUFFIX,bytedance.net
+  - DOMAIN-SUFFIX,bytedance.org
+  - DOMAIN-SUFFIX,bytegecko.com
+  - DOMAIN-SUFFIX,bytegoofy.com
+  - DOMAIN-SUFFIX,bytelb000.net
+  - DOMAIN-SUFFIX,bytemaimg.com
+  - DOMAIN-SUFFIX,bytenewst.com
+  - DOMAIN-SUFFIX,bytetech.info
+  - DOMAIN-SUFFIX,bytexopen.com
   - DOMAIN-SUFFIX,capcutapi.com
   - DOMAIN-SUFFIX,ciciaicdn.com
   - DOMAIN-SUFFIX,gauthmath.com
+  - DOMAIN-SUFFIX,goofy-edge.cn
+  - DOMAIN-SUFFIX,ibytedapm.com
   - DOMAIN-SUFFIX,ibytedtos.com
   - DOMAIN-SUFFIX,larkcloud.com
   - DOMAIN-SUFFIX,larkcloud.net
@@ -90,14 +163,76 @@ payload:
   - DOMAIN-SUFFIX,ttlivecdn.com
   - DOMAIN-SUFFIX,ttwebview.com
   - DOMAIN-SUFFIX,ttwstatic.com
+  - DOMAIN-SUFFIX,byte-dns.com
+  - DOMAIN-SUFFIX,byte-dns.net
+  - DOMAIN-SUFFIX,byte-test.cn
+  - DOMAIN-SUFFIX,byteacct.com
+  - DOMAIN-SUFFIX,bytecimg.com
+  - DOMAIN-SUFFIX,byted-ug.com
+  - DOMAIN-SUFFIX,bytedance.cn
   - DOMAIN-SUFFIX,bytedapm.com
+  - DOMAIN-SUFFIX,bytedcdn.com
+  - DOMAIN-SUFFIX,bytedns1.com
+  - DOMAIN-SUFFIX,bytedns2.com
+  - DOMAIN-SUFFIX,bytedns3.com
+  - DOMAIN-SUFFIX,bytedns4.com
+  - DOMAIN-SUFFIX,bytedns5.com
+  - DOMAIN-SUFFIX,bytedns6.com
+  - DOMAIN-SUFFIX,bytedns7.com
+  - DOMAIN-SUFFIX,bytefast.net
+  - DOMAIN-SUFFIX,bytefcdn.com
+  - DOMAIN-SUFFIX,bytegqpo.net
+  - DOMAIN-SUFFIX,bytegslb.com
+  - DOMAIN-SUFFIX,bytehouse.cn
+  - DOMAIN-SUFFIX,byteimgc.com
+  - DOMAIN-SUFFIX,byteintl.net
+  - DOMAIN-SUFFIX,bytemedi.com
+  - DOMAIN-SUFFIX,byteorge.com
+  - DOMAIN-SUFFIX,byteperf.com
   - DOMAIN-SUFFIX,byteplus.com
+  - DOMAIN-SUFFIX,bytesslb.net
+  - DOMAIN-SUFFIX,bytevalk.com
   - DOMAIN-SUFFIX,capcutapi.us
   - DOMAIN-SUFFIX,ibyteimg.com
   - DOMAIN-SUFFIX,marscode.com
   - DOMAIN-SUFFIX,sgpstatp.com
   - DOMAIN-SUFFIX,ttcdn-us.com
+  - DOMAIN-SUFFIX,zijieapi.com
+  - DOMAIN-SUFFIX,zijieapi.net
+  - DOMAIN-SUFFIX,zijiecdn.com
+  - DOMAIN-SUFFIX,zijiecdn.net
+  - DOMAIN-SUFFIX,zijieimg.com
+  - DOMAIN-SUFFIX,zijieimg.net
+  - DOMAIN-SUFFIX,zijieurl.com
+  - DOMAIN-SUFFIX,zijieurl.net
+  - DOMAIN-SUFFIX,zijiewap.com
+  - DOMAIN-SUFFIX,zijiewap.net
+  - DOMAIN-SUFFIX,bx0byte.com
+  - DOMAIN-SUFFIX,byte000.com
+  - DOMAIN-SUFFIX,byte008.com
+  - DOMAIN-SUFFIX,byte7bw.net
+  - DOMAIN-SUFFIX,byteapi.com
+  - DOMAIN-SUFFIX,byteapk.com
+  - DOMAIN-SUFFIX,bytecdn.com
+  - DOMAIN-SUFFIX,bytecdn.net
+  - DOMAIN-SUFFIX,bytedns.com
+  - DOMAIN-SUFFIX,bytedns.net
+  - DOMAIN-SUFFIX,bytefae.com
   - DOMAIN-SUFFIX,byteglb.com
+  - DOMAIN-SUFFIX,bytehwm.com
+  - DOMAIN-SUFFIX,byteics.com
+  - DOMAIN-SUFFIX,byteics.net
+  - DOMAIN-SUFFIX,byteimg.com
+  - DOMAIN-SUFFIX,bytelove.cn
+  - DOMAIN-SUFFIX,byteorg.com
+  - DOMAIN-SUFFIX,byteq5k.com
+  - DOMAIN-SUFFIX,byteq8u.net
+  - DOMAIN-SUFFIX,bytescm.com
+  - DOMAIN-SUFFIX,bytetcc.com
+  - DOMAIN-SUFFIX,bytetos.com
+  - DOMAIN-SUFFIX,bytevdn.com
+  - DOMAIN-SUFFIX,bytexns.com
+  - DOMAIN-SUFFIX,bytexns.net
   - DOMAIN-SUFFIX,gauthai.com
   - DOMAIN-SUFFIX,ipstatp.com
   - DOMAIN-SUFFIX,isnssdk.com
@@ -105,6 +240,22 @@ payload:
   - DOMAIN-SUFFIX,tiktokd.net
   - DOMAIN-SUFFIX,tiktokd.org
   - DOMAIN-SUFFIX,tiktokv.com
+  - DOMAIN-SUFFIX,zijieapi.cn
+  - DOMAIN-SUFFIX,zijiecdn.cn
+  - DOMAIN-SUFFIX,zijiedj.com
+  - DOMAIN-SUFFIX,zijieimg.cn
+  - DOMAIN-SUFFIX,zijieurl.cn
+  - DOMAIN-SUFFIX,zijiewap.cn
+  - DOMAIN-SUFFIX,byte00.com
+  - DOMAIN-SUFFIX,byte00.net
+  - DOMAIN-SUFFIX,byteac.com
+  - DOMAIN-SUFFIX,byteapk.cn
+  - DOMAIN-SUFFIX,bytecdn.cn
+  - DOMAIN-SUFFIX,bytelb.com
+  - DOMAIN-SUFFIX,bytelb.net
+  - DOMAIN-SUFFIX,byteoc.com
+  - DOMAIN-SUFFIX,byteurl.cn
+  - DOMAIN-SUFFIX,bytexns.cn
   - DOMAIN-SUFFIX,capcut.com
   - DOMAIN-SUFFIX,capcut.net
   - DOMAIN-SUFFIX,ciciai.com
@@ -114,15 +265,23 @@ payload:
   - DOMAIN-SUFFIX,musical.ly
   - DOMAIN-SUFFIX,picovr.com
   - DOMAIN-SUFFIX,picoxr.com
+  - DOMAIN-SUFFIX,pstatp.com
   - DOMAIN-SUFFIX,snssdk.com
   - DOMAIN-SUFFIX,tiktok.com
   - DOMAIN-SUFFIX,tiktokv.eu
   - DOMAIN-SUFFIX,tiktokv.us
   - DOMAIN-SUFFIX,tiktokw.eu
   - DOMAIN-SUFFIX,tiktokw.us
+  - DOMAIN-SUFFIX,ttbyte.com
+  - DOMAIN-SUFFIX,ttbyte.net
+  - DOMAIN-SUFFIX,zjbyte.com
+  - DOMAIN-SUFFIX,zjbyte.net
+  - DOMAIN-SUFFIX,byted.org
   - DOMAIN-SUFFIX,fizzo.org
   - DOMAIN-SUFFIX,gauth.com
   - DOMAIN-SUFFIX,hypic.com
+  - DOMAIN-SUFFIX,ttbyte.cn
+  - DOMAIN-SUFFIX,zjbyte.cn
   - DOMAIN-SUFFIX,cici.com
   - DOMAIN-SUFFIX,coze.com
   - DOMAIN-SUFFIX,dola.com
