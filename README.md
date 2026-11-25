@@ -20,7 +20,4 @@
 | [Meta.yaml](Meta.yaml) | v1.0.0 | 2026-11-25 | 707 | Facebook、Instagram、WhatsApp、Messenger、Threads、Meta Quest、Meta AI 及 Meta IP 段 |
 | [Twitter.yaml](Twitter.yaml) | v1.0.0 | 2026-11-25 | 48 | X / Twitter、t.co 短链、xAI / Grok 及 Twitter IP 段 |
 | [AI.yaml](AI.yaml) | v1.0.0 | 2026-11-25 | 248 | ChatGPT、Claude、Perplexity、Poe、Groq、HuggingFace、Cursor、Manus 等海外 AI 服务 |
-| [Tencent.yaml](Tencent.yaml) | v1.0.0 | 2026-11-25 | 2652 | 微信、QQ、腾讯视频、腾讯游戏、腾讯音乐、阅文、腾讯云国内面及腾讯 IP 段 |
-| [Alibaba.yaml](Alibaba.yaml) | v1.0.0 | 2026-11-25 | 1420 | 支付宝、淘宝、天猫、盒马、优酷、饿了么、钉钉、高德、菜鸟、阿里云国内面及阿里 IP 段 |
-| [JD.yaml](JD.yaml) | v1.0.0 | 2026-11-25 | 269 | 京东商城、京东物流、京东金融、京东健康、京东云、达达、一号店、拍拍等京东家族服务 |
-| [Pinduoduo.yaml](Pinduoduo.yaml) | v1.0.0 | 2026-11-25 | 7 | 拼多多商城、多多买菜等拼多多家族服务（拼多多主站、杨可多、图片与内容 CDN、商家与客服 IM） |
+| [CN.yaml](CN.yaml) | v1.0.0 | 2026-11-25 | 4817 | 腾讯、阿里、京东、拼多多、美团、得物、三网运营商、OPPO/OnePlus、国产 AI、币安/欧易/Gate/Bybit/Bitget 交易所等国内服务 |
