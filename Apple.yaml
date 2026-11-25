@@ -1,5 +1,5 @@
-# 版本 v1.0.1 · 更新 2026-11-25 · 共 1613 条
-# 涵盖：iCloud、App Store、Apple Music、Apple TV 等苹果全线服务与苹果 IP 段
+# 版本 v1.0.2 · 更新 2026-11-25 · 共 1614 条
+# 涵盖：iCloud、App Store、Apple Music、Apple TV、Beats 等苹果全线服务与苹果 IP 段
 payload:
   - PROCESS-NAME,apsd
   - PROCESS-NAME,com.apple.Maps
@@ -1598,6 +1598,7 @@ payload:
   - DOMAIN-SUFFIX,mac.rs
   - DOMAIN-SUFFIX,me.com
   - DOMAIN-SUFFIX,apple
+  - DOMAIN-SUFFIX,beats.com
   - DOMAIN-KEYWORD,apple.com.edgekey.net
   - DOMAIN-KEYWORD,buy.itunes.apple.com
   - DOMAIN-KEYWORD,testflight
