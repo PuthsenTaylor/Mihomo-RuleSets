@@ -1,5 +1,5 @@
 # 版本 v1.0.1 · 更新 2026-11-25 · 共 53 条
-# 涵盖：Telegram 客户端、Telegra.ph、Fragment 与 TON 入口及 Telegram IP 段
+# 涵盖：Telegram、Telegra.ph、Fragment、TON 等服务及 IP 段
 payload:
   - PROCESS-NAME,nekox.messenger
   - PROCESS-NAME,org.telegram.messenger
