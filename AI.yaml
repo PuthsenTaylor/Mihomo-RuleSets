@@ -1,4 +1,4 @@
-# 版本 v1.0.1 · 更新 2026-11-25 · 共 180 条
+# 版本 v1.0.2 · 更新 2026-11-25 · 共 182 条
 # 涵盖：ChatGPT、Claude、Perplexity、Poe、Groq、HuggingFace、Cursor、Manus 等海外 AI 服务
 payload:
   - DOMAIN,api.msn.com
@@ -176,6 +176,8 @@ payload:
   - DOMAIN-SUFFIX,ai.com
   - DOMAIN-SUFFIX,h2o.ai
   - DOMAIN-SUFFIX,hf.co
+  - DOMAIN-SUFFIX,manus.ai
+  - DOMAIN-SUFFIX,manus.space
   - DOMAIN-KEYWORD,anthropic
   - DOMAIN-KEYWORD,claude
   - DOMAIN-KEYWORD,openai
