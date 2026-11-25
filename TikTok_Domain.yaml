@@ -1,5 +1,5 @@
 # TikTok_Domain
-# 版本 v2.0.3 · 日期 2026-11-25 · 时间 09:46 · 共 256 条
+# 版本 v2.0.4 · 日期 2026-11-25 · 时间 09:54 · 共 257 条
 # 内容：TikTok、CapCut、Coze、Lark 海外版、BytePlus、Pico 等字节跳动海外服务及全球共用基础设施
 payload:
   - PROCESS-NAME,com.zhiliaoapp.musically
@@ -228,6 +228,7 @@ payload:
   - DOMAIN-SUFFIX,picovr.com
   - DOMAIN-SUFFIX,picoxr.com
   - DOMAIN-SUFFIX,snssdk.com
+  - DOMAIN-SUFFIX,soundon.fm
   - DOMAIN-SUFFIX,tiktok.com
   - DOMAIN-SUFFIX,tiktokv.eu
   - DOMAIN-SUFFIX,tiktokv.us
