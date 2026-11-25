@@ -1,122 +1,25 @@
 # Mihomo-RuleSets
 
-## 项目简介
+自建 Mihomo Rule Set 合集，供个人 Mihomo 配置以 rule-provider（classical）方式加载。
 
-本仓库为自建 Mihomo Rule Set 合集，收录供个人 Mihomo 配置使用的规则集文件。每份文件均由多位常见作者公开发布的同类清单全量合并而成，构建遵循以下三项原则：
-
-- **多作者全量合并**：拉取该分类下各作者的清单并求全集，不做取舍。
-- **零自建**：每条规则均须出自某位作者的已发布数据，不手工编写规则条目。
-- **集内排序与去冗余**：条目按匹配优先级排序（精确域名在前、后缀由细到宽、关键词其次、IP 段由窄到宽），并删除完全重复及被自家更宽条目覆盖的冗余条目。
+客户端拉取地址：`https://raw.githubusercontent.com/PuthsenTaylor/Mihomo-RuleSets/main/<文件名>`
 
 ## 文件索引
 
-### Apple.yaml
-
-- 用途：苹果（Apple）规则集，覆盖苹果及其服务（iCloud、Apple Music、App Store、Apple TV 等）域名与苹果 IP 地址段。
-- 条目数：1,614 条（2026-11-25 按用户裁决删除共用设施条目 7 条；同日按新口径补入进程规则 8 条，另 5 条系统通用进程名按误杀门槛未收）。
-- 构建日期：2026-11-25。
-- 数据来源：MetaCubeX、blackmatrix7、v2fly、ddranic、ACL4SSR、DustinWin、Loyalsoldier，共 7 家作者。
-
-### Disney.yaml
-
-- 用途：迪士尼（Disney）规则集，覆盖迪士尼家族（Disney+、Hulu、ESPN、ABC、Marvel、Star Wars、国家地理、Hotstar、Star+ 等子品牌）域名。
-- 条目数：239 条（2026-11-25 按用户裁决删除共用平台条目 7 条；同日按新口径补入进程规则 3 条）。
-- 构建日期：2026-11-25。
-- 数据来源：MetaCubeX、blackmatrix7、v2fly、ddranic、ACL4SSR、DustinWin，共 6 家作者。
-
-### Lan-Private.yaml
-
-- 用途：局域网 / 私有地址规则集，覆盖局域网域名、私有地址段及本地服务发现域名。
-- 条目数：170 条。
-- 构建日期：2026-11-25。
-- 数据来源：MetaCubeX、blackmatrix7、ACL4SSR、v2fly、DustinWin、Aethersailor、Loyalsoldier，共 7 家作者。
-
-### Google.yaml
-
-- 用途：谷歌（Google）规则集，覆盖谷歌及其子品牌（YouTube、Gmail、Google Play 等）域名与谷歌 IP 地址段。
-- 条目数：7,974 条（2026-11-25 按新口径补入进程规则 6 条；同日海外终审剔除真冗余关键词 1 条与已关停服务条目 7 条）。
-- 构建日期：2026-11-25。
-- 数据来源：MetaCubeX、blackmatrix7、v2fly、ddranic、ACL4SSR、DustinWin、Loyalsoldier，共 7 家作者。
-
-### Netflix.yaml
-
-- 用途：奈飞（Netflix）规则集，覆盖奈飞及其服务（流媒体、Fast.com 测速、DNS 检测等）域名与奈飞 IP 地址段。
-- 条目数：1,155 条（2026-11-25 按用户裁决删除共用设施条目 3 条；同日按新口径补入进程规则 1 条）。
-- 构建日期：2026-11-25。
-- 数据来源：MetaCubeX、blackmatrix7、v2fly、ddranic、ACL4SSR、DustinWin，共 6 家作者。
-
-### Meta.yaml
-
-- 用途：Meta 规则集，覆盖 Meta 家族（Facebook、Instagram、WhatsApp、Messenger、Threads、Oculus / Meta Quest、Meta AI 等）域名与 Meta IP 地址段。
-- 条目数：707 条。
-- 构建日期：2026-11-25。
-- 数据来源：MetaCubeX、blackmatrix7、v2fly、ddranic、ACL4SSR，共 5 家作者。
-
-### NTP.yaml
-
-- 用途：网络时间服务（NTP）规则集，覆盖全球网络时间服务域名，含国内、中立公共、品牌专属与其他海外条目。
-- 条目数：169 条。
-- 构建日期：2026-11-25。
-- 数据来源：v2fly、MetaCubeX、ddranic、blackmatrix7，共 4 家作者。
-
-### Spotify.yaml
-
-- 用途：Spotify 规则集，覆盖 Spotify 音乐流媒体服务及其官方域名与 IP 地址段。
-- 条目数：33 条（2026-11-25 按新口径补入进程规则 1 条；同日海外终审剔除真冗余关键词 2 条）。
-- 构建日期：2026-11-25。
-- 数据来源：MetaCubeX、blackmatrix7、v2fly、ddranic、ACL4SSR、DustinWin，共 6 家作者。
-
-### Telegram.yaml
-
-- 用途：Telegram 规则集，覆盖 Telegram 即时通讯服务（官方客户端、桌面端、网页端、Telegra.ph、Fragment 与 TON 生态入口等）域名与 Telegram IP 地址段。
-- 条目数：48 条（2026-11-25 按新口径补入进程规则 6 条）。
-- 构建日期：2026-11-25。
-- 数据来源：MetaCubeX、blackmatrix7、v2fly、ddranic、ACL4SSR、DustinWin、Loyalsoldier，共 7 家作者。
-
-### Tencent.yaml
-
-- 用途：腾讯（Tencent）规则集，覆盖腾讯家族（微信、QQ、腾讯视频、腾讯游戏、腾讯音乐、搜狗、阅文、腾讯云国内面等）域名与腾讯 IP 地址段。
-- 条目数：2,652 条。
-- 构建日期：2026-11-25。
-- 数据来源：blackmatrix7、MetaCubeX、v2fly、ddranic、ACL4SSR，共 5 家作者。
-
-### TikTok.yaml
-
-- 用途：海外字节（TikTok）规则集，覆盖 TikTok、Musical.ly、CapCut 海外版等海外字节系服务域名；只收海外分类，不含国内字节数据。
-- 条目数：61 条（2026-11-25 按新口径补入进程规则 1 条；同日海外终审剔除真冗余关键词 1 条）。
-- 构建日期：2026-11-25。
-- 数据来源：MetaCubeX、blackmatrix7、v2fly、ddranic、ACL4SSR、DustinWin，共 6 家作者。
-
-### Twitter.yaml
-
-- 用途：推特（X / Twitter）规则集，覆盖 X / Twitter 本体与 xAI / Grok 家族域名与 Twitter IP 地址段。
-- 条目数：48 条。
-- 构建日期：2026-11-25。
-- 数据来源：MetaCubeX、blackmatrix7、v2fly、ddranic、ACL4SSR，共 5 家作者。
-
-### AI.yaml
-
-- 用途：海外 AI 规则集，覆盖海外 AI 服务（OpenAI / ChatGPT、Anthropic / Claude、Perplexity、Poe、Groq、ElevenLabs、HuggingFace、Cursor、Windsurf、GitHub Copilot、Cerebras、Manus、Civitai、Mistral、Cohere、Midjourney 等）域名；各家 AI 分类中一并收录的 Gemini、Grok、Meta AI 条目亦在集内。国内 AI 分类不在本集范围。
-- 条目数：248 条（构建时按误杀口径剔除共用平台条目 28 条、按无用口径剔除已关停条目 2 条；同日海外终审剔除真冗余关键词 1 条）。
-- 构建日期：2026-11-25。
-- 数据来源：MetaCubeX、blackmatrix7、v2fly、ddranic、ACL4SSR、DustinWin，共 6 家作者。
-
-### Alibaba.yaml
-
-- 用途：阿里巴巴（Alibaba）规则集，覆盖阿里巴巴家族（支付宝、淘宝、天猫、盒马、优酷、饿了么、钉钉、高德、菜鸟、书旗、UC、阿里云国内面等）域名与阿里 IP 地址段。
-- 条目数：1,420 条。
-- 构建日期：2026-11-25。
-- 数据来源：blackmatrix7、MetaCubeX、v2fly、ddranic、ACL4SSR，共 5 家作者。
-
-### JD.yaml
-
-- 用途：京东（JD）规则集，覆盖京东家族（京东商城、京东物流、京东金融、京东健康、京东云、京东到家 / 达达、一号店、拍拍、京喜、七鲜等）域名。
-- 条目数：269 条（本家族各作者均未发布进程规则与 IP 段条目，集内如实记 0）。
-- 构建日期：2026-11-25。
-- 数据来源：blackmatrix7、MetaCubeX、v2fly、ddranic、ACL4SSR，共 5 家作者。
-
-## 维护说明
-
-- 本仓库按段逐个新增文件：每完成一段自建集，即在本仓库新增对应文件，并同步更新本索引中的条目数、构建日期与数据来源。
-- 文件更新时，重新拉取各来源作者的最新清单，重复全量合并、排序与去冗余的完整流程后整体替换文件内容，不做零散的手工增补。
-- Mihomo Custom 配置中的 rule-provider 逐段指向本仓库对应文件的 raw 地址；文件内容变更后，客户端按 rule-provider 的更新间隔自动拉取新版。
+| 文件 | 版本 | 更新 | 条数 | 涵盖 |
+| --- | --- | --- | --- | --- |
+| [Lan-Private.yaml](Lan-Private.yaml) | v1.0.0 | 2026-11-25 | 170 | 局域网域名、私有 IP 地址段与本地服务发现域名 |
+| [NTP.yaml](NTP.yaml) | v1.0.0 | 2026-11-25 | 169 | 全球 NTP 时间服务器域名（NTP Pool、品牌时间服务与国内外公共 NTP 服务器） |
+| [Google.yaml](Google.yaml) | v1.0.0 | 2026-11-25 | 7974 | YouTube、Gmail、Gemini、Google Play 等谷歌全线服务与谷歌 IP 段 |
+| [Apple.yaml](Apple.yaml) | v1.0.0 | 2026-11-25 | 1614 | iCloud、App Store、Apple Music、Apple TV 等苹果全线服务与苹果 IP 段 |
+| [Netflix.yaml](Netflix.yaml) | v1.0.0 | 2026-11-25 | 1155 | Netflix 流媒体、Fast.com 测速等服务与奈飞 IP 段 |
+| [Disney.yaml](Disney.yaml) | v1.0.0 | 2026-11-25 | 239 | Disney+、Hulu、ESPN、ABC、Marvel、Star Wars、国家地理、Hotstar 等迪士尼家族服务 |
+| [TikTok.yaml](TikTok.yaml) | v1.0.0 | 2026-11-25 | 61 | TikTok、CapCut、Lark 海外版等字节跳动海外服务 |
+| [Spotify.yaml](Spotify.yaml) | v1.0.0 | 2026-11-25 | 33 | Spotify 音乐流媒体服务域名与 IP 段 |
+| [Telegram.yaml](Telegram.yaml) | v1.0.0 | 2026-11-25 | 48 | Telegram 客户端、Telegra.ph、Fragment 与 TON 入口及 Telegram IP 段 |
+| [Meta.yaml](Meta.yaml) | v1.0.0 | 2026-11-25 | 707 | Facebook、Instagram、WhatsApp、Messenger、Threads、Meta Quest、Meta AI 及 Meta IP 段 |
+| [Twitter.yaml](Twitter.yaml) | v1.0.0 | 2026-11-25 | 48 | X / Twitter、t.co 短链、xAI / Grok 及 Twitter IP 段 |
+| [AI.yaml](AI.yaml) | v1.0.0 | 2026-11-25 | 248 | ChatGPT、Claude、Perplexity、Poe、Groq、HuggingFace、Cursor、Manus 等海外 AI 服务 |
+| [Tencent.yaml](Tencent.yaml) | v1.0.0 | 2026-11-25 | 2652 | 微信、QQ、腾讯视频、腾讯游戏、腾讯音乐、阅文、腾讯云国内面及腾讯 IP 段 |
+| [Alibaba.yaml](Alibaba.yaml) | v1.0.0 | 2026-11-25 | 1420 | 支付宝、淘宝、天猫、盒马、优酷、饿了么、钉钉、高德、菜鸟、阿里云国内面及阿里 IP 段 |
+| [JD.yaml](JD.yaml) | v1.0.0 | 2026-11-25 | 269 | 京东商城、京东物流、京东金融、京东健康、京东云、达达、一号店、拍拍等京东家族服务 |
