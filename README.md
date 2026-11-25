@@ -17,6 +17,13 @@
 - 构建日期：2026-11-25。
 - 数据来源：MetaCubeX、blackmatrix7、ACL4SSR、v2fly、DustinWin、Aethersailor、Loyalsoldier，共 7 家作者。
 
+### Google.yaml
+
+- 用途：谷歌（Google）规则集，覆盖谷歌及其子品牌（YouTube、Gmail、Google Play 等）域名与谷歌 IP 地址段。
+- 条目数：7,976 条。
+- 构建日期：2026-11-25。
+- 数据来源：MetaCubeX、blackmatrix7、v2fly、ddranic、ACL4SSR、DustinWin、Loyalsoldier，共 7 家作者。
+
 ### NTP.yaml
 
 - 用途：网络时间服务（NTP）规则集，覆盖全球网络时间服务域名，含国内、中立公共、品牌专属与其他海外条目。
