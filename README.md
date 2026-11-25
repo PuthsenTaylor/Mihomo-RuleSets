@@ -8,7 +8,7 @@
 
 | 文件 | 版本 | 更新 | 条数 | 涵盖 |
 | --- | --- | --- | --- | --- |
-| [Lan-Private.yaml](Lan-Private.yaml) | v1.0.0 | 2026-11-25 | 170 | 局域网域名、私有 IP 地址段与本地服务发现域名 |
+| [LAN.yaml](LAN.yaml) | v1.0.1 | 2026-11-25 | 170 | 局域网域名、私有 IP 地址段与本地服务发现域名 |
 | [NTP.yaml](NTP.yaml) | v1.0.0 | 2026-11-25 | 169 | 全球 NTP 时间服务器域名（NTP Pool、品牌时间服务与国内外公共 NTP 服务器） |
 | [Google.yaml](Google.yaml) | v1.0.1 | 2026-11-25 | 7976 | YouTube、Gmail、Gemini、Google Play 等谷歌全线服务与谷歌 IP 段 |
 | [Apple.yaml](Apple.yaml) | v1.0.1 | 2026-11-25 | 1613 | iCloud、App Store、Apple Music、Apple TV 等苹果全线服务与苹果 IP 段 |
