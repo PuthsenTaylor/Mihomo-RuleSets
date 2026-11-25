@@ -2,7 +2,7 @@
 
 自建 Mihomo Rule Set 合集（多作者规则全量合并、零自建），供 Mihomo 以 rule-provider（classical）加载：`https://raw.githubusercontent.com/PuthsenTaylor/Mihomo-RuleSets/main/<文件名>`
 
-| 文件 | 版本 | 条数 | 涵盖 |
+| 文件 | 版本 | 条数 | 内容 |
 | --- | --- | --- | --- |
 | [LAN_Domain.yaml](LAN_Domain.yaml) | v2.0.0 | 142 | 局域网本地域名、路由器管理域名、本地服务发现域名、反向解析域名等 |
 | [LAN_IP.yaml](LAN_IP.yaml) | v2.0.0 | 28 | 私有、保留、环回、链路本地、组播、共享地址空间与文档示例等 IP 地址段 |
