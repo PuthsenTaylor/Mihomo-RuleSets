@@ -10,6 +10,13 @@
 
 ## 文件索引
 
+### Apple.yaml
+
+- 用途：苹果（Apple）规则集，覆盖苹果及其服务（iCloud、Apple Music、App Store、Apple TV 等）域名与苹果 IP 地址段。
+- 条目数：1,613 条。
+- 构建日期：2026-11-25。
+- 数据来源：MetaCubeX、blackmatrix7、v2fly、ddranic、ACL4SSR、DustinWin、Loyalsoldier，共 7 家作者。
+
 ### Lan-Private.yaml
 
 - 用途：局域网 / 私有地址规则集，覆盖局域网域名、私有地址段及本地服务发现域名。
