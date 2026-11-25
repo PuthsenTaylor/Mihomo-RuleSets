@@ -1,26 +1,6 @@
-# JD.yaml —— 京东规则集（自建）
-#
-# 用途：供 Mihomo 以 classical 行为的 rule-provider 方式加载，匹配京东
-#       家族（京东商城、京东物流、京东金融、京东健康、京东云、京东
-#       到家 / 达达、一号店、拍拍、京喜、七鲜等）域名；命中后的走向
-#       由调用方配置决定。
-# 构建日期：2026-11-25
-# 条目统计：共 269 条（PROCESS-NAME 0 条 / DOMAIN 0 条 / DOMAIN-SUFFIX 269 条 / DOMAIN-KEYWORD 0 条 / IP-CIDR 0 条）
-# 数据来源：blackmatrix7、MetaCubeX、v2fly、ddranic、ACL4SSR，共 5 家作者
-#           公开发布的京东家族清单（jingdong / jd 分类；其中 MetaCubeX、
-#           ddranic 为 v2fly 数据的转制导出）。
-# 构建方法：多作者全量合并求全集，全部条目逐条出自上述来源，零自建；
-#           集内已完成去重，并剔除被自家更宽条目覆盖的内部冗余条目
-#           8 条；构建时按「多租户共用平台整段后缀不入集」的既定
-#           口径全集扫描，第三方共用平台整段命中 0 条、无剔除；京东
-#           自有平台整段（jcloud / jdcloud 系与 jdcdn.com、
-#           jdcache.com，共 71 条）按自有基础设施保留，逐条点名于
-#           构建报告。本家族各作者均未发布 PROCESS-NAME 与 IP-CIDR
-#           条目（Clash / Surge 全格式实扫），集内如实记 0 条、未
-#           自建。海外向条目按已发布数据原样保留并逐条点名于构建
-#           报告，接线时另行裁断。
-# 排序说明：PROCESS-NAME 在前；其后 DOMAIN；其后 DOMAIN-SUFFIX 按长度由长到短；其后 DOMAIN-KEYWORD；
-#           其后 IP-CIDR 按前缀由窄到宽（IPv4 在前、IPv6 在后）。
+# JD
+# 版本 v1.0.0 · 更新 2026-11-25 · 共 269 条
+# 涵盖：京东商城、京东物流、京东金融、京东健康、京东云、达达、一号店、拍拍等京东家族服务
 payload:
   - DOMAIN-SUFFIX,360buyinternational.com
   - DOMAIN-SUFFIX,cloudshenfuxingqu.com
