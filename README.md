@@ -34,7 +34,7 @@
 ### Google.yaml
 
 - 用途：谷歌（Google）规则集，覆盖谷歌及其子品牌（YouTube、Gmail、Google Play 等）域名与谷歌 IP 地址段。
-- 条目数：7,982 条（2026-11-25 按新口径补入进程规则 6 条）。
+- 条目数：7,974 条（2026-11-25 按新口径补入进程规则 6 条；同日海外终审剔除真冗余关键词 1 条与已关停服务条目 7 条）。
 - 构建日期：2026-11-25。
 - 数据来源：MetaCubeX、blackmatrix7、v2fly、ddranic、ACL4SSR、DustinWin、Loyalsoldier，共 7 家作者。
 
@@ -62,7 +62,7 @@
 ### Spotify.yaml
 
 - 用途：Spotify 规则集，覆盖 Spotify 音乐流媒体服务及其官方域名与 IP 地址段。
-- 条目数：35 条（2026-11-25 按新口径补入进程规则 1 条）。
+- 条目数：33 条（2026-11-25 按新口径补入进程规则 1 条；同日海外终审剔除真冗余关键词 2 条）。
 - 构建日期：2026-11-25。
 - 数据来源：MetaCubeX、blackmatrix7、v2fly、ddranic、ACL4SSR、DustinWin，共 6 家作者。
 
@@ -83,7 +83,7 @@
 ### TikTok.yaml
 
 - 用途：海外字节（TikTok）规则集，覆盖 TikTok、Musical.ly、CapCut 海外版等海外字节系服务域名；只收海外分类，不含国内字节数据。
-- 条目数：62 条（2026-11-25 按新口径补入进程规则 1 条）。
+- 条目数：61 条（2026-11-25 按新口径补入进程规则 1 条；同日海外终审剔除真冗余关键词 1 条）。
 - 构建日期：2026-11-25。
 - 数据来源：MetaCubeX、blackmatrix7、v2fly、ddranic、ACL4SSR、DustinWin，共 6 家作者。
 
@@ -97,7 +97,7 @@
 ### AI.yaml
 
 - 用途：海外 AI 规则集，覆盖海外 AI 服务（OpenAI / ChatGPT、Anthropic / Claude、Perplexity、Poe、Groq、ElevenLabs、HuggingFace、Cursor、Windsurf、GitHub Copilot、Cerebras、Manus、Civitai、Mistral、Cohere、Midjourney 等）域名；各家 AI 分类中一并收录的 Gemini、Grok、Meta AI 条目亦在集内。国内 AI 分类不在本集范围。
-- 条目数：249 条（构建时按误杀口径剔除共用平台条目 28 条、按无用口径剔除已关停条目 2 条）。
+- 条目数：248 条（构建时按误杀口径剔除共用平台条目 28 条、按无用口径剔除已关停条目 2 条；同日海外终审剔除真冗余关键词 1 条）。
 - 构建日期：2026-11-25。
 - 数据来源：MetaCubeX、blackmatrix7、v2fly、ddranic、ACL4SSR、DustinWin，共 6 家作者。
 
