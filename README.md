@@ -52,6 +52,13 @@
 - 构建日期：2026-11-25。
 - 数据来源：v2fly、MetaCubeX、ddranic、blackmatrix7，共 4 家作者。
 
+### Spotify.yaml
+
+- 用途：Spotify 规则集，覆盖 Spotify 音乐流媒体服务及其官方域名与 IP 地址段。
+- 条目数：34 条。
+- 构建日期：2026-11-25。
+- 数据来源：MetaCubeX、blackmatrix7、v2fly、ddranic、ACL4SSR、DustinWin，共 6 家作者。
+
 ### TikTok.yaml
 
 - 用途：海外字节（TikTok）规则集，覆盖 TikTok、Musical.ly、CapCut 海外版等海外字节系服务域名；只收海外分类，不含国内字节数据。
