@@ -1,5 +1,5 @@
 # 版本 v1.0.3 · 更新 2026-11-25 · 共 208 条
-# 涵盖：OpenAI/ChatGPT、Anthropic/Claude、Perplexity、Mistral、Cohere、Hugging Face、Midjourney、Runway、Suno、Character.AI、Civitai、ElevenLabs、Poe、Groq、Replicate、Stability、Leonardo、Together、OpenRouter、AI 编程（Cursor/Windsurf/Codeium/Sourcegraph/JetBrains 等）、微软/GitHub AI（Copilot 等）、推理/语音/视频平台（fal/Fireworks/Deepgram/HeyGen/Ideogram/Luma/Pika/Udio/Synthesia/Krea/Recraft/BFL/Lovable/AssemblyAI/Vapi/You.com）、国产海外站（Kimi/MiniMax/Hailuo/Qoder）等海外 AI 服务
+# 涵盖：ChatGPT、Claude、Perplexity、Midjourney、Runway、Suno、Cursor、Copilot 等海外 AI 服务
 payload:
   - DOMAIN,api.msn.com
   - DOMAIN,assets.msn.com
