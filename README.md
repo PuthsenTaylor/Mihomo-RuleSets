@@ -13,14 +13,14 @@
 ### Apple.yaml
 
 - 用途：苹果（Apple）规则集，覆盖苹果及其服务（iCloud、Apple Music、App Store、Apple TV 等）域名与苹果 IP 地址段。
-- 条目数：1,613 条。
+- 条目数：1,606 条（2026-11-25 按用户裁决删除共用设施条目 7 条）。
 - 构建日期：2026-11-25。
 - 数据来源：MetaCubeX、blackmatrix7、v2fly、ddranic、ACL4SSR、DustinWin、Loyalsoldier，共 7 家作者。
 
 ### Disney.yaml
 
 - 用途：迪士尼（Disney）规则集，覆盖迪士尼家族（Disney+、Hulu、ESPN、ABC、Marvel、Star Wars、国家地理、Hotstar、Star+ 等子品牌）域名。
-- 条目数：243 条。
+- 条目数：236 条（2026-11-25 按用户裁决删除共用平台条目 7 条）。
 - 构建日期：2026-11-25。
 - 数据来源：MetaCubeX、blackmatrix7、v2fly、ddranic、ACL4SSR、DustinWin，共 6 家作者。
 
@@ -41,7 +41,7 @@
 ### Netflix.yaml
 
 - 用途：奈飞（Netflix）规则集，覆盖奈飞及其服务（流媒体、Fast.com 测速、DNS 检测等）域名与奈飞 IP 地址段。
-- 条目数：1,157 条。
+- 条目数：1,154 条（2026-11-25 按用户裁决删除共用设施条目 3 条）。
 - 构建日期：2026-11-25。
 - 数据来源：MetaCubeX、blackmatrix7、v2fly、ddranic、ACL4SSR、DustinWin，共 6 家作者。
 
