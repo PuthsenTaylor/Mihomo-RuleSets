@@ -20,7 +20,8 @@
 | [Spotify_IP.yaml](Spotify_IP.yaml) | v1.0.0 | 2 | Spotify 全球 IP 地址段 |
 | [Telegram_Domain.yaml](Telegram_Domain.yaml) | v1.0.0 | 35 | Telegram、Telegra.ph、Fragment、TON 等服务域名 |
 | [Telegram_IP.yaml](Telegram_IP.yaml) | v1.0.0 | 18 | Telegram 全球 IP 地址段 |
-| [Meta.yaml](Meta.yaml) | v1.0.1 | 709 | Facebook、Instagram、WhatsApp、Messenger、Threads、Meta Quest、Meta AI 及 Meta IP 段 |
+| [Meta_Domain.yaml](Meta_Domain.yaml) | v1.0.0 | 559 | Facebook、Instagram、WhatsApp、Messenger、Threads、Meta Quest、Meta AI 等服务域名 |
+| [Meta_IP.yaml](Meta_IP.yaml) | v1.0.0 | 150 | Meta 全球 IP 地址段 |
 | [Twitter.yaml](Twitter.yaml) | v1.0.0 | 48 | X / Twitter、t.co、xAI / Grok 等服务及 IP 段 |
 | [AI.yaml](AI.yaml) | v1.0.3 | 208 | ChatGPT、Claude、Perplexity、Midjourney、Runway、Suno、Cursor、Copilot 等海外 AI 服务 |
 | [Domestic-Direct.yaml](Domestic-Direct.yaml) | v1.0.9 | 6151 | 五家交易所、腾讯、阿里巴巴、京东、拼多多、美团、百度、字节跳动国内全系等国内服务直连 |
