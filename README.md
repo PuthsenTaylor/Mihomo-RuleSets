@@ -27,7 +27,7 @@
 ### Lan-Private.yaml
 
 - 用途：局域网 / 私有地址规则集，覆盖局域网域名、私有地址段及本地服务发现域名。
-- 条目数：171 条。
+- 条目数：170 条。
 - 构建日期：2026-11-25。
 - 数据来源：MetaCubeX、blackmatrix7、ACL4SSR、v2fly、DustinWin、Aethersailor、Loyalsoldier，共 7 家作者。
 
