@@ -1,8 +1,7 @@
-# 版本 v1.0.2 · 更新 2026-11-25 · 共 182 条
-# 涵盖：ChatGPT、Claude、Perplexity、Poe、Groq、HuggingFace、Cursor、Manus 等海外 AI 服务
+# AI v1.0.3 · 2026-11-25 · 208 条
+# 涵盖：OpenAI/ChatGPT、Anthropic/Claude、Perplexity、Mistral、Cohere、Hugging Face、Midjourney、Runway、Suno、Character.AI、Civitai、ElevenLabs、Poe、Groq、Replicate、Stability、Leonardo、Together、OpenRouter、AI 编程（Cursor/Windsurf/Codeium/Sourcegraph/JetBrains 等）、微软/GitHub AI（Copilot 等）、推理/语音/视频平台（fal/Fireworks/Deepgram/HeyGen/Ideogram/Luma/Pika/Udio/Synthesia/Krea/Recraft/BFL/Lovable/AssemblyAI/Vapi/You.com）、国产海外站（Kimi/MiniMax/Hailuo/Qoder）等海外 AI 服务
 payload:
   - DOMAIN,api.msn.com
-  - DOMAIN,api.together.xyz
   - DOMAIN,assets.msn.com
   - DOMAIN,copilot-proxy.githubusercontent.com
   - DOMAIN,copilot-telemetry-service.githubusercontent.com
@@ -62,13 +61,16 @@ payload:
   - DOMAIN-SUFFIX,codeiumdata.com
   - DOMAIN-SUFFIX,copilot-stg.com
   - DOMAIN-SUFFIX,jetbrains.space
+  - DOMAIN-SUFFIX,sourcegraph.com
   - DOMAIN-SUFFIX,spicywriter.com
   - DOMAIN-SUFFIX,themeforest.net
   - DOMAIN-SUFFIX,anthropic.team
+  - DOMAIN-SUFFIX,assemblyai.com
   - DOMAIN-SUFFIX,commandcode.ai
   - DOMAIN-SUFFIX,cursor-cdn.com
   - DOMAIN-SUFFIX,diabrowser.com
   - DOMAIN-SUFFIX,elevenlabs.com
+  - DOMAIN-SUFFIX,hailuoai.video
   - DOMAIN-SUFFIX,huggingface.co
   - DOMAIN-SUFFIX,jetbrains.team
   - DOMAIN-SUFFIX,kotlinconf.com
@@ -89,14 +91,18 @@ payload:
   - DOMAIN-SUFFIX,oaistatic.com
   - DOMAIN-SUFFIX,openrouter.ai
   - DOMAIN-SUFFIX,perplexity.ai
+  - DOMAIN-SUFFIX,replicate.com
   - DOMAIN-SUFFIX,ai.azure.com
   - DOMAIN-SUFFIX,antspace.dev
+  - DOMAIN-SUFFIX,character.ai
   - DOMAIN-SUFFIX,chatgpt.site
   - DOMAIN-SUFFIX,context7.com
   - DOMAIN-SUFFIX,cursorvm.com
+  - DOMAIN-SUFFIX,deepgram.com
   - DOMAIN-SUFFIX,deepwiki.com
   - DOMAIN-SUFFIX,deepwiki.org
   - DOMAIN-SUFFIX,dreamgen.com
+  - DOMAIN-SUFFIX,fireworks.ai
   - DOMAIN-SUFFIX,intellij.com
   - DOMAIN-SUFFIX,intellij.net
   - DOMAIN-SUFFIX,intellij.org
@@ -105,6 +111,10 @@ payload:
   - DOMAIN-SUFFIX,magnific.com
   - DOMAIN-SUFFIX,manuscdn.com
   - DOMAIN-SUFFIX,openspec.dev
+  - DOMAIN-SUFFIX,runwayml.com
+  - DOMAIN-SUFFIX,stability.ai
+  - DOMAIN-SUFFIX,synthesia.io
+  - DOMAIN-SUFFIX,together.xyz
   - DOMAIN-SUFFIX,windsurf.com
   - DOMAIN-SUFFIX,youmind.site
   - DOMAIN-SUFFIX,cerebras.ai
@@ -116,12 +126,18 @@ payload:
   - DOMAIN-SUFFIX,comfyci.org
   - DOMAIN-SUFFIX,copilot.com
   - DOMAIN-SUFFIX,datalore.io
+  - DOMAIN-SUFFIX,ideogram.ai
+  - DOMAIN-SUFFIX,leonardo.ai
   - DOMAIN-SUFFIX,lmstudio.ai
+  - DOMAIN-SUFFIX,lovable.dev
+  - DOMAIN-SUFFIX,lumalabs.ai
+  - DOMAIN-SUFFIX,manus.space
   - DOMAIN-SUFFIX,moonshot.ai
   - DOMAIN-SUFFIX,novelai.net
   - DOMAIN-SUFFIX,openclaw.ai
   - DOMAIN-SUFFIX,opencode.ai
   - DOMAIN-SUFFIX,talkai.info
+  - DOMAIN-SUFFIX,together.ai
   - DOMAIN-SUFFIX,typesafe.ai
   - DOMAIN-SUFFIX,youmind.com
   - DOMAIN-SUFFIX,claude.app
@@ -134,6 +150,7 @@ payload:
   - DOMAIN-SUFFIX,crixet.com
   - DOMAIN-SUFFIX,cursor.com
   - DOMAIN-SUFFIX,envato.com
+  - DOMAIN-SUFFIX,heygen.com
   - DOMAIN-SUFFIX,minimax.io
   - DOMAIN-SUFFIX,mistral.ai
   - DOMAIN-SUFFIX,mozilla.ai
@@ -143,6 +160,8 @@ payload:
   - DOMAIN-SUFFIX,openai.org
   - DOMAIN-SUFFIX,openart.ai
   - DOMAIN-SUFFIX,poecdn.net
+  - DOMAIN-SUFFIX,recraft.ai
+  - DOMAIN-SUFFIX,runway.com
   - DOMAIN-SUFFIX,tripo3d.ai
   - DOMAIN-SUFFIX,youmind.ai
   - DOMAIN-SUFFIX,chutes.ai
@@ -162,22 +181,29 @@ payload:
   - DOMAIN-SUFFIX,groq.com
   - DOMAIN-SUFFIX,hf.space
   - DOMAIN-SUFFIX,kiro.dev
+  - DOMAIN-SUFFIX,manus.ai
   - DOMAIN-SUFFIX,manus.im
+  - DOMAIN-SUFFIX,pika.art
   - DOMAIN-SUFFIX,sider.ai
   - DOMAIN-SUFFIX,sora.com
+  - DOMAIN-SUFFIX,suno.com
   - DOMAIN-SUFFIX,syntx.ai
+  - DOMAIN-SUFFIX,udio.com
   - DOMAIN-SUFFIX,ant.dev
   - DOMAIN-SUFFIX,clau.de
   - DOMAIN-SUFFIX,dify.ai
   - DOMAIN-SUFFIX,duck.ai
   - DOMAIN-SUFFIX,kimi.ai
+  - DOMAIN-SUFFIX,krea.ai
   - DOMAIN-SUFFIX,poe.com
   - DOMAIN-SUFFIX,pplx.ai
+  - DOMAIN-SUFFIX,vapi.ai
+  - DOMAIN-SUFFIX,you.com
   - DOMAIN-SUFFIX,ai.com
+  - DOMAIN-SUFFIX,bfl.ai
+  - DOMAIN-SUFFIX,fal.ai
   - DOMAIN-SUFFIX,h2o.ai
   - DOMAIN-SUFFIX,hf.co
-  - DOMAIN-SUFFIX,manus.ai
-  - DOMAIN-SUFFIX,manus.space
   - DOMAIN-KEYWORD,anthropic
   - DOMAIN-KEYWORD,claude
   - DOMAIN-KEYWORD,openai
