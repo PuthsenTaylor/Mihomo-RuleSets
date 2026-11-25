@@ -4,7 +4,7 @@
 #       音乐流媒体服务及其官方域名与 IP 地址段；命中后的走向由调用方
 #       配置决定。
 # 构建日期：2026-11-25
-# 条目统计：共 35 条（PROCESS-NAME 1 条 / DOMAIN 5 条 / DOMAIN-SUFFIX 24 条 / DOMAIN-KEYWORD 3 条 / IP-CIDR 2 条）
+# 条目统计：共 33 条（PROCESS-NAME 1 条 / DOMAIN 5 条 / DOMAIN-SUFFIX 24 条 / DOMAIN-KEYWORD 1 条 / IP-CIDR 2 条）
 # 数据来源：MetaCubeX、blackmatrix7、v2fly、ddranic、ACL4SSR、DustinWin，
 #           共 6 家作者公开发布的 Spotify 清单（其中 MetaCubeX、ddranic、
 #           DustinWin 为 v2fly / blackmatrix7 数据的转制导出）。
@@ -16,6 +16,9 @@
 #           （PROCESS-NAME，置于 payload 首部）：出自 blackmatrix7 公开
 #           清单、逐字收录、零自建。此前构建按旧口径（进程规则不入集）
 #           未收，现按新口径（作者有发布即列入）补齐。
+# 终审记录：2026-11-25 海外段终审剔除 2 条——DOMAIN-KEYWORD,-spotify-
+# 与 DOMAIN-KEYWORD,spotify.com 均被同集 KEYWORD,spotify 完全遮蔽，
+# 属真冗余。明细见终审报告。
 payload:
   - PROCESS-NAME,com.spotify.music
   - DOMAIN,audio4-ak-spotify-com.akamaized.net
@@ -47,8 +50,6 @@ payload:
   - DOMAIN-SUFFIX,pscdn.co
   - DOMAIN-SUFFIX,spoti.fi
   - DOMAIN-SUFFIX,scdn.co
-  - DOMAIN-KEYWORD,-spotify-
   - DOMAIN-KEYWORD,spotify
-  - DOMAIN-KEYWORD,spotify.com
   - IP-CIDR,35.186.224.47/32
   - IP-CIDR,104.154.127.126/32
