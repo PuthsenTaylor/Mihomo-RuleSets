@@ -1,0 +1,49 @@
+# Spotify.yaml —— Spotify 规则集（自建）
+#
+# 用途：供 Mihomo 以 classical 行为的 rule-provider 方式加载，匹配 Spotify
+#       音乐流媒体服务及其官方域名与 IP 地址段；命中后的走向由调用方
+#       配置决定。
+# 构建日期：2026-11-25
+# 条目统计：共 34 条（DOMAIN 5 条 / DOMAIN-SUFFIX 24 条 / DOMAIN-KEYWORD 3 条 / IP-CIDR 2 条）
+# 数据来源：MetaCubeX、blackmatrix7、v2fly、ddranic、ACL4SSR、DustinWin，
+#           共 6 家作者公开发布的 Spotify 清单（其中 MetaCubeX、ddranic、
+#           DustinWin 为 v2fly / blackmatrix7 数据的转制导出）。
+# 构建方法：多作者全量合并求全集，全部条目逐条出自上述来源，零自建；
+#           集内已完成去重，并剔除被自家更宽条目覆盖的内部冗余条目。
+# 排序说明：DOMAIN 在前；其后 DOMAIN-SUFFIX 按长度由长到短；其后 DOMAIN-KEYWORD；
+#           其后 IP-CIDR 按前缀由窄到宽（IPv4 在前、IPv6 在后）。
+payload:
+  - DOMAIN,audio4-ak-spotify-com.akamaized.net
+  - DOMAIN,cdn-spotify-experiments.conductrics.com
+  - DOMAIN,heads-ak-spotify-com.akamaized.net
+  - DOMAIN,spotify.map.fastly.net
+  - DOMAIN,spotify.map.fastlylb.net
+  - DOMAIN-SUFFIX,heads4-ak-spotify-com.akamaized.net
+  - DOMAIN-SUFFIX,audio-ak-spotify-com.akamaized.net
+  - DOMAIN-SUFFIX,spotify-com.akamaized.net
+  - DOMAIN-SUFFIX,spotify.com.edgesuite.net
+  - DOMAIN-SUFFIX,spotify-everywhere.com
+  - DOMAIN-SUFFIX,spotifyforvendors.com
+  - DOMAIN-SUFFIX,spotifyforbrands.com
+  - DOMAIN-SUFFIX,spotifynewsroom.jp
+  - DOMAIN-SUFFIX,lifeatspotify.com
+  - DOMAIN-SUFFIX,spotifycharts.com
+  - DOMAIN-SUFFIX,spotify.app.link
+  - DOMAIN-SUFFIX,spotifycodes.com
+  - DOMAIN-SUFFIX,spotifyjobs.com
+  - DOMAIN-SUFFIX,spotify.design
+  - DOMAIN-SUFFIX,spotifycdn.com
+  - DOMAIN-SUFFIX,spotifycdn.net
+  - DOMAIN-SUFFIX,spotilocal.com
+  - DOMAIN-SUFFIX,byspotify.com
+  - DOMAIN-SUFFIX,tospotify.com
+  - DOMAIN-SUFFIX,spotify.link
+  - DOMAIN-SUFFIX,spotify.com
+  - DOMAIN-SUFFIX,pscdn.co
+  - DOMAIN-SUFFIX,spoti.fi
+  - DOMAIN-SUFFIX,scdn.co
+  - DOMAIN-KEYWORD,-spotify-
+  - DOMAIN-KEYWORD,spotify
+  - DOMAIN-KEYWORD,spotify.com
+  - IP-CIDR,35.186.224.47/32
+  - IP-CIDR,104.154.127.126/32
