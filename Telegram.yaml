@@ -1,4 +1,4 @@
-# 版本 v1.0.0 · 更新 2026-11-25 · 共 48 条
+# 版本 v1.0.1 · 更新 2026-11-25 · 共 53 条
 # 涵盖：Telegram 客户端、Telegra.ph、Fragment 与 TON 入口及 Telegram IP 段
 payload:
   - PROCESS-NAME,nekox.messenger
@@ -49,3 +49,8 @@ payload:
   - IP-CIDR,2001:b28:f23f::/48
   - IP-CIDR,2001:b28:f23c::/47
   - IP-CIDR,2a0a:f280::/29
+  - IP-ASN,211157
+  - IP-ASN,44907
+  - IP-ASN,59930
+  - IP-ASN,62014
+  - IP-ASN,62041
