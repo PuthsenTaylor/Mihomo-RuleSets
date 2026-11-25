@@ -7,15 +7,15 @@ payload:
   - PROCESS-NAME,EmbyClientWinUI.exe
   - PROCESS-NAME,Emby.Theater.exe
   - PROCESS-NAME,EmbyServer.exe
-  - DOMAIN-SUFFIX,emby.media
-  - DOMAIN-SUFFIX,mb3admin.com
-  - DOMAIN-SUFFIX,emby.org
-  - DOMAIN-SUFFIX,emby.tv
-  - DOMAIN-SUFFIX,uhdgo.com
-  - DOMAIN-SUFFIX,uhdnow.com
   - DOMAIN-SUFFIX,uhdnow.online
+  - DOMAIN-SUFFIX,mb3admin.com
   - DOMAIN-SUFFIX,firecore.com
   - DOMAIN-SUFFIX,fileball.app
   - DOMAIN-SUFFIX,okaapps.com
+  - DOMAIN-SUFFIX,emby.media
+  - DOMAIN-SUFFIX,uhdnow.com
   - DOMAIN-SUFFIX,afusekt.cn
+  - DOMAIN-SUFFIX,uhdgo.com
+  - DOMAIN-SUFFIX,emby.org
   - DOMAIN-SUFFIX,inch.red
+  - DOMAIN-SUFFIX,emby.tv
