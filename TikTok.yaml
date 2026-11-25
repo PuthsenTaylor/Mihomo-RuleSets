@@ -1,7 +1,8 @@
-# 版本 v1.0.1 · 更新 2026-11-25 · 共 66 条
-# 涵盖：TikTok、CapCut、Coze、Lark 海外版等字节跳动海外服务
+# 版本 v1.0.2 · 更新 2026-11-25 · 共 113 条
+# 涵盖：TikTok、CapCut、Coze、Lark 海外版、BytePlus 等字节跳动海外服务
 payload:
   - PROCESS-NAME,com.zhiliaoapp.musically
+  - DOMAIN,frontier-lark-lb-v3.lf.bytelb.net
   - DOMAIN,lf16-effectcdn.byteeffecttos-g.com
   - DOMAIN,lf16-pkgcdn.pitaya-clientai.com
   - DOMAIN,p16-tiktokcdn-com.akamaized.net
@@ -9,50 +10,93 @@ payload:
   - DOMAIN,roovza.inapps.appsflyersdk.com
   - DOMAIN,roovza.launches.appsflyersdk.com
   - DOMAIN,roovza.skadsdk.appsflyersdk.com
+  - DOMAIN,sf3-ttcdn-tos.pstatp.com
   - DOMAIN,trae-api-sg.mchost.guru
   - DOMAIN-SUFFIX,tiktokcdn-us.com.edgesuite.net
+  - DOMAIN-SUFFIX,larkoffice.com.bytedns1.com
   - DOMAIN-SUFFIX,tiktokcdn.com.akamaized.net
   - DOMAIN-SUFFIX,tiktokcdn.com.edgesuite.net
   - DOMAIN-SUFFIX,tiktokv.com.edgesuite.net
+  - DOMAIN-SUFFIX,bytedance.map.fastly.net
+  - DOMAIN-SUFFIX,larksuite.com.ttdns1.com
+  - DOMAIN-SUFFIX,larksuite.com.ttdns2.com
+  - DOMAIN-SUFFIX,lark-passport-qa-sg.net
   - DOMAIN-SUFFIX,tiktokv.com.edgekey.net
+  - DOMAIN-SUFFIX,byteplus-api-test.com
+  - DOMAIN-SUFFIX,larkofficeapp-boe.com
+  - DOMAIN-SUFFIX,larkofficeapp-pre.com
   - DOMAIN-SUFFIX,tiktokglobalshopv.com
+  - DOMAIN-SUFFIX,byteplusapi-test.com
+  - DOMAIN-SUFFIX,bytepluspcs-test.com
+  - DOMAIN-SUFFIX,ibytepluses-test.com
+  - DOMAIN-SUFFIX,larksuiteimg-boe.com
+  - DOMAIN-SUFFIX,larksuiteimg-pre.com
+  - DOMAIN-SUFFIX,statuslarkoffice.com
+  - DOMAIN-SUFFIX,bytepluses-test.com
   - DOMAIN-SUFFIX,bytegecko-i18n.com
+  - DOMAIN-SUFFIX,larkofficeapp.com
+  - DOMAIN-SUFFIX,larkofficeboe.com
+  - DOMAIN-SUFFIX,larkofficecdn.com
+  - DOMAIN-SUFFIX,larkofficeimg.com
+  - DOMAIN-SUFFIX,larkofficepkg.com
+  - DOMAIN-SUFFIX,larkofficepre.com
+  - DOMAIN-SUFFIX,larksuite-pre.com
   - DOMAIN-SUFFIX,tiktokrow-cdn.com
   - DOMAIN-SUFFIX,tiktokstaticb.com
+  - DOMAIN-SUFFIX,capcutcdn-us.com
   - DOMAIN-SUFFIX,capcutstatic.com
+  - DOMAIN-SUFFIX,larkmeetings.com
+  - DOMAIN-SUFFIX,larksuitecdn.com
+  - DOMAIN-SUFFIX,larksuiteimg.com
+  - DOMAIN-SUFFIX,thelarkcloud.com
   - DOMAIN-SUFFIX,tiktok-minis.com
   - DOMAIN-SUFFIX,tiktokcdn-eu.com
   - DOMAIN-SUFFIX,tiktokcdn-us.com
   - DOMAIN-SUFFIX,tiktokeu-cdn.com
   - DOMAIN-SUFFIX,byteintlapi.com
   - DOMAIN-SUFFIX,byteoversea.com
+  - DOMAIN-SUFFIX,byteoversea.net
   - DOMAIN-SUFFIX,tiktokmusic.app
   - DOMAIN-SUFFIX,ttoverseaus.net
+  - DOMAIN-SUFFIX,larkoffice.com
+  - DOMAIN-SUFFIX,lemon8-app.com
   - DOMAIN-SUFFIX,tik-tokapi.com
   - DOMAIN-SUFFIX,tiktok-row.net
   - DOMAIN-SUFFIX,tiktokminis.us
   - DOMAIN-SUFFIX,tiktokshop.com
   - DOMAIN-SUFFIX,tiktokvapp.com
+  - DOMAIN-SUFFIX,bytedance.com
+  - DOMAIN-SUFFIX,bytedance.net
   - DOMAIN-SUFFIX,capcutapi.com
   - DOMAIN-SUFFIX,ciciaicdn.com
   - DOMAIN-SUFFIX,ibytedtos.com
+  - DOMAIN-SUFFIX,larkcloud.com
+  - DOMAIN-SUFFIX,larkcloud.net
+  - DOMAIN-SUFFIX,larkrooms.com
+  - DOMAIN-SUFFIX,larksuite.com
   - DOMAIN-SUFFIX,tiktokcdn.com
+  - DOMAIN-SUFFIX,tobsnssdk.com
   - DOMAIN-SUFFIX,ttlivecdn.com
   - DOMAIN-SUFFIX,ttwebview.com
   - DOMAIN-SUFFIX,ttwstatic.com
   - DOMAIN-SUFFIX,bytedapm.com
+  - DOMAIN-SUFFIX,byteplus.com
   - DOMAIN-SUFFIX,capcutapi.us
   - DOMAIN-SUFFIX,ibyteimg.com
   - DOMAIN-SUFFIX,marscode.com
   - DOMAIN-SUFFIX,sgpstatp.com
   - DOMAIN-SUFFIX,ttcdn-us.com
+  - DOMAIN-SUFFIX,byteglb.com
   - DOMAIN-SUFFIX,ipstatp.com
   - DOMAIN-SUFFIX,isnssdk.com
   - DOMAIN-SUFFIX,tiktokd.net
   - DOMAIN-SUFFIX,tiktokd.org
   - DOMAIN-SUFFIX,tiktokv.com
   - DOMAIN-SUFFIX,capcut.com
+  - DOMAIN-SUFFIX,capcut.net
   - DOMAIN-SUFFIX,ciciai.com
+  - DOMAIN-SUFFIX,larkfn.com
+  - DOMAIN-SUFFIX,larkvc.com
   - DOMAIN-SUFFIX,muscdn.com
   - DOMAIN-SUFFIX,musical.ly
   - DOMAIN-SUFFIX,snssdk.com
@@ -64,6 +108,9 @@ payload:
   - DOMAIN-SUFFIX,cici.com
   - DOMAIN-SUFFIX,coze.com
   - DOMAIN-SUFFIX,dola.com
+  - DOMAIN-SUFFIX,lark.com
   - DOMAIN-SUFFIX,trae.ai
+  - DOMAIN-KEYWORD,capcut
   - DOMAIN-KEYWORD,musical.ly
   - DOMAIN-KEYWORD,tiktok
+  - DOMAIN-KEYWORD,ttcdn
