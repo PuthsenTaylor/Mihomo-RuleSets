@@ -1,5 +1,5 @@
 # Domestic-Direct_Domain
-# 版本 v2.0.2 · 日期 2026-11-25 · 时间 09:37 · 共 5840 条
+# 版本 v2.0.3 · 日期 2026-11-25 · 时间 09:46 · 共 5833 条
 # 内容：币安、欧易等交易所，腾讯、阿里巴巴、字节跳动、京东、百度、三网运营商等国内服务域名
 payload:
   - PROCESS-NAME,binance.exe
@@ -1743,7 +1743,6 @@ payload:
   - DOMAIN-SUFFIX,clsshare.com.cn
   - DOMAIN-SUFFIX,computeinit.com
   - DOMAIN-SUFFIX,content4ads.com
-  - DOMAIN-SUFFIX,coze-dns-01.com
   - DOMAIN-SUFFIX,csjplatform.com
   - DOMAIN-SUFFIX,dafenghk.com.cn
   - DOMAIN-SUFFIX,dayulegobak.com
@@ -1820,6 +1819,7 @@ payload:
   - DOMAIN-SUFFIX,joyworkshop.com
   - DOMAIN-SUFFIX,kugousenior.com
   - DOMAIN-SUFFIX,lahuashanbx.com
+  - DOMAIN-SUFFIX,larkmeetings.cn
   - DOMAIN-SUFFIX,lexiang-app.com
   - DOMAIN-SUFFIX,lexiang-ops.com
   - DOMAIN-SUFFIX,liangxinyao.com
@@ -2102,7 +2102,6 @@ payload:
   - DOMAIN-SUFFIX,codebuddy.work
   - DOMAIN-SUFFIX,codeweixin.com
   - DOMAIN-SUFFIX,codingcorp.net
-  - DOMAIN-SUFFIX,cozedeploy.com
   - DOMAIN-SUFFIX,cross-zone.com
   - DOMAIN-SUFFIX,ctexcel.com.hk
   - DOMAIN-SUFFIX,dafenghk.hk.cn
@@ -2598,7 +2597,6 @@ payload:
   - DOMAIN-SUFFIX,cofile.com.cn
   - DOMAIN-SUFFIX,cofile.net.cn
   - DOMAIN-SUFFIX,commonpcs.com
-  - DOMAIN-SUFFIX,cozebuild.com
   - DOMAIN-SUFFIX,crtrcloud.com
   - DOMAIN-SUFFIX,ctycdn.net.cn
   - DOMAIN-SUFFIX,ctyunbdcsc.cn
@@ -3499,6 +3497,7 @@ payload:
   - DOMAIN-SUFFIX,kunlunta.com
   - DOMAIN-SUFFIX,kunlunvi.com
   - DOMAIN-SUFFIX,kunlunwe.com
+  - DOMAIN-SUFFIX,larkrooms.cn
   - DOMAIN-SUFFIX,lasmasas.com
   - DOMAIN-SUFFIX,lcsmerch.com
   - DOMAIN-SUFFIX,leshare.work
@@ -3987,10 +3986,7 @@ payload:
   - DOMAIN-SUFFIX,coloros.com
   - DOMAIN-SUFFIX,coloros.net
   - DOMAIN-SUFFIX,comsenz.com
-  - DOMAIN-SUFFIX,cozeapp.net
   - DOMAIN-SUFFIX,cozebaas.cn
-  - DOMAIN-SUFFIX,cozecdn.com
-  - DOMAIN-SUFFIX,cozesdk.com
   - DOMAIN-SUFFIX,cozetest.cn
   - DOMAIN-SUFFIX,crmpower.cn
   - DOMAIN-SUFFIX,cs-eval.com
@@ -4137,7 +4133,6 @@ payload:
   - DOMAIN-SUFFIX,marscode.cn
   - DOMAIN-SUFFIX,mcbaas.work
   - DOMAIN-SUFFIX,mcdemo.show
-  - DOMAIN-SUFFIX,mchost.guru
   - DOMAIN-SUFFIX,meituan.com
   - DOMAIN-SUFFIX,meituan.net
   - DOMAIN-SUFFIX,migufun.com
@@ -4535,7 +4530,6 @@ payload:
   - DOMAIN-SUFFIX,codehub.cn
   - DOMAIN-SUFFIX,coding.net
   - DOMAIN-SUFFIX,cofile.net
-  - DOMAIN-SUFFIX,coze.email
   - DOMAIN-SUFFIX,cozeide.cn
   - DOMAIN-SUFFIX,ctexcel.ca
   - DOMAIN-SUFFIX,ctexcel.fr
@@ -5096,7 +5090,6 @@ payload:
   - DOMAIN-SUFFIX,cnb.space
   - DOMAIN-SUFFIX,cnrdn.com
   - DOMAIN-SUFFIX,coding.me
-  - DOMAIN-SUFFIX,coze.site
   - DOMAIN-SUFFIX,cozefn.cn
   - DOMAIN-SUFFIX,ctcdn.com
   - DOMAIN-SUFFIX,ctcdn.net
@@ -5350,7 +5343,6 @@ payload:
   - DOMAIN-SUFFIX,tqapp.com
   - DOMAIN-SUFFIX,tqapp.net
   - DOMAIN-SUFFIX,tquic.net
-  - DOMAIN-SUFFIX,trae.guru
   - DOMAIN-SUFFIX,trpc.tech
   - DOMAIN-SUFFIX,tswjs.net
   - DOMAIN-SUFFIX,tswjs.org
@@ -5714,6 +5706,7 @@ payload:
   - DOMAIN-SUFFIX,kufm.cn
   - DOMAIN-SUFFIX,kuwo.cn
   - DOMAIN-SUFFIX,l1xn.cn
+  - DOMAIN-SUFFIX,lark.cn
   - DOMAIN-SUFFIX,lrts.me
   - DOMAIN-SUFFIX,mei.com
   - DOMAIN-SUFFIX,mh2u.cn
