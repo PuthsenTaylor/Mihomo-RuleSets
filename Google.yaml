@@ -1,27 +1,6 @@
-# Google.yaml —— 谷歌（Google）规则集（自建）
-#
-# 用途：供 Mihomo 以 classical 行为的 rule-provider 方式加载，匹配谷歌及
-#       其子品牌（YouTube、Gmail、Google Play 等）域名与谷歌 IP 地址段；
-#       命中后的走向由调用方配置决定。
-# 构建日期：2026-11-25
-# 条目统计：共 7974 条（PROCESS-NAME 6 条 / DOMAIN 1 条 / DOMAIN-SUFFIX 872 条 / DOMAIN-KEYWORD 5 条 / IP-CIDR 7090 条）
-# 数据来源：MetaCubeX、blackmatrix7、v2fly、ddranic、ACL4SSR、DustinWin、
-#           Loyalsoldier，共 7 家作者公开发布的谷歌清单（其中 ddranic 与
-#           Loyalsoldier 为 v2fly 数据的转制导出）。
-# 构建方法：多作者全量合并求全集，全部条目逐条出自上述来源，零自建；
-#           集内已完成去重，并剔除被自家更宽条目覆盖的内部冗余条目。
-# 排序说明：PROCESS-NAME 置于首部；其后 DOMAIN；其后 DOMAIN-SUFFIX 按长度由长到短；其后 DOMAIN-KEYWORD；
-#           其后 IP-CIDR 按前缀由窄到宽（IPv4 在前、IPv6 在后）。
-# 补入记录：2026-11-25 按用户新口径补入作者发布的进程规则 6 条
-#           （PROCESS-NAME，置于 payload 首部）：出自 blackmatrix7 公开
-#           清单、逐字收录、零自建。此前构建按旧口径（进程规则不入集）
-#           未收，现按新口径（作者有发布即列入）补齐。
-# 终审记录：2026-11-25 海外段终审剔除 8 条——真冗余 1 条：
-# DOMAIN-KEYWORD,www.google（被同集 KEYWORD,google 完全遮蔽）；
-# 已关停服务 7 条：googleplus.com（Google+，2019-04-02 关停）、
-# picasa.com、picasaweb.com、picasaweb.net、picasaweb.org（Picasa，
-# 2016-05-01 关停）、panoramio.com（Panoramio，2016-11 关停）、
-# stadia.dev（Stadia，2023-01-18 关停）。明细见终审报告。
+# Google
+# 版本 v1.0.0 · 更新 2026-11-25 · 共 7974 条
+# 涵盖：YouTube、Gmail、Gemini、Google Play 等谷歌全线服务与谷歌 IP 段
 payload:
   - PROCESS-NAME,BackupandSync
   - PROCESS-NAME,com.android.vending
