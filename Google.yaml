@@ -1,5 +1,5 @@
 # Google
-# 版本 v1.0.0 · 更新 2026-11-25 · 共 7974 条
+# 版本 v1.0.1 · 更新 2026-11-25 · 共 7976 条
 # 涵盖：YouTube、Gmail、Gemini、Google Play 等谷歌全线服务与谷歌 IP 段
 payload:
   - PROCESS-NAME,BackupandSync
@@ -881,8 +881,10 @@ payload:
   - DOMAIN-SUFFIX,goog
   - DOMAIN-SUFFIX,guge
   - DOMAIN-SUFFIX,gle
+  - DOMAIN-KEYWORD,antigravity
   - DOMAIN-KEYWORD,appspot
   - DOMAIN-KEYWORD,blogspot
+  - DOMAIN-KEYWORD,generativelanguage
   - DOMAIN-KEYWORD,gmail
   - DOMAIN-KEYWORD,google
   - DOMAIN-KEYWORD,recaptcha
