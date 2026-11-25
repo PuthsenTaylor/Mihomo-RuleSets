@@ -6,7 +6,7 @@
 #       配置决定。本集只收海外分类，不含国内字节（抖音、飞书国内版、
 #       火山引擎国内面）数据。
 # 构建日期：2026-11-25
-# 条目统计：共 62 条（PROCESS-NAME 1 条 / DOMAIN 8 条 / DOMAIN-SUFFIX 50 条 / DOMAIN-KEYWORD 3 条 / IP-CIDR 0 条）
+# 条目统计：共 61 条（PROCESS-NAME 1 条 / DOMAIN 8 条 / DOMAIN-SUFFIX 50 条 / DOMAIN-KEYWORD 2 条 / IP-CIDR 0 条）
 # 数据来源：MetaCubeX、blackmatrix7、v2fly、ddranic、ACL4SSR、DustinWin，
 #           共 6 家作者公开发布的 TikTok 清单（其中 MetaCubeX、ddranic、
 #           DustinWin 为 v2fly / blackmatrix7 数据的转制导出）。
@@ -18,6 +18,8 @@
 #           （PROCESS-NAME，置于 payload 首部）：出自 blackmatrix7 公开
 #           清单、逐字收录、零自建。此前构建按旧口径（进程规则不入集）
 #           未收，现按新口径（作者有发布即列入）补齐。
+# 终审记录：2026-11-25 海外段终审剔除 1 条——DOMAIN-KEYWORD,tiktokcdn
+# 被同集 KEYWORD,tiktok 完全遮蔽，属真冗余。明细见终审报告。
 payload:
   - PROCESS-NAME,com.zhiliaoapp.musically
   - DOMAIN,lf16-effectcdn.byteeffecttos-g.com
@@ -80,4 +82,3 @@ payload:
   - DOMAIN-SUFFIX,trae.ai
   - DOMAIN-KEYWORD,musical.ly
   - DOMAIN-KEYWORD,tiktok
-  - DOMAIN-KEYWORD,tiktokcdn
