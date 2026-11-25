@@ -1,5 +1,5 @@
 # Apple
-# 版本 v1.0.0 · 更新 2026-11-25 · 共 1614 条
+# 版本 v1.0.1 · 更新 2026-11-25 · 共 1613 条
 # 涵盖：iCloud、App Store、Apple Music、Apple TV 等苹果全线服务与苹果 IP 段
 payload:
   - PROCESS-NAME,apsd
@@ -900,7 +900,6 @@ payload:
   - DOMAIN-SUFFIX,buyshoponly.com
   - DOMAIN-SUFFIX,ciattackers.com
   - DOMAIN-SUFFIX,coolmonster.net
-  - DOMAIN-SUFFIX,crashlytics.com
   - DOMAIN-SUFFIX,cuffiesaldi.com
   - DOMAIN-SUFFIX,dashwood360.com
   - DOMAIN-SUFFIX,drdre-beats.com
