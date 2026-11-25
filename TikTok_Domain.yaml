@@ -1,9 +1,10 @@
 # TikTok_Domain
-# 版本 v2.0.1 · 日期 2026-11-25 · 时间 09:35 · 共 295 条
+# 版本 v2.0.2 · 日期 2026-11-25 · 时间 09:37 · 共 246 条
 # 内容：TikTok、CapCut、Coze、Lark 海外版、BytePlus、Pico 等字节跳动海外服务及全球共用基础设施
 payload:
   - PROCESS-NAME,com.zhiliaoapp.musically
   - DOMAIN,p16-tiktokcdn-com.akamaized.net
+  - DOMAIN,sf3-ttcdn-tos.pstatp.com
   - DOMAIN-SUFFIX,dataleap-johor-ap-southeast-1.cr.volces.com
   - DOMAIN-SUFFIX,ai-containers-ap-southeast-1.cr.volces.com
   - DOMAIN-SUFFIX,cp-enterprise-ap-southeast-1.cr.volces.com
@@ -17,16 +18,12 @@ payload:
   - DOMAIN-SUFFIX,roovza.skadsdk.appsflyersdk.com
   - DOMAIN-SUFFIX,roovza.inapps.appsflyersdk.com
   - DOMAIN-SUFFIX,tiktokcdn-us.com.edgesuite.net
-  - DOMAIN-SUFFIX,pglstatp-snssdk-toutiao.com
   - DOMAIN-SUFFIX,tiktokcdn.com.akamaized.net
   - DOMAIN-SUFFIX,tiktokcdn.com.edgesuite.net
   - DOMAIN-SUFFIX,tiktokv.com.edgesuite.net
   - DOMAIN-SUFFIX,bytedance.map.fastly.net
-  - DOMAIN-SUFFIX,byteplus-api-test.com.cn
   - DOMAIN-SUFFIX,larksuite.com.ttdns1.com
   - DOMAIN-SUFFIX,larksuite.com.ttdns2.com
-  - DOMAIN-SUFFIX,bytedancehermestest.com
-  - DOMAIN-SUFFIX,byteplusapi-test.com.cn
   - DOMAIN-SUFFIX,lark-passport-qa-sg.net
   - DOMAIN-SUFFIX,tiktokv.com.edgekey.net
   - DOMAIN-SUFFIX,trae-api-sg.mchost.guru
@@ -41,23 +38,12 @@ payload:
   - DOMAIN-SUFFIX,larksuiteimg-pre.com
   - DOMAIN-SUFFIX,statuslarkoffice.com
   - DOMAIN-SUFFIX,byte-edgeworker.com
-  - DOMAIN-SUFFIX,byteplus-api.com.cn
   - DOMAIN-SUFFIX,bytepluses-test.com
-  - DOMAIN-SUFFIX,byteactivity11.com
-  - DOMAIN-SUFFIX,byteactivity12.com
-  - DOMAIN-SUFFIX,byteactivity13.com
-  - DOMAIN-SUFFIX,byteactivity14.com
-  - DOMAIN-SUFFIX,byteactivity15.com
-  - DOMAIN-SUFFIX,byteactivity16.com
   - DOMAIN-SUFFIX,bytefcdnrd-tob.com
   - DOMAIN-SUFFIX,bytegecko-i18n.com
-  - DOMAIN-SUFFIX,byteplusapi.com.cn
   - DOMAIN-SUFFIX,bytewebservice.com
-  - DOMAIN-SUFFIX,ibytepluses.com.cn
-  - DOMAIN-SUFFIX,bytedance-boe.net
   - DOMAIN-SUFFIX,byteeffecttos.com
   - DOMAIN-SUFFIX,bytehiservice.com
-  - DOMAIN-SUFFIX,bytepluses.com.cn
   - DOMAIN-SUFFIX,bytevcloudapi.com
   - DOMAIN-SUFFIX,bytevcloudvod.com
   - DOMAIN-SUFFIX,larkofficeapp.com
@@ -69,9 +55,6 @@ payload:
   - DOMAIN-SUFFIX,larksuite-pre.com
   - DOMAIN-SUFFIX,tiktokrow-cdn.com
   - DOMAIN-SUFFIX,tiktokstaticb.com
-  - DOMAIN-SUFFIX,zijietiaodong.com
-  - DOMAIN-SUFFIX,activitybyte.com
-  - DOMAIN-SUFFIX,byteactivity.com
   - DOMAIN-SUFFIX,byted-static.com
   - DOMAIN-SUFFIX,bytedanceapi.com
   - DOMAIN-SUFFIX,bytedanceoss.net
@@ -94,8 +77,6 @@ payload:
   - DOMAIN-SUFFIX,tiktokcdn-eu.com
   - DOMAIN-SUFFIX,tiktokcdn-us.com
   - DOMAIN-SUFFIX,tiktokeu-cdn.com
-  - DOMAIN-SUFFIX,volcfcdnbyte.com
-  - DOMAIN-SUFFIX,volclivebyte.com
   - DOMAIN-SUFFIX,byte-ticket.com
   - DOMAIN-SUFFIX,byteacctimg.com
   - DOMAIN-SUFFIX,byteadverts.com
@@ -108,7 +89,6 @@ payload:
   - DOMAIN-SUFFIX,bytetraffic.net
   - DOMAIN-SUFFIX,bytetstatic.com
   - DOMAIN-SUFFIX,bytetstatic.net
-  - DOMAIN-SUFFIX,bytevdn-boe.com
   - DOMAIN-SUFFIX,tiktokmusic.app
   - DOMAIN-SUFFIX,ttoverseaus.net
   - DOMAIN-SUFFIX,vcloud-byte.com
@@ -117,7 +97,6 @@ payload:
   - DOMAIN-SUFFIX,bytednsdoc.com
   - DOMAIN-SUFFIX,bytefcdnrd.com
   - DOMAIN-SUFFIX,bytegrowth.com
-  - DOMAIN-SUFFIX,byteinspire.cn
   - DOMAIN-SUFFIX,bytepluses.com
   - DOMAIN-SUFFIX,bytesfield.com
   - DOMAIN-SUFFIX,bytespeech.com
@@ -151,7 +130,6 @@ payload:
   - DOMAIN-SUFFIX,capcutapi.com
   - DOMAIN-SUFFIX,ciciaicdn.com
   - DOMAIN-SUFFIX,gauthmath.com
-  - DOMAIN-SUFFIX,goofy-edge.cn
   - DOMAIN-SUFFIX,ibytedapm.com
   - DOMAIN-SUFFIX,ibytedtos.com
   - DOMAIN-SUFFIX,larkcloud.com
@@ -165,11 +143,9 @@ payload:
   - DOMAIN-SUFFIX,ttwstatic.com
   - DOMAIN-SUFFIX,byte-dns.com
   - DOMAIN-SUFFIX,byte-dns.net
-  - DOMAIN-SUFFIX,byte-test.cn
   - DOMAIN-SUFFIX,byteacct.com
   - DOMAIN-SUFFIX,bytecimg.com
   - DOMAIN-SUFFIX,byted-ug.com
-  - DOMAIN-SUFFIX,bytedance.cn
   - DOMAIN-SUFFIX,bytedapm.com
   - DOMAIN-SUFFIX,bytedcdn.com
   - DOMAIN-SUFFIX,bytedns1.com
@@ -183,7 +159,6 @@ payload:
   - DOMAIN-SUFFIX,bytefcdn.com
   - DOMAIN-SUFFIX,bytegqpo.net
   - DOMAIN-SUFFIX,bytegslb.com
-  - DOMAIN-SUFFIX,bytehouse.cn
   - DOMAIN-SUFFIX,byteimgc.com
   - DOMAIN-SUFFIX,byteintl.net
   - DOMAIN-SUFFIX,bytemedi.com
@@ -197,16 +172,6 @@ payload:
   - DOMAIN-SUFFIX,marscode.com
   - DOMAIN-SUFFIX,sgpstatp.com
   - DOMAIN-SUFFIX,ttcdn-us.com
-  - DOMAIN-SUFFIX,zijieapi.com
-  - DOMAIN-SUFFIX,zijieapi.net
-  - DOMAIN-SUFFIX,zijiecdn.com
-  - DOMAIN-SUFFIX,zijiecdn.net
-  - DOMAIN-SUFFIX,zijieimg.com
-  - DOMAIN-SUFFIX,zijieimg.net
-  - DOMAIN-SUFFIX,zijieurl.com
-  - DOMAIN-SUFFIX,zijieurl.net
-  - DOMAIN-SUFFIX,zijiewap.com
-  - DOMAIN-SUFFIX,zijiewap.net
   - DOMAIN-SUFFIX,bx0byte.com
   - DOMAIN-SUFFIX,byte000.com
   - DOMAIN-SUFFIX,byte008.com
@@ -223,7 +188,6 @@ payload:
   - DOMAIN-SUFFIX,byteics.com
   - DOMAIN-SUFFIX,byteics.net
   - DOMAIN-SUFFIX,byteimg.com
-  - DOMAIN-SUFFIX,bytelove.cn
   - DOMAIN-SUFFIX,byteorg.com
   - DOMAIN-SUFFIX,byteq5k.com
   - DOMAIN-SUFFIX,byteq8u.net
@@ -240,22 +204,12 @@ payload:
   - DOMAIN-SUFFIX,tiktokd.net
   - DOMAIN-SUFFIX,tiktokd.org
   - DOMAIN-SUFFIX,tiktokv.com
-  - DOMAIN-SUFFIX,zijieapi.cn
-  - DOMAIN-SUFFIX,zijiecdn.cn
-  - DOMAIN-SUFFIX,zijiedj.com
-  - DOMAIN-SUFFIX,zijieimg.cn
-  - DOMAIN-SUFFIX,zijieurl.cn
-  - DOMAIN-SUFFIX,zijiewap.cn
   - DOMAIN-SUFFIX,byte00.com
   - DOMAIN-SUFFIX,byte00.net
   - DOMAIN-SUFFIX,byteac.com
-  - DOMAIN-SUFFIX,byteapk.cn
-  - DOMAIN-SUFFIX,bytecdn.cn
   - DOMAIN-SUFFIX,bytelb.com
   - DOMAIN-SUFFIX,bytelb.net
   - DOMAIN-SUFFIX,byteoc.com
-  - DOMAIN-SUFFIX,byteurl.cn
-  - DOMAIN-SUFFIX,bytexns.cn
   - DOMAIN-SUFFIX,capcut.com
   - DOMAIN-SUFFIX,capcut.net
   - DOMAIN-SUFFIX,ciciai.com
@@ -265,7 +219,6 @@ payload:
   - DOMAIN-SUFFIX,musical.ly
   - DOMAIN-SUFFIX,picovr.com
   - DOMAIN-SUFFIX,picoxr.com
-  - DOMAIN-SUFFIX,pstatp.com
   - DOMAIN-SUFFIX,snssdk.com
   - DOMAIN-SUFFIX,tiktok.com
   - DOMAIN-SUFFIX,tiktokv.eu
@@ -280,8 +233,6 @@ payload:
   - DOMAIN-SUFFIX,fizzo.org
   - DOMAIN-SUFFIX,gauth.com
   - DOMAIN-SUFFIX,hypic.com
-  - DOMAIN-SUFFIX,ttbyte.cn
-  - DOMAIN-SUFFIX,zjbyte.cn
   - DOMAIN-SUFFIX,cici.com
   - DOMAIN-SUFFIX,coze.com
   - DOMAIN-SUFFIX,dola.com
