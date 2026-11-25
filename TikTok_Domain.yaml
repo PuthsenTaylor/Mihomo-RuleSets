@@ -1,5 +1,5 @@
 # TikTok_Domain
-# 版本 v2.0.2 · 日期 2026-11-25 · 时间 09:37 · 共 246 条
+# 版本 v2.0.3 · 日期 2026-11-25 · 时间 09:46 · 共 256 条
 # 内容：TikTok、CapCut、Coze、Lark 海外版、BytePlus、Pico 等字节跳动海外服务及全球共用基础设施
 payload:
   - PROCESS-NAME,com.zhiliaoapp.musically
@@ -89,6 +89,7 @@ payload:
   - DOMAIN-SUFFIX,bytetraffic.net
   - DOMAIN-SUFFIX,bytetstatic.com
   - DOMAIN-SUFFIX,bytetstatic.net
+  - DOMAIN-SUFFIX,coze-dns-01.com
   - DOMAIN-SUFFIX,tiktokmusic.app
   - DOMAIN-SUFFIX,ttoverseaus.net
   - DOMAIN-SUFFIX,vcloud-byte.com
@@ -101,6 +102,7 @@ payload:
   - DOMAIN-SUFFIX,bytesfield.com
   - DOMAIN-SUFFIX,bytespeech.com
   - DOMAIN-SUFFIX,bytesyscdn.com
+  - DOMAIN-SUFFIX,cozedeploy.com
   - DOMAIN-SUFFIX,ctobsnssdk.com
   - DOMAIN-SUFFIX,edge-byted.com
   - DOMAIN-SUFFIX,larkoffice.com
@@ -129,6 +131,7 @@ payload:
   - DOMAIN-SUFFIX,bytexopen.com
   - DOMAIN-SUFFIX,capcutapi.com
   - DOMAIN-SUFFIX,ciciaicdn.com
+  - DOMAIN-SUFFIX,cozebuild.com
   - DOMAIN-SUFFIX,gauthmath.com
   - DOMAIN-SUFFIX,ibytedapm.com
   - DOMAIN-SUFFIX,ibytedtos.com
@@ -197,10 +200,14 @@ payload:
   - DOMAIN-SUFFIX,bytevdn.com
   - DOMAIN-SUFFIX,bytexns.com
   - DOMAIN-SUFFIX,bytexns.net
+  - DOMAIN-SUFFIX,cozeapp.net
+  - DOMAIN-SUFFIX,cozecdn.com
+  - DOMAIN-SUFFIX,cozesdk.com
   - DOMAIN-SUFFIX,gauthai.com
   - DOMAIN-SUFFIX,ipstatp.com
   - DOMAIN-SUFFIX,isnssdk.com
   - DOMAIN-SUFFIX,ivolces.com
+  - DOMAIN-SUFFIX,mchost.guru
   - DOMAIN-SUFFIX,tiktokd.net
   - DOMAIN-SUFFIX,tiktokd.org
   - DOMAIN-SUFFIX,tiktokv.com
@@ -213,6 +220,7 @@ payload:
   - DOMAIN-SUFFIX,capcut.com
   - DOMAIN-SUFFIX,capcut.net
   - DOMAIN-SUFFIX,ciciai.com
+  - DOMAIN-SUFFIX,coze.email
   - DOMAIN-SUFFIX,larkfn.com
   - DOMAIN-SUFFIX,larkvc.com
   - DOMAIN-SUFFIX,muscdn.com
@@ -230,9 +238,11 @@ payload:
   - DOMAIN-SUFFIX,zjbyte.com
   - DOMAIN-SUFFIX,zjbyte.net
   - DOMAIN-SUFFIX,byted.org
+  - DOMAIN-SUFFIX,coze.site
   - DOMAIN-SUFFIX,fizzo.org
   - DOMAIN-SUFFIX,gauth.com
   - DOMAIN-SUFFIX,hypic.com
+  - DOMAIN-SUFFIX,trae.guru
   - DOMAIN-SUFFIX,cici.com
   - DOMAIN-SUFFIX,coze.com
   - DOMAIN-SUFFIX,dola.com
