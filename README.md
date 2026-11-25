@@ -80,6 +80,13 @@
 - 构建日期：2026-11-25。
 - 数据来源：MetaCubeX、blackmatrix7、v2fly、ddranic、ACL4SSR、DustinWin，共 6 家作者。
 
+### Twitter.yaml
+
+- 用途：推特（X / Twitter）规则集，覆盖 X / Twitter 本体与 xAI / Grok 家族域名与 Twitter IP 地址段。
+- 条目数：48 条。
+- 构建日期：2026-11-25。
+- 数据来源：MetaCubeX、blackmatrix7、v2fly、ddranic、ACL4SSR，共 5 家作者。
+
 ## 维护说明
 
 - 本仓库按段逐个新增文件：每完成一段自建集，即在本仓库新增对应文件，并同步更新本索引中的条目数、构建日期与数据来源。
