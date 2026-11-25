@@ -1,5 +1,6 @@
-# 版本 v1.0.7 · 更新 2026-11-25 · 共 136 条
-# 涵盖：TikTok、CapCut、Coze、Lark 海外版、BytePlus、Pico 等字节跳动海外服务
+# TikTok_Domain
+# 版本 v2.0.0 · 日期 2026-11-25 · 时间 07:28 · 共 136 条
+# 内容：TikTok、CapCut、Coze、Lark 海外版、BytePlus、Pico 等字节跳动海外服务
 payload:
   - PROCESS-NAME,com.zhiliaoapp.musically
   - DOMAIN,p16-tiktokcdn-com.akamaized.net
