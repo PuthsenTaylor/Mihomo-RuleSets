@@ -121,6 +121,7 @@ payload:
   - DOMAIN-SUFFIX,spaindisney.com
   - DOMAIN-SUFFIX,star-brasil.com
   - DOMAIN-SUFFIX,wwwhuluplus.com
+  - DOMAIN-SUFFIX,disneyworld.com
   - DOMAIN-SUFFIX,disneybaby.com
   - DOMAIN-SUFFIX,disneyplus.com
   - DOMAIN-SUFFIX,fxnetworks.com
@@ -168,6 +169,7 @@ payload:
   - DOMAIN-SUFFIX,mushymush.tv
   - DOMAIN-SUFFIX,starplus.com
   - DOMAIN-SUFFIX,starwars.com
+  - DOMAIN-SUFFIX,natgeotv.com
   - DOMAIN-SUFFIX,abcnews.com
   - DOMAIN-SUFFIX,bamgrid.com
   - DOMAIN-SUFFIX,bamtech.net
@@ -241,5 +243,3 @@ payload:
   - DOMAIN-SUFFIX,hulu.tv
   - DOMAIN-SUFFIX,hulu.us
   - DOMAIN-SUFFIX,go.com
-  - DOMAIN-SUFFIX,natgeotv.com
-  - DOMAIN-SUFFIX,disneyworld.com
