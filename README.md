@@ -16,7 +16,8 @@
 | [Disney_Domain.yaml](Disney_Domain.yaml) | v1.0.2 | 242 | Disney+、Hulu、ESPN、ABC、Marvel、Star Wars、国家地理、Hotstar 等迪士尼家族服务 |
 | [Emby.yaml](Emby.yaml) | v1.0.2 | 18 | Emby、Infuse、VidHub、Forward、Fileball、AfuseKt、FinFlow 等服务与进程名 |
 | [TikTok_Domain.yaml](TikTok_Domain.yaml) | v1.0.7 | 136 | TikTok、CapCut、Coze、Lark 海外版、BytePlus、Pico 等字节跳动海外服务 |
-| [Spotify.yaml](Spotify.yaml) | v1.0.1 | 34 | Spotify、Anchor 等服务域名与 IP 段 |
+| [Spotify_Domain.yaml](Spotify_Domain.yaml) | v1.0.0 | 32 | Spotify、Anchor 等服务域名 |
+| [Spotify_IP.yaml](Spotify_IP.yaml) | v1.0.0 | 2 | Spotify 全球 IP 地址段 |
 | [Telegram.yaml](Telegram.yaml) | v1.0.1 | 53 | Telegram、Telegra.ph、Fragment、TON 等服务及 IP 段 |
 | [Meta.yaml](Meta.yaml) | v1.0.1 | 709 | Facebook、Instagram、WhatsApp、Messenger、Threads、Meta Quest、Meta AI 及 Meta IP 段 |
 | [Twitter.yaml](Twitter.yaml) | v1.0.0 | 48 | X / Twitter、t.co、xAI / Grok 等服务及 IP 段 |
