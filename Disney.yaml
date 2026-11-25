@@ -1,4 +1,4 @@
-# 版本 v1.0.1 · 更新 2026-11-25 · 共 240 条
+# 版本 v1.0.2 · 更新 2026-11-25 · 共 242 条
 # 涵盖：Disney+、Hulu、ESPN、ABC、Marvel、Star Wars、国家地理、Hotstar 等迪士尼家族服务
 payload:
   - PROCESS-NAME,com.disney.datg.videoplatforms.android.abc
@@ -241,3 +241,5 @@ payload:
   - DOMAIN-SUFFIX,hulu.tv
   - DOMAIN-SUFFIX,hulu.us
   - DOMAIN-SUFFIX,go.com
+  - DOMAIN-SUFFIX,natgeotv.com
+  - DOMAIN-SUFFIX,disneyworld.com
