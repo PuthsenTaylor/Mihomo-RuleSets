@@ -362,6 +362,7 @@ payload:
   - DOMAIN-SUFFIX,whatsapp.info
   - DOMAIN-SUFFIX,workplace.com
   - DOMAIN-SUFFIX,worldhack.com
+  - DOMAIN-SUFFIX,instagram.org
   - DOMAIN-SUFFIX,acebooik.com
   - DOMAIN-SUFFIX,atlasdmt.com
   - DOMAIN-SUFFIX,dacebook.com
@@ -555,7 +556,6 @@ payload:
   - DOMAIN-SUFFIX,ig.me
   - DOMAIN-SUFFIX,wa.me
   - DOMAIN-SUFFIX,m.me
-  - DOMAIN-SUFFIX,instagram.org
   - DOMAIN-KEYWORD,facebook
   - DOMAIN-KEYWORD,fbcdn
   - DOMAIN-KEYWORD,instagram
