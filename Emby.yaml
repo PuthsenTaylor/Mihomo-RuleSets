@@ -1,7 +1,12 @@
-# 版本 v1.0.1 · 更新 2026-11-25 · 共 13 条
-# 涵盖：Emby 官方服务（emby.media、mb3admin.com、emby.org、emby.tv）、UHD 服务域名与 FinFlow 客户端进程；第三方 Emby 客户端官方域名（Infuse/Firecore、VidHub、Forward、Fileball、AfuseKt）
+# 版本 v1.0.2 · 更新 2026-11-25 · 共 18 条
+# 涵盖：Emby 官方服务（emby.media、mb3admin.com、emby.org、emby.tv）、UHD 服务域名；第三方 Emby 客户端官方域名（Infuse/Firecore、VidHub、Forward、Fileball、AfuseKt）；进程名：FinFlow 与 Emby 官方应用（Android/Android TV/Windows 客户端与 Emby Server）
 payload:
   - PROCESS-NAME,com.riri.finflow
+  - PROCESS-NAME,com.mb.android
+  - PROCESS-NAME,tv.emby.embyatv
+  - PROCESS-NAME,EmbyClientWinUI.exe
+  - PROCESS-NAME,Emby.Theater.exe
+  - PROCESS-NAME,EmbyServer.exe
   - DOMAIN-SUFFIX,emby.media
   - DOMAIN-SUFFIX,mb3admin.com
   - DOMAIN-SUFFIX,emby.org
