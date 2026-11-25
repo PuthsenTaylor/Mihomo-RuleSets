@@ -1,33 +1,6 @@
-# AI.yaml —— 海外 AI 规则集（自建）
-#
-# 用途：供 Mihomo 以 classical 行为的 rule-provider 方式加载，匹配海外
-#       AI 服务（OpenAI / ChatGPT、Anthropic / Claude、Perplexity、
-#       Poe、Groq、ElevenLabs、HuggingFace、Cursor、Windsurf、GitHub
-#       Copilot、Cerebras、Manus、Civitai、Mistral、Cohere、Midjourney
-#       等）域名；各家 AI 分类中一并收录的 Gemini、Grok、Meta AI 条目
-#       亦在集内（实际走向由调用方配置的段序决定）；命中后的走向由
-#       调用方配置决定。
-# 构建日期：2026-11-25
-# 条目统计：共 248 条（PROCESS-NAME 0 条 / DOMAIN 45 条 / DOMAIN-SUFFIX 196 条 / DOMAIN-KEYWORD 5 条 / IP-CIDR 2 条）
-# 数据来源：MetaCubeX、blackmatrix7、v2fly、ddranic、ACL4SSR、DustinWin，
-#           共 6 家作者公开发布的海外 AI 清单（category-ai-!cn 伞形分类
-#           及 openai / anthropic / perplexity / poe / groq / elevenlabs /
-#           huggingface / cursor / windsurf / cerebras / manus 等品牌
-#           分类；其中 MetaCubeX、ddranic 为 v2fly 数据的转制导出）。
-#           国内 AI 分类（category-ai-cn 等）不在本集范围。
-# 构建方法：多作者全量合并求全集，全部条目逐条出自上述来源，零自建；
-#           集内已完成去重，并剔除被自家更宽条目覆盖的内部冗余条目
-#           14 条；另按「多租户共用平台整段后缀不入集」的既定口径，
-#           于构建时剔除误杀条目 28 条（auth0.com、stripe.com、
-#           sentry.io、intercom.io、liveperson.net 等共享 SaaS 与平台
-#           整段，明细见构建报告）；按「已关停服务不入集」口径剔除
-#           无用条目 2 条（in.appcenter.ms、copilot-workspace.
-#           githubnext.com）。本次各来源均未发布 PROCESS-NAME 条目，
-#           按口径未自建（0 条）。
-# 排序说明：PROCESS-NAME 在前；其后 DOMAIN；其后 DOMAIN-SUFFIX 按长度由长到短；其后 DOMAIN-KEYWORD；
-#           其后 IP-CIDR 按前缀由窄到宽（IPv4 在前、IPv6 在后）。
-# 终审记录：2026-11-25 海外段终审剔除 1 条——DOMAIN-KEYWORD,openaicom-api
-# 被同集 KEYWORD,openai 完全遮蔽，属真冗余。明细见终审报告。
+# AI
+# 版本 v1.0.0 · 更新 2026-11-25 · 共 248 条
+# 涵盖：ChatGPT、Claude、Perplexity、Poe、Groq、HuggingFace、Cursor、Manus 等海外 AI 服务
 payload:
   - DOMAIN,ai.google.dev
   - DOMAIN,alkalicore-pa.clients6.google.com
