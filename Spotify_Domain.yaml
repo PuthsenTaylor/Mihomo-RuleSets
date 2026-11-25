@@ -1,5 +1,5 @@
 # Spotify_Domain
-# 版本 v2.0.0 · 日期 2026-11-25 · 时间 07:28 · 共 32 条
+# 版本 v2.5.0 · 日期 2026-11-25 · 时间 10:04 · 共 32 条
 # 内容：Spotify、Anchor 等服务域名
 payload:
   - PROCESS-NAME,com.spotify.music
