@@ -1,23 +1,6 @@
-# Meta.yaml —— Meta 规则集（自建）
-#
-# 用途：供 Mihomo 以 classical 行为的 rule-provider 方式加载，匹配 Meta
-#       家族（Facebook、Instagram、WhatsApp、Messenger、Threads、
-#       Oculus / Meta Quest 及 Meta AI 等）域名与 Meta IP 地址段；命中
-#       后的走向由调用方配置决定。
-# 构建日期：2026-11-25
-# 条目统计：共 707 条（PROCESS-NAME 0 条 / DOMAIN 0 条 / DOMAIN-SUFFIX 554 条 / DOMAIN-KEYWORD 4 条 / IP-CIDR 149 条）
-# 数据来源：MetaCubeX、blackmatrix7、v2fly、ddranic、ACL4SSR，共 5 家作者
-#           公开发布的 Meta 家族清单（facebook / instagram / whatsapp /
-#           messenger / threads / oculus / meta 分类；其中 MetaCubeX、
-#           ddranic 为 v2fly 数据的转制导出）。
-# 构建方法：多作者全量合并求全集，全部条目逐条出自上述来源，零自建；
-#           集内已完成去重，并剔除被自家更宽条目覆盖的内部冗余条目；
-#           另按「多租户共用平台整段后缀不入集」的既定口径，于构建时
-#           剔除共用平台条目 3 条（atdmt2.com、bintray.com、
-#           ip6.static.sl-reverse.com，明细见构建报告）。本次各来源
-#           均未发布 PROCESS-NAME 条目，按口径未自建（0 条）。
-# 排序说明：PROCESS-NAME 在前；其后 DOMAIN；其后 DOMAIN-SUFFIX 按长度由长到短；其后 DOMAIN-KEYWORD；
-#           其后 IP-CIDR 按前缀由窄到宽（IPv4 在前、IPv6 在后）。
+# Meta
+# 版本 v1.0.0 · 更新 2026-11-25 · 共 707 条
+# 涵盖：Facebook、Instagram、WhatsApp、Messenger、Threads、Meta Quest、Meta AI 及 Meta IP 段
 payload:
   - DOMAIN-SUFFIX,facebookcanadianelectionintegrityinitiative.com
   - DOMAIN-SUFFIX,acheterdesfollowersinstagram.com
