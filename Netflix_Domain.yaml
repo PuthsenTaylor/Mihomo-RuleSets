@@ -1,5 +1,5 @@
 # Netflix_Domain
-# 版本 v2.0.0 · 日期 2026-11-25 · 时间 07:28 · 共 23 条
+# 版本 v2.5.0 · 日期 2026-11-25 · 时间 10:04 · 共 23 条
 # 内容：Netflix、Fast.com 等奈飞服务域名
 payload:
   - PROCESS-NAME,com.netflix.mediaclient
