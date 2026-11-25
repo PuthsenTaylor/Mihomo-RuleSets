@@ -45,6 +45,13 @@
 - 构建日期：2026-11-25。
 - 数据来源：MetaCubeX、blackmatrix7、v2fly、ddranic、ACL4SSR、DustinWin，共 6 家作者。
 
+### Meta.yaml
+
+- 用途：Meta 规则集，覆盖 Meta 家族（Facebook、Instagram、WhatsApp、Messenger、Threads、Oculus / Meta Quest、Meta AI 等）域名与 Meta IP 地址段。
+- 条目数：707 条。
+- 构建日期：2026-11-25。
+- 数据来源：MetaCubeX、blackmatrix7、v2fly、ddranic、ACL4SSR，共 5 家作者。
+
 ### NTP.yaml
 
 - 用途：网络时间服务（NTP）规则集，覆盖全球网络时间服务域名，含国内、中立公共、品牌专属与其他海外条目。
