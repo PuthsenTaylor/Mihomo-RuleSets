@@ -1,5 +1,6 @@
-# 版本 v1.0.0 · 更新 2026-11-25 · 共 27 条
-# 涵盖：X / Twitter、t.co、xAI / Grok 等服务域名
+# Twitter_Domain
+# 版本 v2.0.0 · 日期 2026-11-25 · 时间 07:28 · 共 27 条
+# 内容：X / Twitter、t.co、xAI / Grok 等服务域名
 payload:
   - DOMAIN-SUFFIX,cms-twdigitalassets.com
   - DOMAIN-SUFFIX,twitterflightschool.com
