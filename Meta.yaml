@@ -1,4 +1,4 @@
-# 版本 v1.0.0 · 更新 2026-11-25 · 共 707 条
+# 版本 v1.0.1 · 更新 2026-11-25 · 共 709 条
 # 涵盖：Facebook、Instagram、WhatsApp、Messenger、Threads、Meta Quest、Meta AI 及 Meta IP 段
 payload:
   - DOMAIN-SUFFIX,facebookcanadianelectionintegrityinitiative.com
@@ -555,6 +555,7 @@ payload:
   - DOMAIN-SUFFIX,ig.me
   - DOMAIN-SUFFIX,wa.me
   - DOMAIN-SUFFIX,m.me
+  - DOMAIN-SUFFIX,instagram.org
   - DOMAIN-KEYWORD,facebook
   - DOMAIN-KEYWORD,fbcdn
   - DOMAIN-KEYWORD,instagram
@@ -708,3 +709,4 @@ payload:
   - IP-CIDR,2620:10d:c090::/44
   - IP-CIDR,2620:0:1c00::/40
   - IP-CIDR,2a03:2880::/32
+  - IP-ASN,32934
