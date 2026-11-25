@@ -1,26 +1,6 @@
-# Netflix.yaml —— 奈飞（Netflix）规则集（自建）
-#
-# 用途：供 Mihomo 以 classical 行为的 rule-provider 方式加载，匹配奈飞
-#       （Netflix）及其服务（流媒体、Fast.com 测速、DNS 检测等）域名与
-#       奈飞 IP 地址段；命中后的走向由调用方配置决定。
-# 构建日期：2026-11-25
-# 条目统计：共 1155 条（PROCESS-NAME 1 条 / DOMAIN 2 条 / DOMAIN-SUFFIX 27 条 / DOMAIN-KEYWORD 4 条 / IP-CIDR 1121 条）
-# 数据来源：MetaCubeX、blackmatrix7、v2fly、ddranic、ACL4SSR、DustinWin，
-#           共 6 家作者公开发布的奈飞清单（其中 MetaCubeX、ddranic 为
-#           v2fly 数据的转制导出；DustinWin 的 IP 清单与 blackmatrix7
-#           的 IP 清单高度同集）。
-# 构建方法：多作者全量合并求全集，全部条目逐条出自上述来源，零自建；
-#           集内已完成去重，并剔除被自家更宽条目覆盖的内部冗余条目。
-# 排序说明：PROCESS-NAME 置于首部；其后 DOMAIN；其后 DOMAIN-SUFFIX 按长度由长到短；其后 DOMAIN-KEYWORD；
-#           其后 IP-CIDR 按前缀由窄到宽（IPv4 在前、IPv6 在后）。
-# 删改记录：2026-11-25 按用户裁决删除共用设施条目 3 条（共用平台整段属误杀，
-#           宁可漏、不误拉）：DOMAIN-SUFFIX,onetrust.com、DOMAIN-SUFFIX,cookielaw.org、
-#           DOMAIN-SUFFIX,us-west-2.amazonaws.com。上述流量今后不经本集命中，
-#           落调用方后续规则。
-# 补入记录：2026-11-25 按用户新口径补入作者发布的进程规则 1 条
-#           （PROCESS-NAME，置于 payload 首部）：出自 blackmatrix7 公开
-#           清单、逐字收录、零自建。此前构建按旧口径（进程规则不入集）
-#           未收，现按新口径（作者有发布即列入）补齐。
+# Netflix
+# 版本 v1.0.0 · 更新 2026-11-25 · 共 1155 条
+# 涵盖：Netflix 流媒体、Fast.com 测速等服务与奈飞 IP 段
 payload:
   - PROCESS-NAME,com.netflix.mediaclient
   - DOMAIN,e13252.dscg.akamaiedge.net
