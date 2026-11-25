@@ -1,5 +1,6 @@
-# 版本 v1.0.0 · 更新 2026-11-25 · 共 35 条
-# 涵盖：Telegram、Telegra.ph、Fragment、TON 等服务域名
+# Telegram_Domain
+# 版本 v2.0.0 · 日期 2026-11-25 · 时间 07:28 · 共 35 条
+# 内容：Telegram、Telegra.ph、Fragment、TON 等服务域名
 payload:
   - PROCESS-NAME,nekox.messenger
   - PROCESS-NAME,org.telegram.messenger
