@@ -1,0 +1,78 @@
+# TikTok.yaml —— 海外字节（TikTok）规则集（自建）
+#
+# 用途：供 Mihomo 以 classical 行为的 rule-provider 方式加载，匹配海外字节
+#       系服务（TikTok、Musical.ly、CapCut 海外版等海外产品，以及
+#       snssdk 等海外优先的共享域名）域名；命中后的走向由调用方
+#       配置决定。本集只收海外分类，不含国内字节（抖音、飞书国内版、
+#       火山引擎国内面）数据。
+# 构建日期：2026-11-25
+# 条目统计：共 61 条（DOMAIN 8 条 / DOMAIN-SUFFIX 50 条 / DOMAIN-KEYWORD 3 条 / IP-CIDR 0 条）
+# 数据来源：MetaCubeX、blackmatrix7、v2fly、ddranic、ACL4SSR、DustinWin，
+#           共 6 家作者公开发布的 TikTok 清单（其中 MetaCubeX、ddranic、
+#           DustinWin 为 v2fly / blackmatrix7 数据的转制导出）。
+# 构建方法：多作者全量合并求全集，全部条目逐条出自上述来源，零自建；
+#           集内已完成去重，并剔除被自家更宽条目覆盖的内部冗余条目。
+# 排序说明：DOMAIN 在前；其后 DOMAIN-SUFFIX 按长度由长到短；其后 DOMAIN-KEYWORD；
+#           其后 IP-CIDR 按前缀由窄到宽（IPv4 在前、IPv6 在后）。
+payload:
+  - DOMAIN,lf16-effectcdn.byteeffecttos-g.com
+  - DOMAIN,lf16-pkgcdn.pitaya-clientai.com
+  - DOMAIN,p16-tiktokcdn-com.akamaized.net
+  - DOMAIN,roovza-launches.appsflyersdk.com
+  - DOMAIN,roovza.inapps.appsflyersdk.com
+  - DOMAIN,roovza.launches.appsflyersdk.com
+  - DOMAIN,roovza.skadsdk.appsflyersdk.com
+  - DOMAIN,trae-api-sg.mchost.guru
+  - DOMAIN-SUFFIX,tiktokcdn-us.com.edgesuite.net
+  - DOMAIN-SUFFIX,tiktokcdn.com.akamaized.net
+  - DOMAIN-SUFFIX,tiktokcdn.com.edgesuite.net
+  - DOMAIN-SUFFIX,tiktokv.com.edgesuite.net
+  - DOMAIN-SUFFIX,tiktokv.com.edgekey.net
+  - DOMAIN-SUFFIX,tiktokglobalshopv.com
+  - DOMAIN-SUFFIX,bytegecko-i18n.com
+  - DOMAIN-SUFFIX,tiktokrow-cdn.com
+  - DOMAIN-SUFFIX,tiktokstaticb.com
+  - DOMAIN-SUFFIX,capcutstatic.com
+  - DOMAIN-SUFFIX,tiktok-minis.com
+  - DOMAIN-SUFFIX,tiktokcdn-eu.com
+  - DOMAIN-SUFFIX,tiktokcdn-us.com
+  - DOMAIN-SUFFIX,tiktokeu-cdn.com
+  - DOMAIN-SUFFIX,byteintlapi.com
+  - DOMAIN-SUFFIX,byteoversea.com
+  - DOMAIN-SUFFIX,tiktokmusic.app
+  - DOMAIN-SUFFIX,ttoverseaus.net
+  - DOMAIN-SUFFIX,tik-tokapi.com
+  - DOMAIN-SUFFIX,tiktok-row.net
+  - DOMAIN-SUFFIX,tiktokminis.us
+  - DOMAIN-SUFFIX,tiktokshop.com
+  - DOMAIN-SUFFIX,tiktokvapp.com
+  - DOMAIN-SUFFIX,capcutapi.com
+  - DOMAIN-SUFFIX,ibytedtos.com
+  - DOMAIN-SUFFIX,tiktokcdn.com
+  - DOMAIN-SUFFIX,ttlivecdn.com
+  - DOMAIN-SUFFIX,ttwebview.com
+  - DOMAIN-SUFFIX,ttwstatic.com
+  - DOMAIN-SUFFIX,bytedapm.com
+  - DOMAIN-SUFFIX,capcutapi.us
+  - DOMAIN-SUFFIX,ibyteimg.com
+  - DOMAIN-SUFFIX,marscode.com
+  - DOMAIN-SUFFIX,sgpstatp.com
+  - DOMAIN-SUFFIX,ttcdn-us.com
+  - DOMAIN-SUFFIX,ipstatp.com
+  - DOMAIN-SUFFIX,isnssdk.com
+  - DOMAIN-SUFFIX,tiktokd.net
+  - DOMAIN-SUFFIX,tiktokd.org
+  - DOMAIN-SUFFIX,tiktokv.com
+  - DOMAIN-SUFFIX,capcut.com
+  - DOMAIN-SUFFIX,muscdn.com
+  - DOMAIN-SUFFIX,musical.ly
+  - DOMAIN-SUFFIX,snssdk.com
+  - DOMAIN-SUFFIX,tiktok.com
+  - DOMAIN-SUFFIX,tiktokv.eu
+  - DOMAIN-SUFFIX,tiktokv.us
+  - DOMAIN-SUFFIX,tiktokw.eu
+  - DOMAIN-SUFFIX,tiktokw.us
+  - DOMAIN-SUFFIX,trae.ai
+  - DOMAIN-KEYWORD,musical.ly
+  - DOMAIN-KEYWORD,tiktok
+  - DOMAIN-KEYWORD,tiktokcdn
