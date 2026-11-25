@@ -24,5 +24,6 @@
 | [Meta_IP.yaml](Meta_IP.yaml) | v1.0.0 | 150 | Meta 全球 IP 地址段 |
 | [Twitter_Domain.yaml](Twitter_Domain.yaml) | v1.0.0 | 27 | X / Twitter、t.co、xAI / Grok 等服务域名 |
 | [Twitter_IP.yaml](Twitter_IP.yaml) | v1.0.0 | 21 | X / Twitter 全球 IP 地址段 |
-| [AI.yaml](AI.yaml) | v1.0.3 | 208 | ChatGPT、Claude、Perplexity、Midjourney、Runway、Suno、Cursor、Copilot 等海外 AI 服务 |
+| [AI_Domain.yaml](AI_Domain.yaml) | v1.0.0 | 206 | ChatGPT、Claude、Perplexity、Midjourney、Runway、Suno、Cursor、Copilot 等海外 AI 服务域名 |
+| [AI_IP.yaml](AI_IP.yaml) | v1.0.0 | 2 | 海外 AI 服务 IP 地址段 |
 | [Domestic-Direct.yaml](Domestic-Direct.yaml) | v1.0.9 | 6151 | 五家交易所、腾讯、阿里巴巴、京东、拼多多、美团、百度、字节跳动国内全系等国内服务直连 |
