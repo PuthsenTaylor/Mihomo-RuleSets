@@ -15,7 +15,7 @@
 | [Netflix_IP.yaml](Netflix_IP.yaml) | v2.0.0 | 1121 | 奈飞全球 IP 地址段 |
 | [Disney_Domain.yaml](Disney_Domain.yaml) | v2.0.0 | 242 | Disney+、Hulu、ESPN、ABC、Marvel、Star Wars、国家地理、Hotstar 等迪士尼家族服务 |
 | [Emby_Domain.yaml](Emby_Domain.yaml) | v2.0.0 | 18 | Emby、Infuse、VidHub、Forward、Fileball、AfuseKt、FinFlow 等服务与进程名 |
-| [TikTok_Domain.yaml](TikTok_Domain.yaml) | v2.0.1 | 295 | TikTok、CapCut、Coze、Lark 海外版、BytePlus、Pico 等字节跳动海外服务及全球共用基础设施 |
+| [TikTok_Domain.yaml](TikTok_Domain.yaml) | v2.0.2 | 246 | TikTok、CapCut、Coze、Lark 海外版、BytePlus、Pico 等字节跳动海外服务及全球共用基础设施 |
 | [TikTok_IP.yaml](TikTok_IP.yaml) | v2.0.0 | 1 | 字节跳动官方 ASN（AS396986）地址段 |
 | [Spotify_Domain.yaml](Spotify_Domain.yaml) | v2.0.0 | 32 | Spotify、Anchor 等服务域名 |
 | [Spotify_IP.yaml](Spotify_IP.yaml) | v2.0.0 | 2 | Spotify 全球 IP 地址段 |
@@ -27,5 +27,5 @@
 | [Twitter_IP.yaml](Twitter_IP.yaml) | v2.0.0 | 21 | X / Twitter 全球 IP 地址段 |
 | [AI_Domain.yaml](AI_Domain.yaml) | v2.0.0 | 206 | ChatGPT、Claude、Perplexity、Midjourney、Runway、Suno、Cursor、Copilot 等海外 AI 服务域名 |
 | [AI_IP.yaml](AI_IP.yaml) | v2.0.0 | 2 | 海外 AI 服务 IP 地址段 |
-| [Domestic-Direct_Domain.yaml](Domestic-Direct_Domain.yaml) | v2.0.1 | 5790 | 币安、欧易等交易所，腾讯、阿里巴巴、字节跳动、京东、百度、三网运营商等国内服务域名 |
+| [Domestic-Direct_Domain.yaml](Domestic-Direct_Domain.yaml) | v2.0.2 | 5840 | 币安、欧易等交易所，腾讯、阿里巴巴、字节跳动、京东、百度、三网运营商等国内服务域名 |
 | [Domestic-Direct_IP.yaml](Domestic-Direct_IP.yaml) | v2.0.0 | 200 | 国内服务 IP 地址段 |
