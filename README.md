@@ -13,14 +13,14 @@
 ### Apple.yaml
 
 - 用途：苹果（Apple）规则集，覆盖苹果及其服务（iCloud、Apple Music、App Store、Apple TV 等）域名与苹果 IP 地址段。
-- 条目数：1,606 条（2026-11-25 按用户裁决删除共用设施条目 7 条）。
+- 条目数：1,619 条（2026-11-25 按用户裁决删除共用设施条目 7 条；同日按新口径补入进程规则 13 条）。
 - 构建日期：2026-11-25。
 - 数据来源：MetaCubeX、blackmatrix7、v2fly、ddranic、ACL4SSR、DustinWin、Loyalsoldier，共 7 家作者。
 
 ### Disney.yaml
 
 - 用途：迪士尼（Disney）规则集，覆盖迪士尼家族（Disney+、Hulu、ESPN、ABC、Marvel、Star Wars、国家地理、Hotstar、Star+ 等子品牌）域名。
-- 条目数：236 条（2026-11-25 按用户裁决删除共用平台条目 7 条）。
+- 条目数：239 条（2026-11-25 按用户裁决删除共用平台条目 7 条；同日按新口径补入进程规则 3 条）。
 - 构建日期：2026-11-25。
 - 数据来源：MetaCubeX、blackmatrix7、v2fly、ddranic、ACL4SSR、DustinWin，共 6 家作者。
 
@@ -34,14 +34,14 @@
 ### Google.yaml
 
 - 用途：谷歌（Google）规则集，覆盖谷歌及其子品牌（YouTube、Gmail、Google Play 等）域名与谷歌 IP 地址段。
-- 条目数：7,976 条。
+- 条目数：7,982 条（2026-11-25 按新口径补入进程规则 6 条）。
 - 构建日期：2026-11-25。
 - 数据来源：MetaCubeX、blackmatrix7、v2fly、ddranic、ACL4SSR、DustinWin、Loyalsoldier，共 7 家作者。
 
 ### Netflix.yaml
 
 - 用途：奈飞（Netflix）规则集，覆盖奈飞及其服务（流媒体、Fast.com 测速、DNS 检测等）域名与奈飞 IP 地址段。
-- 条目数：1,154 条（2026-11-25 按用户裁决删除共用设施条目 3 条）。
+- 条目数：1,155 条（2026-11-25 按用户裁决删除共用设施条目 3 条；同日按新口径补入进程规则 1 条）。
 - 构建日期：2026-11-25。
 - 数据来源：MetaCubeX、blackmatrix7、v2fly、ddranic、ACL4SSR、DustinWin，共 6 家作者。
 
@@ -62,21 +62,21 @@
 ### Spotify.yaml
 
 - 用途：Spotify 规则集，覆盖 Spotify 音乐流媒体服务及其官方域名与 IP 地址段。
-- 条目数：34 条。
+- 条目数：35 条（2026-11-25 按新口径补入进程规则 1 条）。
 - 构建日期：2026-11-25。
 - 数据来源：MetaCubeX、blackmatrix7、v2fly、ddranic、ACL4SSR、DustinWin，共 6 家作者。
 
 ### Telegram.yaml
 
 - 用途：Telegram 规则集，覆盖 Telegram 即时通讯服务（官方客户端、桌面端、网页端、Telegra.ph、Fragment 与 TON 生态入口等）域名与 Telegram IP 地址段。
-- 条目数：42 条。
+- 条目数：48 条（2026-11-25 按新口径补入进程规则 6 条）。
 - 构建日期：2026-11-25。
 - 数据来源：MetaCubeX、blackmatrix7、v2fly、ddranic、ACL4SSR、DustinWin、Loyalsoldier，共 7 家作者。
 
 ### TikTok.yaml
 
 - 用途：海外字节（TikTok）规则集，覆盖 TikTok、Musical.ly、CapCut 海外版等海外字节系服务域名；只收海外分类，不含国内字节数据。
-- 条目数：61 条。
+- 条目数：62 条（2026-11-25 按新口径补入进程规则 1 条）。
 - 构建日期：2026-11-25。
 - 数据来源：MetaCubeX、blackmatrix7、v2fly、ddranic、ACL4SSR、DustinWin，共 6 家作者。
 
