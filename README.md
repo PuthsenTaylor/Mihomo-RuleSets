@@ -59,6 +59,13 @@
 - 构建日期：2026-11-25。
 - 数据来源：MetaCubeX、blackmatrix7、v2fly、ddranic、ACL4SSR、DustinWin，共 6 家作者。
 
+### Telegram.yaml
+
+- 用途：Telegram 规则集，覆盖 Telegram 即时通讯服务（官方客户端、桌面端、网页端、Telegra.ph、Fragment 与 TON 生态入口等）域名与 Telegram IP 地址段。
+- 条目数：42 条。
+- 构建日期：2026-11-25。
+- 数据来源：MetaCubeX、blackmatrix7、v2fly、ddranic、ACL4SSR、DustinWin、Loyalsoldier，共 7 家作者。
+
 ### TikTok.yaml
 
 - 用途：海外字节（TikTok）规则集，覆盖 TikTok、Musical.ly、CapCut 海外版等海外字节系服务域名；只收海外分类，不含国内字节数据。
