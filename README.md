@@ -17,6 +17,13 @@
 - 构建日期：2026-11-25。
 - 数据来源：MetaCubeX、blackmatrix7、ACL4SSR、v2fly、DustinWin、Aethersailor、Loyalsoldier，共 7 家作者。
 
+### NTP.yaml
+
+- 用途：网络时间服务（NTP）规则集，覆盖全球网络时间服务域名，含国内、中立公共、品牌专属与其他海外条目。
+- 条目数：169 条。
+- 构建日期：2026-11-25。
+- 数据来源：v2fly、MetaCubeX、ddranic、blackmatrix7，共 4 家作者。
+
 ## 维护说明
 
 - 本仓库按段逐个新增文件：每完成一段自建集，即在本仓库新增对应文件，并同步更新本索引中的条目数、构建日期与数据来源。
