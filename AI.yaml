@@ -8,7 +8,7 @@
 #       亦在集内（实际走向由调用方配置的段序决定）；命中后的走向由
 #       调用方配置决定。
 # 构建日期：2026-11-25
-# 条目统计：共 249 条（PROCESS-NAME 0 条 / DOMAIN 45 条 / DOMAIN-SUFFIX 196 条 / DOMAIN-KEYWORD 6 条 / IP-CIDR 2 条）
+# 条目统计：共 248 条（PROCESS-NAME 0 条 / DOMAIN 45 条 / DOMAIN-SUFFIX 196 条 / DOMAIN-KEYWORD 5 条 / IP-CIDR 2 条）
 # 数据来源：MetaCubeX、blackmatrix7、v2fly、ddranic、ACL4SSR、DustinWin，
 #           共 6 家作者公开发布的海外 AI 清单（category-ai-!cn 伞形分类
 #           及 openai / anthropic / perplexity / poe / groq / elevenlabs /
@@ -26,6 +26,8 @@
 #           按口径未自建（0 条）。
 # 排序说明：PROCESS-NAME 在前；其后 DOMAIN；其后 DOMAIN-SUFFIX 按长度由长到短；其后 DOMAIN-KEYWORD；
 #           其后 IP-CIDR 按前缀由窄到宽（IPv4 在前、IPv6 在后）。
+# 终审记录：2026-11-25 海外段终审剔除 1 条——DOMAIN-KEYWORD,openaicom-api
+# 被同集 KEYWORD,openai 完全遮蔽，属真冗余。明细见终审报告。
 payload:
   - DOMAIN,ai.google.dev
   - DOMAIN,alkalicore-pa.clients6.google.com
@@ -273,6 +275,5 @@ payload:
   - DOMAIN-KEYWORD,claude
   - DOMAIN-KEYWORD,generativelanguage
   - DOMAIN-KEYWORD,openai
-  - DOMAIN-KEYWORD,openaicom-api
   - IP-CIDR,24.199.123.28/32
   - IP-CIDR,64.23.132.171/32
