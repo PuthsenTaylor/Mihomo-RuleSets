@@ -15,7 +15,7 @@
 | [Netflix.yaml](Netflix.yaml) | v1.0.1 | 2026-11-25 | 1144 | Netflix 流媒体、Fast.com 测速等服务与奈飞 IP 段 |
 | [Disney.yaml](Disney.yaml) | v1.0.2 | 2026-11-25 | 242 | Disney+、Hulu、ESPN、ABC、Marvel、Star Wars、国家地理、Hotstar 等迪士尼家族服务 |
 | [Emby.yaml](Emby.yaml) | v1.0.0 | 2026-11-25 | 8 | Emby 官方服务（emby.media、mb3admin.com、emby.org、emby.tv）、UHD 服务域名与 FinFlow 客户端进程 |
-| [TikTok.yaml](TikTok.yaml) | v1.0.4 | 2026-11-25 | 113 | TikTok、CapCut、Coze、Lark 海外版、BytePlus 等字节跳动海外服务 |
+| [TikTok.yaml](TikTok.yaml) | v1.0.5 | 2026-11-25 | 114 | TikTok、CapCut、Coze、Lark 海外版、BytePlus 等字节跳动海外服务；Pico 全球站 picoxr.com 为用户授权点名补入（无作者出处） |
 | [Spotify.yaml](Spotify.yaml) | v1.0.1 | 2026-11-25 | 34 | Spotify 音乐流媒体、Anchor 播客服务域名与 IP 段 |
 | [Telegram.yaml](Telegram.yaml) | v1.0.1 | 2026-11-25 | 53 | Telegram 客户端、Telegra.ph、Fragment 与 TON 入口及 Telegram IP 段 |
 | [Meta.yaml](Meta.yaml) | v1.0.1 | 2026-11-25 | 709 | Facebook、Instagram、WhatsApp、Messenger、Threads、Meta Quest、Meta AI 及 Meta IP 段 |
