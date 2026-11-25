@@ -1,22 +1,22 @@
-# 版本 v1.0.6 · 更新 2026-11-25 · 共 123 条
-# 涵盖：TikTok、CapCut、Coze、Lark 海外版、BytePlus 等字节跳动海外服务；Pico 全球站 picoxr.com 为用户授权点名补入（七家作者均未发布、无作者出处）；BytePlus 基础设施域名 ivolces.com / ivolces-test.com（v2fly、MCX 有出处，原误判国内、自 DD 集改判移入）与 bytepluses.com、cr.volces.com 海外实证主机 6 条经 BytePlus 官方文档实证补入
+# 版本 v1.0.7 · 更新 2026-11-25 · 共 136 条
+# 涵盖：TikTok、CapCut、Coze、Lark 海外版、BytePlus 等字节跳动海外服务；Pico 全球站 picoxr.com 为用户授权点名补入（七家作者均未发布、无作者出处）；BytePlus 基础设施域名 ivolces.com / ivolces-test.com（v2fly、MCX 有出处，原误判国内、自 DD 集改判移入）与 bytepluses.com、cr.volces.com 海外实证主机 6 条经 BytePlus 官方文档实证补入；全量捕获复查（2026-11-25）补入海外产品官方域名 7 条（Gauth 的 gauthmath.com / gauth.com / gauthai.com、Hypic 的 hypic.com、Fizzo 的 fizzo.org、Pangle 的 pangleglobal.com、Pico 的 picovr.com，均无作者出处、凭官方实证 + 用户授权）与 BytePlus 区域戳关键词 6 条（volces.com 海外区域 ap-southeast-1 / ap-southeast-3 的横线式、点式与 .cr 子段三种形态）；6 台精确 CDN/SDK 主机（lf16-effectcdn / lf16-pkgcdn / roovza 系 4 台）由 DOMAIN 放宽为 DOMAIN-SUFFIX（作者有出处、类型放宽，杜绝其子域落 MATCH）
 payload:
   - PROCESS-NAME,com.zhiliaoapp.musically
-  - DOMAIN,lf16-effectcdn.byteeffecttos-g.com
-  - DOMAIN,lf16-pkgcdn.pitaya-clientai.com
   - DOMAIN,p16-tiktokcdn-com.akamaized.net
-  - DOMAIN,roovza-launches.appsflyersdk.com
-  - DOMAIN,roovza.inapps.appsflyersdk.com
-  - DOMAIN,roovza.launches.appsflyersdk.com
-  - DOMAIN,roovza.skadsdk.appsflyersdk.com
   - DOMAIN,sf3-ttcdn-tos.pstatp.com
   - DOMAIN-SUFFIX,dataleap-johor-ap-southeast-1.cr.volces.com
   - DOMAIN-SUFFIX,ai-containers-ap-southeast-1.cr.volces.com
   - DOMAIN-SUFFIX,cp-enterprise-ap-southeast-1.cr.volces.com
   - DOMAIN-SUFFIX,elkeid-ap-southeast-1.cr.volces.com
+  - DOMAIN-SUFFIX,lf16-effectcdn.byteeffecttos-g.com
   - DOMAIN-SUFFIX,vemlp-ap-southeast-1.cr.volces.com
   - DOMAIN-SUFFIX,frontier-lark-lb-v3.lf.bytelb.net
+  - DOMAIN-SUFFIX,roovza-launches.appsflyersdk.com
+  - DOMAIN-SUFFIX,roovza.launches.appsflyersdk.com
   - DOMAIN-SUFFIX,vke-ap-southeast-1.cr.volces.com
+  - DOMAIN-SUFFIX,lf16-pkgcdn.pitaya-clientai.com
+  - DOMAIN-SUFFIX,roovza.skadsdk.appsflyersdk.com
+  - DOMAIN-SUFFIX,roovza.inapps.appsflyersdk.com
   - DOMAIN-SUFFIX,tiktokcdn-us.com.edgesuite.net
   - DOMAIN-SUFFIX,larkoffice.com.bytedns1.com
   - DOMAIN-SUFFIX,tiktokcdn.com.akamaized.net
@@ -55,6 +55,7 @@ payload:
   - DOMAIN-SUFFIX,larkmeetings.com
   - DOMAIN-SUFFIX,larksuitecdn.com
   - DOMAIN-SUFFIX,larksuiteimg.com
+  - DOMAIN-SUFFIX,pangleglobal.com
   - DOMAIN-SUFFIX,thelarkcloud.com
   - DOMAIN-SUFFIX,tiktok-minis.com
   - DOMAIN-SUFFIX,tiktokcdn-eu.com
@@ -77,6 +78,7 @@ payload:
   - DOMAIN-SUFFIX,bytedance.net
   - DOMAIN-SUFFIX,capcutapi.com
   - DOMAIN-SUFFIX,ciciaicdn.com
+  - DOMAIN-SUFFIX,gauthmath.com
   - DOMAIN-SUFFIX,ibytedtos.com
   - DOMAIN-SUFFIX,larkcloud.com
   - DOMAIN-SUFFIX,larkcloud.net
@@ -95,6 +97,7 @@ payload:
   - DOMAIN-SUFFIX,sgpstatp.com
   - DOMAIN-SUFFIX,ttcdn-us.com
   - DOMAIN-SUFFIX,byteglb.com
+  - DOMAIN-SUFFIX,gauthai.com
   - DOMAIN-SUFFIX,ipstatp.com
   - DOMAIN-SUFFIX,isnssdk.com
   - DOMAIN-SUFFIX,ivolces.com
@@ -108,6 +111,7 @@ payload:
   - DOMAIN-SUFFIX,larkvc.com
   - DOMAIN-SUFFIX,muscdn.com
   - DOMAIN-SUFFIX,musical.ly
+  - DOMAIN-SUFFIX,picovr.com
   - DOMAIN-SUFFIX,picoxr.com
   - DOMAIN-SUFFIX,snssdk.com
   - DOMAIN-SUFFIX,tiktok.com
@@ -115,11 +119,20 @@ payload:
   - DOMAIN-SUFFIX,tiktokv.us
   - DOMAIN-SUFFIX,tiktokw.eu
   - DOMAIN-SUFFIX,tiktokw.us
+  - DOMAIN-SUFFIX,fizzo.org
+  - DOMAIN-SUFFIX,gauth.com
+  - DOMAIN-SUFFIX,hypic.com
   - DOMAIN-SUFFIX,cici.com
   - DOMAIN-SUFFIX,coze.com
   - DOMAIN-SUFFIX,dola.com
   - DOMAIN-SUFFIX,lark.com
   - DOMAIN-SUFFIX,trae.ai
+  - DOMAIN-KEYWORD,-ap-southeast-1.volces.com
+  - DOMAIN-KEYWORD,-ap-southeast-3.volces.com
+  - DOMAIN-KEYWORD,.ap-southeast-1.volces.com
+  - DOMAIN-KEYWORD,.ap-southeast-3.volces.com
+  - DOMAIN-KEYWORD,ap-southeast-1.cr.volces.com
+  - DOMAIN-KEYWORD,ap-southeast-3.cr.volces.com
   - DOMAIN-KEYWORD,capcut
   - DOMAIN-KEYWORD,musical.ly
   - DOMAIN-KEYWORD,tiktok
