@@ -18,7 +18,8 @@
 | [TikTok_Domain.yaml](TikTok_Domain.yaml) | v1.0.7 | 136 | TikTok、CapCut、Coze、Lark 海外版、BytePlus、Pico 等字节跳动海外服务 |
 | [Spotify_Domain.yaml](Spotify_Domain.yaml) | v1.0.0 | 32 | Spotify、Anchor 等服务域名 |
 | [Spotify_IP.yaml](Spotify_IP.yaml) | v1.0.0 | 2 | Spotify 全球 IP 地址段 |
-| [Telegram.yaml](Telegram.yaml) | v1.0.1 | 53 | Telegram、Telegra.ph、Fragment、TON 等服务及 IP 段 |
+| [Telegram_Domain.yaml](Telegram_Domain.yaml) | v1.0.0 | 35 | Telegram、Telegra.ph、Fragment、TON 等服务域名 |
+| [Telegram_IP.yaml](Telegram_IP.yaml) | v1.0.0 | 18 | Telegram 全球 IP 地址段 |
 | [Meta.yaml](Meta.yaml) | v1.0.1 | 709 | Facebook、Instagram、WhatsApp、Messenger、Threads、Meta Quest、Meta AI 及 Meta IP 段 |
 | [Twitter.yaml](Twitter.yaml) | v1.0.0 | 48 | X / Twitter、t.co、xAI / Grok 等服务及 IP 段 |
 | [AI.yaml](AI.yaml) | v1.0.3 | 208 | ChatGPT、Claude、Perplexity、Midjourney、Runway、Suno、Cursor、Copilot 等海外 AI 服务 |
