@@ -1,5 +1,6 @@
-# 版本 v1.0.2 · 更新 2026-11-25 · 共 18 条
-# 涵盖：Emby、Infuse、VidHub、Forward、Fileball、AfuseKt、FinFlow 等服务与进程名
+# Emby_Domain
+# 版本 v2.0.0 · 日期 2026-11-25 · 时间 07:28 · 共 18 条
+# 内容：Emby、Infuse、VidHub、Forward、Fileball、AfuseKt、FinFlow 等服务与进程名
 payload:
   - PROCESS-NAME,com.riri.finflow
   - PROCESS-NAME,com.mb.android
