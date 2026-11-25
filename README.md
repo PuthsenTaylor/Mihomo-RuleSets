@@ -11,7 +11,7 @@
 | [LAN.yaml](LAN.yaml) | v1.0.1 | 2026-11-25 | 170 | 局域网域名、私有 IP 地址段与本地服务发现域名 |
 | [NTP.yaml](NTP.yaml) | v1.0.0 | 2026-11-25 | 169 | 全球 NTP 时间服务器域名（NTP Pool、品牌时间服务与国内外公共 NTP 服务器） |
 | [Google.yaml](Google.yaml) | v1.0.1 | 2026-11-25 | 7976 | YouTube、Gmail、Gemini、Google Play 等谷歌全线服务与谷歌 IP 段 |
-| [Apple.yaml](Apple.yaml) | v1.0.2 | 2026-11-25 | 1614 | iCloud、App Store、Apple Music、Apple TV、Beats 等苹果全线服务与苹果 IP 段 |
+| [Apple.yaml](Apple.yaml) | v1.0.3 | 2026-11-25 | 1482 | iCloud、App Store、Apple Music、Apple TV、Beats 等苹果全线服务与苹果 IP 段 |
 | [Netflix.yaml](Netflix.yaml) | v1.0.1 | 2026-11-25 | 1144 | Netflix 流媒体、Fast.com 测速等服务与奈飞 IP 段 |
 | [Disney.yaml](Disney.yaml) | v1.0.2 | 2026-11-25 | 242 | Disney+、Hulu、ESPN、ABC、Marvel、Star Wars、国家地理、Hotstar 等迪士尼家族服务 |
 | [Emby.yaml](Emby.yaml) | v1.0.0 | 2026-11-25 | 8 | Emby 官方服务（emby.media、mb3admin.com、emby.org、emby.tv）、UHD 服务域名与 FinFlow 客户端进程 |
