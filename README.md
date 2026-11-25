@@ -20,4 +20,4 @@
 | [Meta.yaml](Meta.yaml) | v1.0.0 | 2026-11-25 | 707 | Facebook、Instagram、WhatsApp、Messenger、Threads、Meta Quest、Meta AI 及 Meta IP 段 |
 | [Twitter.yaml](Twitter.yaml) | v1.0.0 | 2026-11-25 | 48 | X / Twitter、t.co 短链、xAI / Grok 及 Twitter IP 段 |
 | [AI.yaml](AI.yaml) | v1.0.1 | 2026-11-25 | 180 | ChatGPT、Claude、Perplexity、Poe、Groq、HuggingFace、Cursor、Manus 等海外 AI 服务 |
-| [CN.yaml](CN.yaml) | v1.0.1 | 2026-11-25 | 4816 | 腾讯、阿里、京东、拼多多、美团、得物、三网运营商、OPPO/OnePlus、国产 AI、币安/欧易/Gate/Bybit/Bitget 交易所等国内服务 |
+| [Domestic-Direct.yaml](Domestic-Direct.yaml) | v1.0.0 | 2026-11-25 | 93 | Binance（币安）、OKX（欧易）、Gate、Bitget、Bybit 五家交易所（国内直连重构第一步，余下国内服务待补） |
