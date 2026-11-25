@@ -4,7 +4,7 @@
 #       及其服务（iCloud、Apple Music、App Store、Apple TV 等）域名与
 #       苹果 IP 地址段；命中后的走向由调用方配置决定。
 # 构建日期：2026-11-25
-# 条目统计：共 1619 条（PROCESS-NAME 13 条 / DOMAIN 3 条 / DOMAIN-SUFFIX 1587 条 / DOMAIN-KEYWORD 3 条 / IP-CIDR 13 条）
+# 条目统计：共 1614 条（PROCESS-NAME 8 条 / DOMAIN 3 条 / DOMAIN-SUFFIX 1587 条 / DOMAIN-KEYWORD 3 条 / IP-CIDR 13 条）
 # 数据来源：MetaCubeX、blackmatrix7、v2fly、ddranic、ACL4SSR、DustinWin、
 #           Loyalsoldier，共 7 家作者公开发布的苹果清单（其中 MetaCubeX、
 #           ddranic、Loyalsoldier 为 v2fly 数据的转制导出）。
@@ -17,22 +17,20 @@
 #           DOMAIN,e16991.b.akamaiedge.net、DOMAIN-KEYWORD,apple-support.akadns.net、
 #           DOMAIN-KEYWORD,apple.com.akadns.net、DOMAIN-KEYWORD,icloud.com.akadns.net、
 #           DOMAIN-KEYWORD,smp-device。上述流量今后不经本集命中，落调用方后续规则。
-# 补入记录：2026-11-25 按用户新口径补入作者发布的进程规则 13 条
+# 补入记录：2026-11-25 按用户新口径补入作者发布的进程规则 8 条
 #           （PROCESS-NAME，置于 payload 首部）：出自 blackmatrix7 公开
 #           清单、逐字收录、零自建。此前构建按旧口径（进程规则不入集）
-#           未收，现按新口径（作者有发布即列入）补齐。
+#           未收，现按新口径（作者有发布即列入）补齐。另有同出该清单的
+#           5 条系统通用进程名（trustd、netbiosd、com.apple.geod、
+#           CoreLocationAgent、LookupViewService）按用户误杀门槛未收：
+#           均为面向全系统的通用设施，非苹果服务专属，收录即误杀。
 payload:
   - PROCESS-NAME,apsd
-  - PROCESS-NAME,com.apple.geod
   - PROCESS-NAME,com.apple.Maps
-  - PROCESS-NAME,CoreLocationAgent
   - PROCESS-NAME,findmydevice-user-agent
   - PROCESS-NAME,fmfd
-  - PROCESS-NAME,LookupViewService
   - PROCESS-NAME,mapspushd
   - PROCESS-NAME,Music
-  - PROCESS-NAME,netbiosd
-  - PROCESS-NAME,trustd
   - PROCESS-NAME,TV
   - PROCESS-NAME,WeatherWidget
   - DOMAIN,apple-events.akamaized.net
