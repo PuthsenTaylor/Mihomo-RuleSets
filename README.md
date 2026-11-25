@@ -6,7 +6,7 @@
 | --- | --- | --- | --- |
 | [LAN_Domain.yaml](LAN_Domain.yaml) | v1.0.0 | 142 | 局域网本地域名、路由器管理域名、本地服务发现域名、反向解析域名等 |
 | [LAN_IP.yaml](LAN_IP.yaml) | v1.0.0 | 28 | 私有、保留、环回、链路本地、组播、共享地址空间与文档示例等 IP 地址段 |
-| [NTP.yaml](NTP.yaml) | v1.0.0 | 169 | NTP Pool、NIST 等全球 NTP 时间服务器域名 |
+| [NTP_Domain.yaml](NTP_Domain.yaml) | v1.0.0 | 169 | NTP Pool、NIST 等全球 NTP 时间服务器域名 |
 | [Google.yaml](Google.yaml) | v1.0.2 | 7975 | YouTube、Gmail、Gemini、Google Play 等谷歌全线服务与谷歌 IP 段 |
 | [Apple.yaml](Apple.yaml) | v1.0.3 | 1482 | iCloud、App Store、Apple Music、Apple TV、Beats 等苹果全线服务与苹果 IP 段 |
 | [Netflix.yaml](Netflix.yaml) | v1.0.1 | 1144 | Netflix、Fast.com 等服务与奈飞 IP 段 |
