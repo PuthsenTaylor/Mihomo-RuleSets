@@ -1,5 +1,5 @@
-# 版本 v1.0.0 · 更新 2026-11-25 · 共 8 条
-# 涵盖：Emby 官方服务（emby.media、mb3admin.com、emby.org、emby.tv）、UHD 服务域名与 FinFlow 客户端进程
+# 版本 v1.0.1 · 更新 2026-11-25 · 共 13 条
+# 涵盖：Emby 官方服务（emby.media、mb3admin.com、emby.org、emby.tv）、UHD 服务域名与 FinFlow 客户端进程；第三方 Emby 客户端官方域名（Infuse/Firecore、VidHub、Forward、Fileball、AfuseKt）
 payload:
   - PROCESS-NAME,com.riri.finflow
   - DOMAIN-SUFFIX,emby.media
@@ -9,3 +9,8 @@ payload:
   - DOMAIN-SUFFIX,uhdgo.com
   - DOMAIN-SUFFIX,uhdnow.com
   - DOMAIN-SUFFIX,uhdnow.online
+  - DOMAIN-SUFFIX,firecore.com
+  - DOMAIN-SUFFIX,fileball.app
+  - DOMAIN-SUFFIX,okaapps.com
+  - DOMAIN-SUFFIX,afusekt.cn
+  - DOMAIN-SUFFIX,inch.red
