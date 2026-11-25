@@ -1,5 +1,5 @@
 # Google_Domain
-# 版本 v2.0.0 · 日期 2026-11-25 · 时间 07:28 · 共 885 条
+# 版本 v2.0.1 · 日期 2026-11-25 · 时间 08:14 · 共 884 条
 # 内容：YouTube、Gmail、Gemini、Google Play、Google Search、Google Maps、Google Drive、Google Photos 等谷歌全线服务
 payload:
   - PROCESS-NAME,BackupandSync
@@ -884,6 +884,5 @@ payload:
   - DOMAIN-KEYWORD,appspot
   - DOMAIN-KEYWORD,blogspot
   - DOMAIN-KEYWORD,generativelanguage
-  - DOMAIN-KEYWORD,gmail
   - DOMAIN-KEYWORD,google
   - DOMAIN-KEYWORD,recaptcha
