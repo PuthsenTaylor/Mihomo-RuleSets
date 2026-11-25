@@ -1,16 +1,6 @@
-# NTP.yaml —— 网络时间服务（NTP）规则集（自建）
-#
-# 用途：供 Mihomo 以 classical 行为的 rule-provider 方式加载，匹配全球网络
-#       时间服务（NTP）域名；命中后的走向由调用方配置决定。
-# 构建日期：2026-11-25
-# 条目统计：共 169 条（DOMAIN 58 条 / DOMAIN-SUFFIX 111 条 / DOMAIN-KEYWORD 0 条 / IP-CIDR 0 条）
-# 数据来源：v2fly、MetaCubeX、ddranic、blackmatrix7，共 4 家作者公开发布的
-#           网络时间服务清单（其中 MetaCubeX 与 ddranic 为 v2fly 数据的
-#           转制导出，blackmatrix7 为独立维护的清单）。
-# 构建方法：多作者全量合并求全集，全部条目逐条出自上述来源，零自建；
-#           集内已完成去重，并剔除被自家更宽条目覆盖的内部冗余条目。
-# 排序说明：DOMAIN 在前；其后 DOMAIN-SUFFIX 按长度由长到短；其后 DOMAIN-KEYWORD；
-#           其后 IP-CIDR 按前缀由窄到宽（IPv4 在前、IPv6 在后）。
+# NTP
+# 版本 v1.0.0 · 更新 2026-11-25 · 共 169 条
+# 涵盖：全球 NTP 时间服务器域名（NTP Pool、品牌时间服务与国内外公共 NTP 服务器）
 payload:
   - DOMAIN,izattime.qcomgeo2.com
   - DOMAIN,ntp-b.nist.gov
