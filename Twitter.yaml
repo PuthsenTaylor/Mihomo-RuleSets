@@ -1,0 +1,69 @@
+# Twitter.yaml —— Twitter 规则集（自建）
+#
+# 用途：供 Mihomo 以 classical 行为的 rule-provider 方式加载，匹配 X /
+#       Twitter 本体（推文、图片与视频 CDN、短链 t.co、广告与企业服务
+#       等）与 xAI / Grok 家族域名及 Twitter IP 地址段；命中后的走向
+#       由调用方配置决定。
+# 构建日期：2026-11-25
+# 条目统计：共 48 条（PROCESS-NAME 0 条 / DOMAIN 0 条 / DOMAIN-SUFFIX 26 条 / DOMAIN-KEYWORD 1 条 / IP-CIDR 21 条）
+# 数据来源：MetaCubeX、blackmatrix7、v2fly、ddranic、ACL4SSR，共 5 家作者
+#           公开发布的 Twitter 与 xAI 清单（twitter / xai 分类；其中
+#           MetaCubeX、ddranic 为 v2fly 数据的转制导出）。
+# 构建方法：多作者全量合并求全集，全部条目逐条出自上述来源，零自建；
+#           集内已完成去重，并剔除被自家更宽条目覆盖的内部冗余条目；
+#           另按「多租户共用平台整段后缀不入集」的既定口径逐条筛查，
+#           本分类未命中共用平台整段条目（0 条剔除）；并按「已关停
+#           服务不入集」口径剔除死条目 4 条（vine.co、periscope.tv、
+#           pscp.tv、twitpic.com，明细见构建报告）。本次各来源均未
+#           发布 PROCESS-NAME 条目，按口径未自建（0 条）。
+# 排序说明：PROCESS-NAME 在前；其后 DOMAIN；其后 DOMAIN-SUFFIX 按长度由长到短；其后 DOMAIN-KEYWORD；
+#           其后 IP-CIDR 按前缀由窄到宽（IPv4 在前、IPv6 在后）。
+payload:
+  - DOMAIN-SUFFIX,cms-twdigitalassets.com
+  - DOMAIN-SUFFIX,twitterflightschool.com
+  - DOMAIN-SUFFIX,twitter.map.fastly.net
+  - DOMAIN-SUFFIX,twittercommunity.com
+  - DOMAIN-SUFFIX,twitteroauth.com
+  - DOMAIN-SUFFIX,ads-twitter.com
+  - DOMAIN-SUFFIX,grokipedia.com
+  - DOMAIN-SUFFIX,twitterinc.com
+  - DOMAIN-SUFFIX,twitterstat.us
+  - DOMAIN-SUFFIX,tellapart.com
+  - DOMAIN-SUFFIX,tweetdeck.com
+  - DOMAIN-SUFFIX,grokbot.com
+  - DOMAIN-SUFFIX,twitter.biz
+  - DOMAIN-SUFFIX,twitter.com
+  - DOMAIN-SUFFIX,twtrdns.net
+  - DOMAIN-SUFFIX,twitter.jp
+  - DOMAIN-SUFFIX,twimg.com
+  - DOMAIN-SUFFIX,twimg.org
+  - DOMAIN-SUFFIX,twttr.com
+  - DOMAIN-SUFFIX,twttr.net
+  - DOMAIN-SUFFIX,twvid.com
+  - DOMAIN-SUFFIX,grok.com
+  - DOMAIN-SUFFIX,twimg.co
+  - DOMAIN-SUFFIX,x.com
+  - DOMAIN-SUFFIX,t.co
+  - DOMAIN-SUFFIX,x.ai
+  - DOMAIN-KEYWORD,twitter
+  - IP-CIDR,104.244.41.0/24
+  - IP-CIDR,104.244.42.0/24
+  - IP-CIDR,8.25.194.0/23
+  - IP-CIDR,8.25.196.0/23
+  - IP-CIDR,192.48.236.0/23
+  - IP-CIDR,103.252.112.0/22
+  - IP-CIDR,104.244.44.0/22
+  - IP-CIDR,185.45.4.0/22
+  - IP-CIDR,192.133.76.0/22
+  - IP-CIDR,199.16.156.0/22
+  - IP-CIDR,199.59.148.0/22
+  - IP-CIDR,202.160.128.0/22
+  - IP-CIDR,69.12.56.0/21
+  - IP-CIDR,188.64.224.0/21
+  - IP-CIDR,199.96.56.0/21
+  - IP-CIDR,69.195.160.0/19
+  - IP-CIDR,209.237.192.0/19
+  - IP-CIDR,64.63.0.0/18
+  - IP-CIDR,2400:6680:f000::/36
+  - IP-CIDR,2606:1f80:f000::/36
+  - IP-CIDR,2a04:9d40:f000::/36
