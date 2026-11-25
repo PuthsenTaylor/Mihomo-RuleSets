@@ -1,6 +1,6 @@
 # TikTok
-# 版本 v1.0.0 · 更新 2026-11-25 · 共 61 条
-# 涵盖：TikTok、CapCut、Lark 海外版等字节跳动海外服务
+# 版本 v1.0.1 · 更新 2026-11-25 · 共 66 条
+# 涵盖：TikTok、CapCut、Coze、Lark 海外版等字节跳动海外服务
 payload:
   - PROCESS-NAME,com.zhiliaoapp.musically
   - DOMAIN,lf16-effectcdn.byteeffecttos-g.com
@@ -35,6 +35,7 @@ payload:
   - DOMAIN-SUFFIX,tiktokshop.com
   - DOMAIN-SUFFIX,tiktokvapp.com
   - DOMAIN-SUFFIX,capcutapi.com
+  - DOMAIN-SUFFIX,ciciaicdn.com
   - DOMAIN-SUFFIX,ibytedtos.com
   - DOMAIN-SUFFIX,tiktokcdn.com
   - DOMAIN-SUFFIX,ttlivecdn.com
@@ -52,6 +53,7 @@ payload:
   - DOMAIN-SUFFIX,tiktokd.org
   - DOMAIN-SUFFIX,tiktokv.com
   - DOMAIN-SUFFIX,capcut.com
+  - DOMAIN-SUFFIX,ciciai.com
   - DOMAIN-SUFFIX,muscdn.com
   - DOMAIN-SUFFIX,musical.ly
   - DOMAIN-SUFFIX,snssdk.com
@@ -60,6 +62,9 @@ payload:
   - DOMAIN-SUFFIX,tiktokv.us
   - DOMAIN-SUFFIX,tiktokw.eu
   - DOMAIN-SUFFIX,tiktokw.us
+  - DOMAIN-SUFFIX,cici.com
+  - DOMAIN-SUFFIX,coze.com
+  - DOMAIN-SUFFIX,dola.com
   - DOMAIN-SUFFIX,trae.ai
   - DOMAIN-KEYWORD,musical.ly
   - DOMAIN-KEYWORD,tiktok
