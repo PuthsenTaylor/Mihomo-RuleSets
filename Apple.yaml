@@ -4,7 +4,7 @@
 #       及其服务（iCloud、Apple Music、App Store、Apple TV 等）域名与
 #       苹果 IP 地址段；命中后的走向由调用方配置决定。
 # 构建日期：2026-11-25
-# 条目统计：共 1613 条（DOMAIN 4 条 / DOMAIN-SUFFIX 1589 条 / DOMAIN-KEYWORD 7 条 / IP-CIDR 13 条）
+# 条目统计：共 1606 条（DOMAIN 3 条 / DOMAIN-SUFFIX 1587 条 / DOMAIN-KEYWORD 3 条 / IP-CIDR 13 条）
 # 数据来源：MetaCubeX、blackmatrix7、v2fly、ddranic、ACL4SSR、DustinWin、
 #           Loyalsoldier，共 7 家作者公开发布的苹果清单（其中 MetaCubeX、
 #           ddranic、Loyalsoldier 为 v2fly 数据的转制导出）。
@@ -12,10 +12,14 @@
 #           集内已完成去重，并剔除被自家更宽条目覆盖的内部冗余条目。
 # 排序说明：DOMAIN 在前；其后 DOMAIN-SUFFIX 按长度由长到短；其后 DOMAIN-KEYWORD；
 #           其后 IP-CIDR 按前缀由窄到宽（IPv4 在前、IPv6 在后）。
+# 删改记录：2026-11-25 按用户裁决删除共用设施条目 7 条（共用平台整段属误杀，
+#           宁可漏、不误拉）：DOMAIN-SUFFIX,akadns.net、DOMAIN-SUFFIX,digicert.com、
+#           DOMAIN,e16991.b.akamaiedge.net、DOMAIN-KEYWORD,apple-support.akadns.net、
+#           DOMAIN-KEYWORD,apple.com.akadns.net、DOMAIN-KEYWORD,icloud.com.akadns.net、
+#           DOMAIN-KEYWORD,smp-device。上述流量今后不经本集命中，落调用方后续规则。
 payload:
   - DOMAIN,apple-events.akamaized.net
   - DOMAIN,beatselectronicsllc.tt.omtrdc.net
-  - DOMAIN,e16991.b.akamaiedge.net
   - DOMAIN,lookup-api.apple.com.edgekey.net
   - DOMAIN-SUFFIX,notary-submissions-prod.s3-accelerate.amazonaws.com
   - DOMAIN-SUFFIX,notary-submissions-prod.s3.us-west-2.amazonaws.com
@@ -1227,7 +1231,6 @@ payload:
   - DOMAIN-SUFFIX,beatsjoy.com
   - DOMAIN-SUFFIX,beatsone.net
   - DOMAIN-SUFFIX,cnshopin.com
-  - DOMAIN-SUFFIX,digicert.com
   - DOMAIN-SUFFIX,dreprofy.com
   - DOMAIN-SUFFIX,euroipad.com
   - DOMAIN-SUFFIX,faceid99.com
@@ -1367,7 +1370,6 @@ payload:
   - DOMAIN-SUFFIX,airmay.com
   - DOMAIN-SUFFIX,airport.eu
   - DOMAIN-SUFFIX,ajtalk.com
-  - DOMAIN-SUFFIX,akadns.net
   - DOMAIN-SUFFIX,app0le.com
   - DOMAIN-SUFFIX,appl-e.com
   - DOMAIN-SUFFIX,appl4e.com
@@ -1606,12 +1608,8 @@ payload:
   - DOMAIN-SUFFIX,mac.rs
   - DOMAIN-SUFFIX,me.com
   - DOMAIN-SUFFIX,apple
-  - DOMAIN-KEYWORD,apple-support.akadns.net
-  - DOMAIN-KEYWORD,apple.com.akadns.net
   - DOMAIN-KEYWORD,apple.com.edgekey.net
   - DOMAIN-KEYWORD,buy.itunes.apple.com
-  - DOMAIN-KEYWORD,icloud.com.akadns.net
-  - DOMAIN-KEYWORD,smp-device
   - DOMAIN-KEYWORD,testflight
   - IP-CIDR,192.35.50.0/24
   - IP-CIDR,198.183.17.0/24
