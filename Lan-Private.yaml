@@ -1,15 +1,6 @@
-# Lan-Private.yaml —— 局域网 / 私有地址规则集（自建）
-#
-# 用途：供 Mihomo 以 classical 行为的 rule-provider 方式加载，匹配局域网域名、
-#       私有地址段及本地服务发现域名；命中后的走向由调用方配置决定（现行配置为 DIRECT）。
-# 构建日期：2026-11-25
-# 条目统计：共 170 条（DOMAIN 16 条 / DOMAIN-SUFFIX 126 条 / DOMAIN-KEYWORD 0 条 / IP-CIDR 28 条）
-# 数据来源：MetaCubeX、blackmatrix7、ACL4SSR、v2fly、DustinWin、Aethersailor、
-#           Loyalsoldier，共 7 家作者公开发布的局域网 / 私有地址清单。
-# 构建方法：多作者全量合并求全集，全部条目逐条出自上述来源，零自建；
-#           集内已完成去重，并剔除被自家更宽条目覆盖的内部冗余条目。
-# 排序说明：DOMAIN 在前；其后 DOMAIN-SUFFIX 按长度由长到短；其后 DOMAIN-KEYWORD；
-#           其后 IP-CIDR 按前缀由窄到宽（IPv4 在前、IPv6 在后）。
+# Lan-Private
+# 版本 v1.0.0 · 更新 2026-11-25 · 共 170 条
+# 涵盖：局域网域名、私有 IP 地址段与本地服务发现域名
 payload:
   - DOMAIN,asusrouter.com
   - DOMAIN,board.zash.run.place
