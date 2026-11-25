@@ -21,4 +21,4 @@
 | [Meta.yaml](Meta.yaml) | v1.0.1 | 2026-11-25 | 709 | Facebook、Instagram、WhatsApp、Messenger、Threads、Meta Quest、Meta AI 及 Meta IP 段 |
 | [Twitter.yaml](Twitter.yaml) | v1.0.0 | 2026-11-25 | 48 | X / Twitter、t.co 短链、xAI / Grok 及 Twitter IP 段 |
 | [AI.yaml](AI.yaml) | v1.0.3 | 2026-11-25 | 208 | ChatGPT、Claude、Perplexity、Poe、Groq、HuggingFace、Cursor、Manus、Runway、Suno、Character.AI 等海外 AI 服务（只收海外 AI；作者零收录的主流服务凭官网实证补入） |
-| [Domestic-Direct.yaml](Domestic-Direct.yaml) | v1.0.6 | 2026-11-25 | 6098 | Binance（币安）、OKX（欧易）、Gate、Bitget、Bybit 五家交易所；腾讯全系（含海外面）；OPPO 系（含海外面）；阿里巴巴全系、京东全系、拼多多（不含 Temu）、美团、得物、航旅纵横、三网运营商（中国移动、中国电信、中国联通）、百度全系、搜狗全系（含两家输入法；百度组海外面已按隔离门剔除）、字节跳动国内全系（抖音、头条、西瓜、飞书国内、豆包、火山引擎等；海外面归 TikTok 集）（国内直连重构：第一步交易所、第二步腾讯、第三步 OPPO、第四步阿里/京东/拼多多/美团/得物/航旅纵横/运营商、第五步百度/搜狗、第六步字节国内） |
+| [Domestic-Direct.yaml](Domestic-Direct.yaml) | v1.0.7 | 2026-11-25 | 6151 | Binance（币安）、OKX（欧易）、Gate、Bitget、Bybit 五家交易所；腾讯全系（含海外面）；OPPO 系（含海外面）；阿里巴巴全系（含海外面）、京东全系（含海外面）、拼多多（不含 Temu）、美团、得物、航旅纵横、三网运营商（中国移动、中国电信、中国联通）、百度全系、搜狗全系（含两家输入法；百度组海外面已按国内全直连口径回补）、字节跳动国内全系（抖音、头条、西瓜、飞书国内、豆包、火山引擎等；海外面归 TikTok 集）（国内直连重构：第一步交易所、第二步腾讯、第三步 OPPO、第四步阿里/京东/拼多多/美团/得物/航旅纵横/运营商、第五步百度/搜狗、第六步字节国内） |
