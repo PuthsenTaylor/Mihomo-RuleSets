@@ -31,6 +31,13 @@
 - 构建日期：2026-11-25。
 - 数据来源：MetaCubeX、blackmatrix7、v2fly、ddranic、ACL4SSR、DustinWin、Loyalsoldier，共 7 家作者。
 
+### Netflix.yaml
+
+- 用途：奈飞（Netflix）规则集，覆盖奈飞及其服务（流媒体、Fast.com 测速、DNS 检测等）域名与奈飞 IP 地址段。
+- 条目数：1,157 条。
+- 构建日期：2026-11-25。
+- 数据来源：MetaCubeX、blackmatrix7、v2fly、ddranic、ACL4SSR、DustinWin，共 6 家作者。
+
 ### NTP.yaml
 
 - 用途：网络时间服务（NTP）规则集，覆盖全球网络时间服务域名，含国内、中立公共、品牌专属与其他海外条目。
