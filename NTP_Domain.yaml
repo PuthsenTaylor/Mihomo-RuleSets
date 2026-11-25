@@ -1,5 +1,6 @@
-# 版本 v1.0.0 · 更新 2026-11-25 · 共 169 条
-# 涵盖：NTP Pool、NIST 等全球 NTP 时间服务器域名
+# NTP_Domain
+# 版本 v2.0.0 · 日期 2026-11-25 · 时间 07:28 · 共 169 条
+# 内容：NTP Pool、NIST 等全球 NTP 时间服务器域名
 payload:
   - DOMAIN,izattime.qcomgeo2.com
   - DOMAIN,ntp-b.nist.gov
