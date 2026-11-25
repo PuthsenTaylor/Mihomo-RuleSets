@@ -12,7 +12,7 @@
 | [NTP.yaml](NTP.yaml) | v1.0.0 | 2026-11-25 | 169 | 全球 NTP 时间服务器域名（NTP Pool、品牌时间服务与国内外公共 NTP 服务器） |
 | [Google.yaml](Google.yaml) | v1.0.1 | 2026-11-25 | 7976 | YouTube、Gmail、Gemini、Google Play 等谷歌全线服务与谷歌 IP 段 |
 | [Apple.yaml](Apple.yaml) | v1.0.1 | 2026-11-25 | 1613 | iCloud、App Store、Apple Music、Apple TV 等苹果全线服务与苹果 IP 段 |
-| [Netflix.yaml](Netflix.yaml) | v1.0.0 | 2026-11-25 | 1155 | Netflix 流媒体、Fast.com 测速等服务与奈飞 IP 段 |
+| [Netflix.yaml](Netflix.yaml) | v1.0.1 | 2026-11-25 | 1144 | Netflix 流媒体、Fast.com 测速等服务与奈飞 IP 段 |
 | [Disney.yaml](Disney.yaml) | v1.0.0 | 2026-11-25 | 239 | Disney+、Hulu、ESPN、ABC、Marvel、Star Wars、国家地理、Hotstar 等迪士尼家族服务 |
 | [TikTok.yaml](TikTok.yaml) | v1.0.0 | 2026-11-25 | 61 | TikTok、CapCut、Lark 海外版等字节跳动海外服务 |
 | [Spotify.yaml](Spotify.yaml) | v1.0.0 | 2026-11-25 | 33 | Spotify 音乐流媒体服务域名与 IP 段 |
