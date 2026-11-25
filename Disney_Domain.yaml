@@ -1,5 +1,5 @@
 # Disney_Domain
-# 版本 v2.0.0 · 日期 2026-11-25 · 时间 07:28 · 共 242 条
+# 版本 v2.5.0 · 日期 2026-11-25 · 时间 10:04 · 共 242 条
 # 内容：Disney+、Hulu、ESPN、ABC、Marvel、Star Wars、国家地理、Hotstar 等迪士尼家族服务
 payload:
   - PROCESS-NAME,com.disney.datg.videoplatforms.android.abc
