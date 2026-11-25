@@ -5,16 +5,26 @@
 #       Fragment 与 TON 生态入口等）域名与 Telegram IP 地址段；命中后的
 #       走向由调用方配置决定。
 # 构建日期：2026-11-25
-# 条目统计：共 42 条（DOMAIN 2 条 / DOMAIN-SUFFIX 25 条 / DOMAIN-KEYWORD 2 条 / IP-CIDR 13 条）
+# 条目统计：共 48 条（PROCESS-NAME 6 条 / DOMAIN 2 条 / DOMAIN-SUFFIX 25 条 / DOMAIN-KEYWORD 2 条 / IP-CIDR 13 条）
 # 数据来源：MetaCubeX、blackmatrix7、v2fly、ddranic、ACL4SSR、DustinWin、
 #           Loyalsoldier，共 7 家作者公开发布的 Telegram 清单（其中
 #           MetaCubeX、ddranic 为 v2fly 数据的转制导出；DustinWin、
 #           Loyalsoldier 仅发布 Telegram 的 IP 段清单）。
 # 构建方法：多作者全量合并求全集，全部条目逐条出自上述来源，零自建；
 #           集内已完成去重，并剔除被自家更宽条目覆盖的内部冗余条目。
-# 排序说明：DOMAIN 在前；其后 DOMAIN-SUFFIX 按长度由长到短；其后 DOMAIN-KEYWORD；
+# 排序说明：PROCESS-NAME 置于首部；其后 DOMAIN；其后 DOMAIN-SUFFIX 按长度由长到短；其后 DOMAIN-KEYWORD；
 #           其后 IP-CIDR 按前缀由窄到宽（IPv4 在前、IPv6 在后）。
+# 补入记录：2026-11-25 按用户新口径补入作者发布的进程规则 6 条
+#           （PROCESS-NAME，置于 payload 首部）：出自 blackmatrix7 公开
+#           清单、逐字收录、零自建。此前构建按旧口径（进程规则不入集）
+#           未收，现按新口径（作者有发布即列入）补齐。
 payload:
+  - PROCESS-NAME,nekox.messenger
+  - PROCESS-NAME,org.telegram.messenger
+  - PROCESS-NAME,telegram-desktop
+  - PROCESS-NAME,Telegram.exe
+  - PROCESS-NAME,tw.nekomimi.nekogram
+  - PROCESS-NAME,xyz.nextalone.nagram
   - DOMAIN,api.imem.app
   - DOMAIN,api.swiftgram.app
   - DOMAIN-SUFFIX,telegramdownload.com
