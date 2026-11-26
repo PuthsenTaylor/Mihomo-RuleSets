@@ -1,5 +1,5 @@
 # Google_Domain
-# 版本 v2.5.0 · 日期 2026-11-25 · 时间 10:04 · 共 885 条
+# 版本 v2.5.1 · 日期 2026-11-25 · 时间 21:27 · 共 885 条
 # 内容：YouTube、Gmail、Gemini、Google Play、Google Search、Google Maps、Google Drive、Google Photos 等谷歌全线服务
 payload:
   - PROCESS-NAME,BackupandSync
@@ -367,6 +367,7 @@ payload:
   - DOMAIN-SUFFIX,impermium.com
   - DOMAIN-SUFFIX,lanternal.com
   - DOMAIN-SUFFIX,neverware.com
+  - DOMAIN-SUFFIX,oasisfeng.com
   - DOMAIN-SUFFIX,openthread.io
   - DOMAIN-SUFFIX,pageview.mobi
   - DOMAIN-SUFFIX,recaptcha.net
@@ -581,7 +582,6 @@ payload:
   - DOMAIN-SUFFIX,j2objc.org
   - DOMAIN-SUFFIX,kaggle.com
   - DOMAIN-SUFFIX,kaggle.net
-  - DOMAIN-SUFFIX,oasisfeng.com
   - DOMAIN-SUFFIX,oauthz.com
   - DOMAIN-SUFFIX,picnik.com
   - DOMAIN-SUFFIX,pixate.com
