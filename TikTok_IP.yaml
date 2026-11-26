@@ -1,8 +1,0 @@
-# TikTok_IP
-# 版本 v2.5.0 · 日期 2026-11-25 · 时间 10:04 · 共 4 条
-# 内容：字节跳动海外主体官方 ASN 地址段（Bytedance、TikTok、BytePlus）
-payload:
-  - IP-ASN,11983
-  - IP-ASN,138699
-  - IP-ASN,150436
-  - IP-ASN,396986
