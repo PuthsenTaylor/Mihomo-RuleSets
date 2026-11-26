@@ -26,7 +26,7 @@ https://gist.github.com/PuthsenTaylor/6d3a119274d974d6dbadf6c05e669ccd/raw/Mihom
 
 ## 文件清单
 
-全仓 23 份文件，共 12,950 条；每份集按域名与 IP 拆分为 `_Domain` / `_IP` 双文件（个别集只有域名文件）。
+全仓 23 份文件，共 12,939 条；每份集按域名与 IP 拆分为 `_Domain` / `_IP` 双文件（个别集只有域名文件）。
 
 | 文件 | 版本 | 条数 | 内容 |
 | --- | --- | --- | --- |
@@ -37,7 +37,7 @@ https://gist.github.com/PuthsenTaylor/6d3a119274d974d6dbadf6c05e669ccd/raw/Mihom
 | [Apple_Domain.yaml](Apple_Domain.yaml) | v2.5.4 | 1439 | iCloud、App Store、Apple Music、Apple TV、Beats 等苹果全线服务 |
 | [Apple_IP.yaml](Apple_IP.yaml) | v2.5.1 | 11 | 苹果全球 IP 地址段 |
 | [Netflix_Domain.yaml](Netflix_Domain.yaml) | v2.5.0 | 23 | Netflix、Fast.com 等奈飞服务域名 |
-| [Netflix_IP.yaml](Netflix_IP.yaml) | v2.5.1 | 1090 | 奈飞全球 IP 地址段 |
+| [Netflix_IP.yaml](Netflix_IP.yaml) | v2.5.2 | 1079 | 奈飞全球 IP 地址段 |
 | [Disney_Domain.yaml](Disney_Domain.yaml) | v2.5.1 | 242 | Disney+、Hulu、ESPN、ABC、Marvel、Star Wars、国家地理、Hotstar 等迪士尼家族服务 |
 | [Emby_Domain.yaml](Emby_Domain.yaml) | v2.5.1 | 18 | Emby、Infuse、VidHub、Forward、Fileball、AfuseKt、FinFlow 等服务与进程名 |
 | [TikTok_Domain.yaml](TikTok_Domain.yaml) | v2.5.1 | 256 | TikTok、CapCut、Coze、Lark 海外版、BytePlus、Pico 等字节跳动海外服务及全球共用基础设施 |
