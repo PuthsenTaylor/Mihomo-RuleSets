@@ -9,7 +9,7 @@
 - **按公司归属分流**：谷歌走谷歌、苹果走苹果，有总公司归属的服务只进总公司集，不按地理名单混编。
 - **国外全代理、国内全直连**：海外服务的第一命中落自家代理策略组，不落漏网、不落直连；国内服务（包含其海外面）一律直连，在服务商眼中始终是国内 IP，账号风控画像连贯。
 - **宁可漏、不可误杀**：多租户共用平台的整段域名不入集，宁可让个别域名走兜底，也不劫持无关流量。
-- **零自建**：每条规则均有公开作者出处，不凭空编写域名；拿不准归属的条目不入集。
+- **零自建**：每条规则均有公开作者出处，不凭空编写域名；拿不准归属的条目不入集。唯一例外是三份标注「用户裁定集」的捕获集（Domestic-AI-Capture、Overseas-Service-Capture、Favonis）：它们收编的是配置层经逐项裁定的前置捕获条目，无作者出处、不参与作者源同步核查，单独成集与作者出处集区分。
 - **字节跳动三分离**：海外字节（TikTok、CapCut、Lark 海外版、BytePlus 等）与全球共用基础设施归 TikTok 集走代理，国内字节（抖音、头条、飞书、火山引擎等）归国内直连集，两边彻底划开。
 
 ## 一键使用：覆写脚本（推荐）
@@ -26,7 +26,7 @@ https://gist.github.com/PuthsenTaylor/6d3a119274d974d6dbadf6c05e669ccd/raw/Mihom
 
 ## 文件清单
 
-全仓 24 份文件，共 18,747 条；每份集按域名与 IP 拆分为 `_Domain` / `_IP` 双文件（个别集只有域名文件）。
+全仓 27 份文件，共 18,804 条；每份集按域名与 IP 拆分为 `_Domain` / `_IP` 双文件（个别集只有域名文件）。
 
 | 文件 | 版本 | 条数 | 内容 |
 | --- | --- | --- | --- |
@@ -52,6 +52,9 @@ https://gist.github.com/PuthsenTaylor/6d3a119274d974d6dbadf6c05e669ccd/raw/Mihom
 | [Twitter_IP.yaml](Twitter_IP.yaml) | v2.5.0 | 21 | X / Twitter 全球 IP 地址段 |
 | [AI_Domain.yaml](AI_Domain.yaml) | v2.5.1 | 193 | ChatGPT、Claude、Perplexity、Midjourney、Runway、Suno、Cursor、Copilot 等海外 AI 服务域名 |
 | [AI_IP.yaml](AI_IP.yaml) | v2.5.0 | 2 | 海外 AI 服务 IP 地址段 |
+| [Domestic-AI-Capture_Domain.yaml](Domestic-AI-Capture_Domain.yaml) | v1.0.0 | 12 | 国产 AI 公司服务（含全球站）域名；**用户裁定集**（配置前置捕获收编，无作者出处） |
+| [Overseas-Service-Capture_Domain.yaml](Overseas-Service-Capture_Domain.yaml) | v1.0.0 | 42 | 服务本体在海外的服务域名；**用户裁定集**（配置前置捕获收编，无作者出处） |
+| [Favonis_Domain.yaml](Favonis_Domain.yaml) | v1.0.0 | 3 | favonis 域名（归属查无实据）；**用户裁定集**（从国产 AI 直连摁回 AI 组，无作者出处） |
 | [Domestic-Direct_Domain.yaml](Domestic-Direct_Domain.yaml) | v2.5.8 | 6278 | 币安、欧易、火币等交易所，腾讯、阿里巴巴、字节跳动、京东、百度、国产 AI、银行与支付、证券基金、三网运营商等国内服务域名 |
 | [Domestic-Direct_IP.yaml](Domestic-Direct_IP.yaml) | v2.5.1 | 170 | 国内服务 IP 地址段 |
 
