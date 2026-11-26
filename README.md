@@ -26,7 +26,7 @@ https://gist.github.com/PuthsenTaylor/6d3a119274d974d6dbadf6c05e669ccd/raw/Mihom
 
 ## 文件清单
 
-全仓 25 份文件，共 19,028 条；每份集按域名与 IP 拆分为 `_Domain` / `_IP` 双文件（个别集只有域名文件）。
+全仓 25 份文件，共 19,016 条；每份集按域名与 IP 拆分为 `_Domain` / `_IP` 双文件（个别集只有域名文件）。
 
 | 文件 | 版本 | 条数 | 内容 |
 | --- | --- | --- | --- |
@@ -53,7 +53,7 @@ https://gist.github.com/PuthsenTaylor/6d3a119274d974d6dbadf6c05e669ccd/raw/Mihom
 | [Twitter_IP.yaml](Twitter_IP.yaml) | v2.5.0 | 21 | X / Twitter 全球 IP 地址段 |
 | [AI_Domain.yaml](AI_Domain.yaml) | v2.5.0 | 206 | ChatGPT、Claude、Perplexity、Midjourney、Runway、Suno、Cursor、Copilot 等海外 AI 服务域名 |
 | [AI_IP.yaml](AI_IP.yaml) | v2.5.0 | 2 | 海外 AI 服务 IP 地址段 |
-| [Domestic-Direct_Domain.yaml](Domestic-Direct_Domain.yaml) | v2.5.4 | 6317 | 币安、欧易、火币等交易所，腾讯、阿里巴巴、字节跳动、京东、百度、银行与支付、证券基金、三网运营商等国内服务域名 |
+| [Domestic-Direct_Domain.yaml](Domestic-Direct_Domain.yaml) | v2.5.5 | 6305 | 币安、欧易、火币等交易所，腾讯、阿里巴巴、字节跳动、京东、百度、银行与支付、证券基金、三网运营商等国内服务域名 |
 | [Domestic-Direct_IP.yaml](Domestic-Direct_IP.yaml) | v2.5.0 | 200 | 国内服务 IP 地址段 |
 
 ## 手动接入：rule-provider
