@@ -37,7 +37,7 @@ https://gist.github.com/PuthsenTaylor/6d3a119274d974d6dbadf6c05e669ccd/raw/Mihom
 | [Apple_Domain.yaml](Apple_Domain.yaml) | v2.5.4 | 1439 | iCloud、App Store、Apple Music、Apple TV、Beats 等苹果全线服务 |
 | [Apple_IP.yaml](Apple_IP.yaml) | v2.5.1 | 11 | 苹果全球 IP 地址段 |
 | [Netflix_Domain.yaml](Netflix_Domain.yaml) | v2.5.0 | 23 | Netflix、Fast.com 等奈飞服务域名 |
-| [Netflix_IP.yaml](Netflix_IP.yaml) | v2.5.1 | 1090 | 奈飞全球 IP 地址段 |
+| [Netflix_IP.yaml](Netflix_IP.yaml) | v2.5.2 | 1079 | 奈飞全球 IP 地址段 |
 | [Disney_Domain.yaml](Disney_Domain.yaml) | v2.5.1 | 242 | Disney+、Hulu、ESPN、ABC、Marvel、Star Wars、国家地理、Hotstar 等迪士尼家族服务 |
 | [Emby_Domain.yaml](Emby_Domain.yaml) | v2.5.1 | 18 | Emby、Infuse、VidHub、Forward、Fileball、AfuseKt、FinFlow 等服务与进程名 |
 | [TikTok_Domain.yaml](TikTok_Domain.yaml) | v2.5.1 | 256 | TikTok、CapCut、Coze、Lark 海外版、BytePlus、Pico 等字节跳动海外服务及全球共用基础设施 |
@@ -51,7 +51,7 @@ https://gist.github.com/PuthsenTaylor/6d3a119274d974d6dbadf6c05e669ccd/raw/Mihom
 | [Twitter_IP.yaml](Twitter_IP.yaml) | v2.5.0 | 21 | X / Twitter 全球 IP 地址段 |
 | [AI_Domain.yaml](AI_Domain.yaml) | v2.5.3 | 193 | ChatGPT、Claude、Perplexity、Midjourney、Runway、Suno、Cursor、Copilot 等海外 AI 服务域名 |
 | [AI_IP.yaml](AI_IP.yaml) | v2.5.1 | 2 | 海外 AI 服务 IP 地址段 |
-| [Domestic-Direct_Domain.yaml](Domestic-Direct_Domain.yaml) | v2.5.12 | 641 | OPPO 系、微信、QQ、搜狗输入法、百度输入法、支付宝、淘宝、盒马、京东、拼多多、美团、得物、航旅纵横、中国联通、币安等交易所与国内银行服务域名（用户点名名单制重构） |
+| [Domestic-Direct_Domain.yaml](Domestic-Direct_Domain.yaml) | v2.5.13 | 640 | OPPO 系、微信、QQ、搜狗输入法、百度输入法、支付宝、淘宝、盒马、京东、拼多多、美团、得物、航旅纵横、中国联通、币安等交易所与国内银行服务域名（用户点名名单制重构） |
 | [Domestic-Direct_IP.yaml](Domestic-Direct_IP.yaml) | v2.5.4 | 70 | 腾讯、阿里巴巴、中国联通等名单内公司作者源 IP 地址段 |
 
 ## 手动接入：rule-provider
