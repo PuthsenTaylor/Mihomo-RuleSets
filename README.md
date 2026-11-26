@@ -73,7 +73,7 @@ rule-providers:
 rules:
   - RULE-SET,Google_Domain,Google,no-resolve
   - RULE-SET,Google_IP,Google
-#兜底
+#使用代理软件自身数据库兜底
   - GEOSITE,google,Google
   - GEOIP,google,Google,no-resolve
 ```
