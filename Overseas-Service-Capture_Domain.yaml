@@ -1,0 +1,46 @@
+# Overseas-Service-Capture_Domain
+# 版本 v1.0.0 · 日期 2026-11-26 · 时间 03:06 · 共 42 条
+# 内容：服务本体在海外的服务域名；用户裁定集（由配置前置捕获单条收编，无作者出处，不参与作者源同步核查）
+payload:
+  - DOMAIN-SUFFIX,aliexpress.com
+  - DOMAIN-SUFFIX,aliexpress.ru
+  - DOMAIN-SUFFIX,aliexpress-media.com
+  - DOMAIN-SUFFIX,aliexpress.cn
+  - DOMAIN-SUFFIX,lazada.com
+  - DOMAIN-SUFFIX,lazada.co.id
+  - DOMAIN-SUFFIX,lazada.co.th
+  - DOMAIN-SUFFIX,lazada.com.my
+  - DOMAIN-SUFFIX,lazada.com.ph
+  - DOMAIN-SUFFIX,lazada.sg
+  - DOMAIN-SUFFIX,lazada.vn
+  - DOMAIN-SUFFIX,wetv.vip
+  - DOMAIN-SUFFIX,wetvinfo.com
+  - DOMAIN-SUFFIX,joybuy.com
+  - DOMAIN-SUFFIX,joybuy.es
+  - DOMAIN-SUFFIX,iq.com
+  - DOMAIN-SUFFIX,kwai.com
+  - DOMAIN-SUFFIX,bigo.tv
+  - DOMAIN-SUFFIX,likee.video
+  - DOMAIN-SUFFIX,like.video
+  - DOMAIN-SUFFIX,likeevideo.ru
+  - DOMAIN-SUFFIX,neteasegames.com
+  - DOMAIN-SUFFIX,neteasegames.net
+  - DOMAIN-SUFFIX,daraz.pk
+  - DOMAIN-SUFFIX,daraz.lk
+  - DOMAIN-SUFFIX,iflix.com
+  - DOMAIN-SUFFIX,trip.com
+  - DOMAIN-SUFFIX,rednote.com
+  - DOMAIN-SUFFIX,rednotecdn.com
+  - DOMAIN-SUFFIX,joox.com
+  - DOMAIN-SUFFIX,amazonprimevideo.cn
+  - DOMAIN-SUFFIX,amazonprimevideo.com.cn
+  - DOMAIN-SUFFIX,global.bilibili.com
+  - DOMAIN-SUFFIX,leagueoflegends.cn
+  - DOMAIN-SUFFIX,levelinfinite.com
+  - DOMAIN-SUFFIX,proximabeta.com
+  - DOMAIN-SUFFIX,midasbuy.com
+  - DOMAIN-SUFFIX,codm.com
+  - DOMAIN-SUFFIX,gameloop.com
+  - DOMAIN-SUFFIX,gameloop.fun
+  - DOMAIN-SUFFIX,bcfmglobal.com
+  - DOMAIN-SUFFIX,aitransfy.com
