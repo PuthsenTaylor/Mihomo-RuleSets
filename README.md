@@ -26,7 +26,7 @@ https://gist.github.com/PuthsenTaylor/6d3a119274d974d6dbadf6c05e669ccd/raw/Mihom
 
 ## 文件清单
 
-全仓 23 份文件，共 12,936 条；每份集按域名与 IP 拆分为 `_Domain` / `_IP` 双文件（个别集只有域名文件）。
+全仓 23 份文件，共 12,934 条；每份集按域名与 IP 拆分为 `_Domain` / `_IP` 双文件（个别集只有域名文件）。
 
 | 文件 | 版本 | 条数 | 内容 |
 | --- | --- | --- | --- |
@@ -44,7 +44,7 @@ https://gist.github.com/PuthsenTaylor/6d3a119274d974d6dbadf6c05e669ccd/raw/Mihom
 | [Spotify_Domain.yaml](Spotify_Domain.yaml) | v2.5.0 | 32 | Spotify、Anchor 等服务域名 |
 | [Spotify_IP.yaml](Spotify_IP.yaml) | v2.5.0 | 2 | Spotify 全球 IP 地址段 |
 | [Telegram_Domain.yaml](Telegram_Domain.yaml) | v2.5.0 | 35 | Telegram、Telegra.ph、Fragment、TON 等服务域名 |
-| [Telegram_IP.yaml](Telegram_IP.yaml) | v2.5.3 | 12 | Telegram 全球 IP 地址段 |
+| [Telegram_IP.yaml](Telegram_IP.yaml) | v2.5.4 | 10 | Telegram 全球 IP 地址段 |
 | [Meta_Domain.yaml](Meta_Domain.yaml) | v2.5.1 | 559 | Facebook、Instagram、WhatsApp、Messenger、Threads、Meta Quest、Meta AI 等服务域名 |
 | [Meta_IP.yaml](Meta_IP.yaml) | v2.5.4 | 138 | Meta 全球 IP 地址段 |
 | [Twitter_Domain.yaml](Twitter_Domain.yaml) | v2.5.0 | 27 | X / Twitter、t.co、xAI / Grok 等服务域名 |
