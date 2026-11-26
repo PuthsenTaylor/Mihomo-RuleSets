@@ -1,5 +1,5 @@
 # Domestic-Direct_IP
-# 版本 v2.5.0 · 日期 2026-11-25 · 时间 10:04 · 共 200 条
+# 版本 v2.5.1 · 日期 2026-11-25 · 时间 22:04 · 共 170 条
 # 内容：国内服务 IP 地址段
 payload:
   - IP-CIDR,27.159.95.0/32
@@ -50,7 +50,6 @@ payload:
   - IP-CIDR,101.71.122.0/24
   - IP-CIDR,103.215.143.0/24
   - IP-CIDR,103.243.94.0/24
-  - IP-CIDR,104.27.168.0/24
   - IP-CIDR,106.38.222.0/24
   - IP-CIDR,106.39.193.0/24
   - IP-CIDR,111.11.4.0/24
@@ -171,34 +170,5 @@ payload:
   - IP-CIDR,8.208.0.0/12
   - IP-CIDR,47.80.0.0/12
   - IP-CIDR,8.128.0.0/10
-  - IP-CIDR,::ffff:1b9d:d12e/128
-  - IP-CIDR,::ffff:3a3a:5a/128
-  - IP-CIDR,::ffff:3ad9:e844/128
-  - IP-CIDR,::ffff:3ad9:e84f/128
-  - IP-CIDR,::ffff:3ad9:e875/128
-  - IP-CIDR,::ffff:3cab:b762/128
-  - IP-CIDR,::ffff:3cab:b7a1/128
-  - IP-CIDR,::ffff:3cab:b7ba/128
-  - IP-CIDR,::ffff:71f8:acf5/128
-  - IP-CIDR,::ffff:72eb:60ba/128
-  - IP-CIDR,::ffff:73ec:8018/128
-  - IP-CIDR,::ffff:73ec:8050/128
-  - IP-CIDR,::ffff:73ec:8070/128
-  - IP-CIDR,::ffff:73ec:8078/128
-  - IP-CIDR,::ffff:7540:4bc4/128
-  - IP-CIDR,::ffff:7544:c8d2/128
-  - IP-CIDR,::ffff:7557:9018/128
-  - IP-CIDR,::ffff:7938:7eff/128
-  - IP-CIDR,::ffff:7c49:c651/128
-  - IP-CIDR,::ffff:7c49:c88e/128
-  - IP-CIDR,::ffff:af06:541e/128
-  - IP-CIDR,::ffff:af06:5460/128
-  - IP-CIDR,::ffff:b7a1:9085/128
-  - IP-CIDR,::ffff:b7a1:90e6/128
-  - IP-CIDR,::ffff:b7a1:9569/128
-  - IP-CIDR,::ffff:c612:58a/128
-  - IP-CIDR,::ffff:c612:651/128
-  - IP-CIDR,::ffff:c612:653/128
-  - IP-CIDR,::ffff:dff0:bfee/128
   - IP-CIDR6,2400:b200::/32
   - IP-ASN,132203
