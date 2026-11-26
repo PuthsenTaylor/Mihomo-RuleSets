@@ -73,8 +73,9 @@ rule-providers:
 rules:
   - RULE-SET,Google_Domain,Google,no-resolve
   - RULE-SET,Google_IP,Google
-  - RULE-SET,Domestic-Direct_Domain,DIRECT,no-resolve
-  - RULE-SET,Domestic-Direct_IP,DIRECT
+#兜底
+  - GEOSITE,google,Google
+  - GEOIP,google,Google,no-resolve
 ```
 
 域名集（`_Domain`）的规则行建议带 `no-resolve`，IP 集（`_IP`）不带，靠解析后比对地址段。
