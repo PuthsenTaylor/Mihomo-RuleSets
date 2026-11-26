@@ -1,4 +1,4 @@
-# 版本 v2.5.12 · 日期 2026-11-26 · 时间 07:33 · 共 641 条
+# 版本 v2.5.13 · 日期 2026-11-26 · 时间 09:49 · 共 640 条
 # 内容：OPPO 系、微信、QQ、搜狗输入法、百度输入法、支付宝、淘宝、盒马、京东、拼多多、美团、得物、航旅纵横、中国联通、币安等交易所与国内银行服务域名（用户点名名单制重构）
 payload:
   - PROCESS-NAME,Binance.exe
@@ -78,7 +78,6 @@ payload:
   - DOMAIN-SUFFIX,servicewechat.com
   - DOMAIN-SUFFIX,shizhuang-inc.com
   - DOMAIN-SUFFIX,shizhuang-inc.net
-  - DOMAIN-SUFFIX,sj6rgxtjg3tmb.com
   - DOMAIN-SUFFIX,unicompayment.com
   - DOMAIN-SUFFIX,unicompayment.net
   - DOMAIN-SUFFIX,unicompayment.org
