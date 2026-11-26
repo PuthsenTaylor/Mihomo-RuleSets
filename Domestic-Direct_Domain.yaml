@@ -1,5 +1,5 @@
 # Domestic-Direct_Domain
-# 版本 v2.5.4 · 日期 2026-11-25 · 时间 21:31 · 共 6317 条
+# 版本 v2.5.5 · 日期 2026-11-25 · 时间 21:34 · 共 6305 条
 # 内容：币安、欧易、火币等交易所，腾讯、阿里巴巴、字节跳动、京东、百度、银行与支付、证券基金、三网运营商等国内服务域名
 payload:
   - PROCESS-NAME,binance.exe
@@ -309,7 +309,6 @@ payload:
   - DOMAIN-SUFFIX,xbec-tencentclb.cloud
   - DOMAIN-SUFFIX,xiyec-tencentclb.work
   - DOMAIN-SUFFIX,ali-gtm-pressure.com
-  - DOMAIN-SUFFIX,aliexpress-media.com
   - DOMAIN-SUFFIX,aliyun-iot-share.com
   - DOMAIN-SUFFIX,ark-doc-resources.cn
   - DOMAIN-SUFFIX,bankofbeijing.com.cn
@@ -2102,7 +2101,6 @@ payload:
   - DOMAIN-SUFFIX,alibabadns.com
   - DOMAIN-SUFFIX,alibabaued.com
   - DOMAIN-SUFFIX,alicloudcc.com
-  - DOMAIN-SUFFIX,aliexpress.com
   - DOMAIN-SUFFIX,aligaofang.com
   - DOMAIN-SUFFIX,alimaomall.com
   - DOMAIN-SUFFIX,alipay-eco.com
@@ -2604,13 +2602,11 @@ payload:
   - DOMAIN-SUFFIX,51poweron.com
   - DOMAIN-SUFFIX,8008205555.cn
   - DOMAIN-SUFFIX,911dns.com.cn
-  - DOMAIN-SUFFIX,aeplatform.ru
   - DOMAIN-SUFFIX,agcloudcs.com
   - DOMAIN-SUFFIX,aigcarena.com
   - DOMAIN-SUFFIX,aitangyou.com
   - DOMAIN-SUFFIX,aitransfy.com
   - DOMAIN-SUFFIX,aliappcdn.com
-  - DOMAIN-SUFFIX,aliexpress.ru
   - DOMAIN-SUFFIX,aligfddos.com
   - DOMAIN-SUFFIX,alihealth.net
   - DOMAIN-SUFFIX,aliiotapp.com
@@ -3372,7 +3368,6 @@ payload:
   - DOMAIN-SUFFIX,95588.com.cn
   - DOMAIN-SUFFIX,9xsecndns.cn
   - DOMAIN-SUFFIX,adshonor.net
-  - DOMAIN-SUFFIX,aestatic.net
   - DOMAIN-SUFFIX,aibreeno.com
   - DOMAIN-SUFFIX,ali-expo.com
   - DOMAIN-SUFFIX,alibench.com
@@ -4045,7 +4040,6 @@ payload:
   - DOMAIN-SUFFIX,wesimiot.com
   - DOMAIN-SUFFIX,wesingapp.cn
   - DOMAIN-SUFFIX,wetestlab.cn
-  - DOMAIN-SUFFIX,wetvinfo.com
   - DOMAIN-SUFFIX,wnspicbk.com
   - DOMAIN-SUFFIX,wnsqzone.com
   - DOMAIN-SUFFIX,wo-link.tech
@@ -4715,7 +4709,6 @@ payload:
   - DOMAIN-SUFFIX,abc-ca.com
   - DOMAIN-SUFFIX,addpcn.com
   - DOMAIN-SUFFIX,adkwai.com
-  - DOMAIN-SUFFIX,ae-rus.net
   - DOMAIN-SUFFIX,aicdn.work
   - DOMAIN-SUFFIX,aihst8.com
   - DOMAIN-SUFFIX,aipage.com
@@ -5034,7 +5027,6 @@ payload:
   - DOMAIN-SUFFIX,jomocdn.cn
   - DOMAIN-SUFFIX,jomodns.cn
   - DOMAIN-SUFFIX,jomoxc.com
-  - DOMAIN-SUFFIX,joybuy.com
   - DOMAIN-SUFFIX,joying.com
   - DOMAIN-SUFFIX,jtamac.com
   - DOMAIN-SUFFIX,jumdfd.com
@@ -5048,7 +5040,6 @@ payload:
   - DOMAIN-SUFFIX,kskwai.com
   - DOMAIN-SUFFIX,kting.info
   - DOMAIN-SUFFIX,kumiao.com
-  - DOMAIN-SUFFIX,lazada.com
   - DOMAIN-SUFFIX,liffmp.com
   - DOMAIN-SUFFIX,lolpcs.com
   - DOMAIN-SUFFIX,lpl.com.cn
@@ -5607,7 +5598,6 @@ payload:
   - DOMAIN-SUFFIX,jerpx.com
   - DOMAIN-SUFFIX,jhscm.com
   - DOMAIN-SUFFIX,joyai.com
-  - DOMAIN-SUFFIX,joybuy.es
   - DOMAIN-SUFFIX,jsfund.cn
   - DOMAIN-SUFFIX,jstti.com
   - DOMAIN-SUFFIX,jtamc.com
@@ -5868,7 +5858,6 @@ payload:
   - DOMAIN-SUFFIX,a-map.co
   - DOMAIN-SUFFIX,aa5d.com
   - DOMAIN-SUFFIX,acimg.cn
-  - DOMAIN-SUFFIX,aedns.ru
   - DOMAIN-SUFFIX,ajzq.com
   - DOMAIN-SUFFIX,alime.ai
   - DOMAIN-SUFFIX,alios.cn
@@ -6088,7 +6077,6 @@ payload:
   - DOMAIN-SUFFIX,vurl1.cn
   - DOMAIN-SUFFIX,wan.wang
   - DOMAIN-SUFFIX,wenku.in
-  - DOMAIN-SUFFIX,wetv.vip
   - DOMAIN-SUFFIX,wosms.cn
   - DOMAIN-SUFFIX,wxzq.com
   - DOMAIN-SUFFIX,xck31.cn
