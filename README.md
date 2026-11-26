@@ -2,6 +2,8 @@
 
 自建 Mihomo 分流规则集（Rule Set）合集：多家公开作者规则全量合并、逐条审计、零自建，供 Mihomo 内核以 rule-provider（classical）方式加载。
 
+全仓已经过逐条普查细审：每条域名与每个 IP 段逐一核验归属，过误杀与无用两道过滤（多租户共用平台整段、别家宣告的地址段、已注销域名等一律剔除），并以负探针反向核查——未收录的服务应落兜底，不得被任何集误捞；全部集经 Mihomo 内核实载验证，运行时计数与文件条数逐份一致。
+
 文件直链格式：`https://raw.githubusercontent.com/PuthsenTaylor/Mihomo-RuleSets/main/<文件名>`
 
 ## 分流理念
@@ -9,7 +11,7 @@
 - **按公司归属分流**：谷歌走谷歌、苹果走苹果，有总公司归属的服务只进总公司集，不按地理名单混编。
 - **国外全代理、国内全直连**：海外服务的第一命中落自家代理策略组，不落漏网、不落直连；国内服务一律直连，在服务商眼中始终是国内 IP，账号风控画像连贯。国内公司的明确海外服务不按国内算，按服务本体归代理侧、不入直连集。
 - **宁可漏、不可误杀**：多租户共用平台的整段域名不入集，宁可让个别域名走兜底，也不劫持无关流量。
-- **零自建**：每条规则均有公开作者出处，不凭空编写域名；拿不准归属的条目不入集。
+- **零自建**：每条规则均有公开作者出处，不凭空编写域名；拿不准归属的条目不入集。极少数无作者出处、但经实证确认归属的条目，按点名破例单独登记保留，不在此限。
 - **字节跳动三分离**：海外字节（TikTok、CapCut、Lark 海外版、BytePlus 等）与全球共用基础设施归 TikTok 集走代理，国内字节（抖音、头条、飞书、火山引擎等）不进海外集、也不入名单制的国内直连集（字节不在点名名单内），在配套配置中经 GEOSITE 兜底走直连，两边彻底划开。
 
 ## 一键使用：覆写脚本（推荐）
@@ -24,9 +26,15 @@ https://gist.github.com/PuthsenTaylor/6d3a119274d974d6dbadf6c05e669ccd/raw/Mihom
 
 脚本版本与本仓库配套维护、同步更新。用脚本接入后，无需再按下面的手动方式逐个添加 rule-provider。
 
+## 架构与口径
+
+- **ASN 不入集、由配置直达行承载**：classical 规则集只要混入一条 IP-ASN 条目，整份集在内核运行时会加载为零，因此本仓库所有 IP 集均不收 IP-ASN。字节海外、Telegram、Meta 与腾讯的自治系统号（ASN）覆盖，改由配套配置中的 IP-ASN 直达行按号精确承载。使用覆写脚本接入时，脚本会一并写入这些直达行。这也是 TikTok 只有 `_Domain` 域名文件、没有 `_IP` 文件的原因：其 IP 侧覆盖由 ASN 直达行与 GEOIP 兜底承担。
+- **国内直连名单制**：国内直连集（Domestic-Direct）按点名名单收录，共 23 家总公司 / 28 样：欧加（OPPO 系）、腾讯 5 产品（微信、QQ、王者荣耀、和平精英、搜狗输入法）、阿里 3 产品（支付宝、淘宝、盒马）、京东、拼多多、美团、得物、航旅纵横、中国联通、百度输入法、交易所 5 家与银行 8 家。名单外的国内服务不入直连集，由 GEOSITE,cn 兜底直连；名单内公司的明确海外服务仍按服务本体归代理侧，不入直连集。
+- **AI 集范围**：AI 集只收没有总公司集的海外 AI 服务，全量收录（ChatGPT、Claude、Perplexity、Mistral、Midjourney、Runway、Suno、Cursor 等）；有总公司集的 AI 服务归各自公司集——Google 的 AI 入 Google 集、Grok 入 Twitter 集、Meta AI 入 Meta 集；微软 / GitHub 与 JetBrains 按既定例外留在 AI 集。
+
 ## 文件清单
 
-全仓 23 份文件，共 12,934 条；每份集按域名与 IP 拆分为 `_Domain` / `_IP` 双文件（个别集只有域名文件）。
+全仓 23 份文件，共 12,934 条；每份集按域名与 IP 拆分为 `_Domain` / `_IP` 双文件，其中 Disney、Emby 只有域名文件，TikTok 的 IP 侧覆盖由 ASN 直达行承载、同样只有域名文件（见上文「架构与口径」）。
 
 | 文件 | 版本 | 条数 | 内容 |
 | --- | --- | --- | --- |
@@ -49,7 +57,7 @@ https://gist.github.com/PuthsenTaylor/6d3a119274d974d6dbadf6c05e669ccd/raw/Mihom
 | [Meta_IP.yaml](Meta_IP.yaml) | v2.5.4 | 138 | Meta 全球 IP 地址段 |
 | [Twitter_Domain.yaml](Twitter_Domain.yaml) | v2.5.0 | 27 | X / Twitter、t.co、xAI / Grok 等服务域名 |
 | [Twitter_IP.yaml](Twitter_IP.yaml) | v2.5.0 | 21 | X / Twitter 全球 IP 地址段 |
-| [AI_Domain.yaml](AI_Domain.yaml) | v2.5.3 | 193 | ChatGPT、Claude、Perplexity、Midjourney、Runway、Suno、Cursor、Copilot 等海外 AI 服务域名 |
+| [AI_Domain.yaml](AI_Domain.yaml) | v2.5.3 | 193 | ChatGPT、Claude、Perplexity、Mistral、Midjourney、Runway、Suno、Cursor 等无总公司集的海外 AI 服务域名（全量收录） |
 | [AI_IP.yaml](AI_IP.yaml) | v2.5.1 | 2 | 海外 AI 服务 IP 地址段 |
 | [Domestic-Direct_Domain.yaml](Domestic-Direct_Domain.yaml) | v2.5.13 | 640 | OPPO 系、微信、QQ、搜狗输入法、百度输入法、支付宝、淘宝、盒马、京东、拼多多、美团、得物、航旅纵横、中国联通、币安等交易所与国内银行服务域名（用户点名名单制重构） |
 | [Domestic-Direct_IP.yaml](Domestic-Direct_IP.yaml) | v2.5.4 | 70 | 腾讯、阿里巴巴、中国联通等名单内公司作者源 IP 地址段 |
@@ -80,7 +88,7 @@ rules:
 
 ## 维护方式
 
-每日自动同步多家作者（blackmatrix7、MetaCubeX、v2fly、ACL4SSR 等）的公开规则更新：新增条目通过归属、误杀、无用三道审计后自动并入并升补丁版；作者删除的条目与归属存疑的新增不自动处理，留待人工裁定；其中国内直连集只同步用户点名名单内的公司，名单外的新增一律只登记待裁、不并入。
+每日自动同步多家作者（blackmatrix7、MetaCubeX、v2fly、ACL4SSR 等）的公开规则更新：新增条目通过归属、误杀、无用三道审计后自动并入并升补丁版；作者删除的条目与归属存疑的新增不自动处理，留待人工裁定；其中国内直连集只同步用户点名名单内的公司，名单外的新增一律只登记待裁、不并入。另有少量点名破例条目与状态观察名单，由人工裁定维护，每日同步不自动增删。
 
 ## 说明
 
