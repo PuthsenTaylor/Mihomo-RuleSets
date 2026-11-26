@@ -1,5 +1,5 @@
 # Disney_Domain
-# 版本 v2.5.0 · 日期 2026-11-25 · 时间 10:04 · 共 242 条
+# 版本 v2.5.1 · 日期 2026-11-25 · 时间 21:27 · 共 242 条
 # 内容：Disney+、Hulu、ESPN、ABC、Marvel、Star Wars、国家地理、Hotstar 等迪士尼家族服务
 payload:
   - PROCESS-NAME,com.disney.datg.videoplatforms.android.abc
@@ -112,6 +112,7 @@ payload:
   - DOMAIN-SUFFIX,disney-plus.net
   - DOMAIN-SUFFIX,disneyarena.com
   - DOMAIN-SUFFIX,disneystore.com
+  - DOMAIN-SUFFIX,disneyworld.com
   - DOMAIN-SUFFIX,dmed.technology
   - DOMAIN-SUFFIX,dtci.technology
   - DOMAIN-SUFFIX,hotstar-cdn.net
@@ -122,7 +123,6 @@ payload:
   - DOMAIN-SUFFIX,spaindisney.com
   - DOMAIN-SUFFIX,star-brasil.com
   - DOMAIN-SUFFIX,wwwhuluplus.com
-  - DOMAIN-SUFFIX,disneyworld.com
   - DOMAIN-SUFFIX,disneybaby.com
   - DOMAIN-SUFFIX,disneyplus.com
   - DOMAIN-SUFFIX,fxnetworks.com
@@ -168,9 +168,9 @@ payload:
   - DOMAIN-SUFFIX,huluplus.com
   - DOMAIN-SUFFIX,huluteam.com
   - DOMAIN-SUFFIX,mushymush.tv
+  - DOMAIN-SUFFIX,natgeotv.com
   - DOMAIN-SUFFIX,starplus.com
   - DOMAIN-SUFFIX,starwars.com
-  - DOMAIN-SUFFIX,natgeotv.com
   - DOMAIN-SUFFIX,abcnews.com
   - DOMAIN-SUFFIX,bamgrid.com
   - DOMAIN-SUFFIX,bamtech.net
