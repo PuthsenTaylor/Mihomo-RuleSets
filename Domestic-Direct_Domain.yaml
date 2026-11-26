@@ -1,5 +1,5 @@
 # Domestic-Direct_Domain
-# 版本 v2.5.7 · 日期 2026-11-25 · 时间 22:17 · 共 6282 条
+# 版本 v2.5.8 · 日期 2026-11-26 · 时间 00:46 · 共 6278 条
 # 内容：币安、欧易、火币等交易所，腾讯、阿里巴巴、字节跳动、京东、百度、国产 AI、银行与支付、证券基金、三网运营商等国内服务域名
 payload:
   - PROCESS-NAME,binance.exe
@@ -695,7 +695,6 @@ payload:
   - DOMAIN-SUFFIX,qishuimusic.com.cn
   - DOMAIN-SUFFIX,qy-tencentclb.work
   - DOMAIN-SUFFIX,raydata-mobile.com
-  - DOMAIN-SUFFIX,riotforgegames.com
   - DOMAIN-SUFFIX,rmall-solution.com
   - DOMAIN-SUFFIX,sa-tencentclb.work
   - DOMAIN-SUFFIX,sao-tencentclb.com
@@ -2352,8 +2351,6 @@ payload:
   - DOMAIN-SUFFIX,raydataweb.com
   - DOMAIN-SUFFIX,raykite.com.cn
   - DOMAIN-SUFFIX,raynext.com.cn
-  - DOMAIN-SUFFIX,riot-games.com
-  - DOMAIN-SUFFIX,riotpoints.com
   - DOMAIN-SUFFIX,rj.m.taobao.co
   - DOMAIN-SUFFIX,rocketmq.cloud
   - DOMAIN-SUFFIX,rongshuxia.com
@@ -4456,7 +4453,6 @@ payload:
   - DOMAIN-SUFFIX,raykite.xyz
   - DOMAIN-SUFFIX,rergdfh.com
   - DOMAIN-SUFFIX,ricenter.cn
-  - DOMAIN-SUFFIX,riotpin.com
   - DOMAIN-SUFFIX,rstatic.net
   - DOMAIN-SUFFIX,rumt-sg.com
   - DOMAIN-SUFFIX,rumt-us.com
