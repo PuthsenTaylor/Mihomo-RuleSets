@@ -26,13 +26,13 @@ https://gist.github.com/PuthsenTaylor/6d3a119274d974d6dbadf6c05e669ccd/raw/Mihom
 
 ## 文件清单
 
-全仓 23 份文件，共 12,939 条；每份集按域名与 IP 拆分为 `_Domain` / `_IP` 双文件（个别集只有域名文件）。
+全仓 23 份文件，共 12,936 条；每份集按域名与 IP 拆分为 `_Domain` / `_IP` 双文件（个别集只有域名文件）。
 
 | 文件 | 版本 | 条数 | 内容 |
 | --- | --- | --- | --- |
 | [LAN_Domain.yaml](LAN_Domain.yaml) | v2.5.0 | 142 | 局域网本地域名、路由器管理域名、本地服务发现域名、反向解析域名等 |
 | [LAN_IP.yaml](LAN_IP.yaml) | v2.5.0 | 28 | 私有、保留、环回、链路本地、组播、共享地址空间与文档示例等 IP 地址段 |
-| [Google_Domain.yaml](Google_Domain.yaml) | v2.5.2 | 880 | YouTube、Gmail、Gemini、Google Play、Google Search、Google Maps、Google Drive、Google Photos 等谷歌全线服务 |
+| [Google_Domain.yaml](Google_Domain.yaml) | v2.5.3 | 878 | YouTube、Gmail、Gemini、Google Play、Google Search、Google Maps、Google Drive、Google Photos 等谷歌全线服务 |
 | [Google_IP.yaml](Google_IP.yaml) | v2.5.1 | 7089 | 谷歌全球 IP 地址段 |
 | [Apple_Domain.yaml](Apple_Domain.yaml) | v2.5.4 | 1439 | iCloud、App Store、Apple Music、Apple TV、Beats 等苹果全线服务 |
 | [Apple_IP.yaml](Apple_IP.yaml) | v2.5.1 | 11 | 苹果全球 IP 地址段 |
@@ -51,7 +51,7 @@ https://gist.github.com/PuthsenTaylor/6d3a119274d974d6dbadf6c05e669ccd/raw/Mihom
 | [Twitter_IP.yaml](Twitter_IP.yaml) | v2.5.0 | 21 | X / Twitter 全球 IP 地址段 |
 | [AI_Domain.yaml](AI_Domain.yaml) | v2.5.3 | 193 | ChatGPT、Claude、Perplexity、Midjourney、Runway、Suno、Cursor、Copilot 等海外 AI 服务域名 |
 | [AI_IP.yaml](AI_IP.yaml) | v2.5.1 | 2 | 海外 AI 服务 IP 地址段 |
-| [Domestic-Direct_Domain.yaml](Domestic-Direct_Domain.yaml) | v2.5.12 | 641 | OPPO 系、微信、QQ、搜狗输入法、百度输入法、支付宝、淘宝、盒马、京东、拼多多、美团、得物、航旅纵横、中国联通、币安等交易所与国内银行服务域名（用户点名名单制重构） |
+| [Domestic-Direct_Domain.yaml](Domestic-Direct_Domain.yaml) | v2.5.13 | 640 | OPPO 系、微信、QQ、搜狗输入法、百度输入法、支付宝、淘宝、盒马、京东、拼多多、美团、得物、航旅纵横、中国联通、币安等交易所与国内银行服务域名（用户点名名单制重构） |
 | [Domestic-Direct_IP.yaml](Domestic-Direct_IP.yaml) | v2.5.4 | 70 | 腾讯、阿里巴巴、中国联通等名单内公司作者源 IP 地址段 |
 
 ## 手动接入：rule-provider
