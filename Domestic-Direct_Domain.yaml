@@ -1,5 +1,5 @@
 # Domestic-Direct_Domain
-# 版本 v2.5.1 · 日期 2026-11-25 · 时间 20:45（洛杉矶） · 共 6293 条
+# 版本 v2.5.2 · 日期 2026-11-25 · 时间 21:16 · 共 6307 条
 # 内容：币安、欧易等交易所，腾讯、阿里巴巴、字节跳动、京东、百度、银行与支付、证券基金、三网运营商等国内服务域名
 payload:
   - PROCESS-NAME,binance.exe
@@ -893,6 +893,7 @@ payload:
   - DOMAIN-SUFFIX,foresightfund.com
   - DOMAIN-SUFFIX,fqnovelstatic.com
   - DOMAIN-SUFFIX,fthimalayandb.com
+  - DOMAIN-SUFFIX,functiongraph.run
   - DOMAIN-SUFFIX,gaapacc001.com.cn
   - DOMAIN-SUFFIX,gaapacc002.com.cn
   - DOMAIN-SUFFIX,gaapacc003.com.cn
@@ -1252,6 +1253,7 @@ payload:
   - DOMAIN-SUFFIX,cloudxianyou.com
   - DOMAIN-SUFFIX,cloudyueyang.com
   - DOMAIN-SUFFIX,cryuantafund.com
+  - DOMAIN-SUFFIX,diandianlife.top
   - DOMAIN-SUFFIX,dingtalkapps.com
   - DOMAIN-SUFFIX,ditianshanhe.com
   - DOMAIN-SUFFIX,dongchediapp.com
@@ -2288,6 +2290,7 @@ payload:
   - DOMAIN-SUFFIX,jinritemai.com
   - DOMAIN-SUFFIX,jiyunhudong.cn
   - DOMAIN-SUFFIX,knightedge.com
+  - DOMAIN-SUFFIX,kuaishouzt.com
   - DOMAIN-SUFFIX,kugouaudio.com
   - DOMAIN-SUFFIX,kugoustore.com
   - DOMAIN-SUFFIX,kugouvoice.com
@@ -2582,6 +2585,7 @@ payload:
   - DOMAIN-SUFFIX,xiguavideo.net
   - DOMAIN-SUFFIX,xinlingshou.cn
   - DOMAIN-SUFFIX,xinyueclub.com
+  - DOMAIN-SUFFIX,ydshengxue.com
   - DOMAIN-SUFFIX,yonghuivip.com
   - DOMAIN-SUFFIX,youkuhonor.com
   - DOMAIN-SUFFIX,yundunddos.com
@@ -3014,11 +3018,13 @@ payload:
   - DOMAIN-SUFFIX,icbcswiss.com
   - DOMAIN-SUFFIX,icpenguin.com
   - DOMAIN-SUFFIX,icpenguin.net
+  - DOMAIN-SUFFIX,idonguapi.com
   - DOMAIN-SUFFIX,iesdouyin.com
   - DOMAIN-SUFFIX,iesdouyin.net
   - DOMAIN-SUFFIX,ieshuodong.cn
   - DOMAIN-SUFFIX,ieshuoshan.cn
   - DOMAIN-SUFFIX,iga-pages.com
+  - DOMAIN-SUFFIX,inanguapi.com
   - DOMAIN-SUFFIX,intencent.com
   - DOMAIN-SUFFIX,ipv6radar.com
   - DOMAIN-SUFFIX,ispqcloud.com
@@ -3341,6 +3347,7 @@ payload:
   - DOMAIN-SUFFIX,yihaomall.com
   - DOMAIN-SUFFIX,yiqianbao.com
   - DOMAIN-SUFFIX,yjs-cdn10.com
+  - DOMAIN-SUFFIX,youdaoads.com
   - DOMAIN-SUFFIX,youkuplay.com
   - DOMAIN-SUFFIX,youyou001.com
   - DOMAIN-SUFFIX,yufuid.com.cn
@@ -3645,6 +3652,7 @@ payload:
   - DOMAIN-SUFFIX,itopplay.com
   - DOMAIN-SUFFIX,iwuyou189.cn
   - DOMAIN-SUFFIX,ixgvideo.com
+  - DOMAIN-SUFFIX,ixiguapi.com
   - DOMAIN-SUFFIX,ja-cloud.com
   - DOMAIN-SUFFIX,jcloudcs.com
   - DOMAIN-SUFFIX,jclouddn.com
@@ -4109,6 +4117,8 @@ payload:
   - DOMAIN-SUFFIX,abchina.com
   - DOMAIN-SUFFIX,acctdns.com
   - DOMAIN-SUFFIX,acctdns.net
+  - DOMAIN-SUFFIX,adbkwai.com
+  - DOMAIN-SUFFIX,adukwai.com
   - DOMAIN-SUFFIX,agpolis.com
   - DOMAIN-SUFFIX,aigclsp.com
   - DOMAIN-SUFFIX,aiqicha.com
@@ -4654,6 +4664,7 @@ payload:
   - DOMAIN-SUFFIX,xa-bank.com
   - DOMAIN-SUFFIX,xdrcftv.com
   - DOMAIN-SUFFIX,xf-fund.com
+  - DOMAIN-SUFFIX,xhsrcdn.com
   - DOMAIN-SUFFIX,xianfae.com
   - DOMAIN-SUFFIX,xiaobai.com
   - DOMAIN-SUFFIX,xiaodutv.cn
@@ -4700,6 +4711,7 @@ payload:
   - DOMAIN-SUFFIX,aamyoe.com
   - DOMAIN-SUFFIX,abc-ca.com
   - DOMAIN-SUFFIX,addpcn.com
+  - DOMAIN-SUFFIX,adkwai.com
   - DOMAIN-SUFFIX,ae-rus.net
   - DOMAIN-SUFFIX,aicdn.work
   - DOMAIN-SUFFIX,aihst8.com
@@ -5028,6 +5040,7 @@ payload:
   - DOMAIN-SUFFIX,komect.com
   - DOMAIN-SUFFIX,koubei.com
   - DOMAIN-SUFFIX,kshbank.cn
+  - DOMAIN-SUFFIX,kskwai.com
   - DOMAIN-SUFFIX,kting.info
   - DOMAIN-SUFFIX,kumiao.com
   - DOMAIN-SUFFIX,lazada.com
@@ -5613,6 +5626,7 @@ payload:
   - DOMAIN-SUFFIX,lufax.com
   - DOMAIN-SUFFIX,lydaas.cn
   - DOMAIN-SUFFIX,lydass.cn
+  - DOMAIN-SUFFIX,maoer.com
   - DOMAIN-SUFFIX,mcprev.cn
   - DOMAIN-SUFFIX,mdeer.com
   - DOMAIN-SUFFIX,mgse.info
