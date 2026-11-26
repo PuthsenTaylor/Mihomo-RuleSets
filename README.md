@@ -7,7 +7,7 @@
 ## 分流理念
 
 - **按公司归属分流**：谷歌走谷歌、苹果走苹果，有总公司归属的服务只进总公司集，不按地理名单混编。
-- **国外全代理、国内全直连**：海外服务的第一命中落自家代理策略组，不落漏网、不落直连；国内服务（包含其海外面）一律直连，在服务商眼中始终是国内 IP，账号风控画像连贯。
+- **国外全代理、国内全直连**：海外服务的第一命中落自家代理策略组，不落漏网、不落直连；国内服务一律直连，在服务商眼中始终是国内 IP，账号风控画像连贯。国内公司的明确海外服务不按国内算，按服务本体归代理侧、不入直连集。
 - **宁可漏、不可误杀**：多租户共用平台的整段域名不入集，宁可让个别域名走兜底，也不劫持无关流量。
 - **零自建**：每条规则均有公开作者出处，不凭空编写域名；拿不准归属的条目不入集。
 - **字节跳动三分离**：海外字节（TikTok、CapCut、Lark 海外版、BytePlus 等）与全球共用基础设施归 TikTok 集走代理，国内字节（抖音、头条、飞书、火山引擎等）归国内直连集，两边彻底划开。
@@ -26,7 +26,7 @@ https://gist.github.com/PuthsenTaylor/6d3a119274d974d6dbadf6c05e669ccd/raw/Mihom
 
 ## 文件清单
 
-全仓 24 份文件，共 13,017 条；每份集按域名与 IP 拆分为 `_Domain` / `_IP` 双文件（个别集只有域名文件）。
+全仓 23 份文件，共 13,005 条；每份集按域名与 IP 拆分为 `_Domain` / `_IP` 双文件（个别集只有域名文件）。
 
 | 文件 | 版本 | 条数 | 内容 |
 | --- | --- | --- | --- |
@@ -41,19 +41,18 @@ https://gist.github.com/PuthsenTaylor/6d3a119274d974d6dbadf6c05e669ccd/raw/Mihom
 | [Disney_Domain.yaml](Disney_Domain.yaml) | v2.5.1 | 242 | Disney+、Hulu、ESPN、ABC、Marvel、Star Wars、国家地理、Hotstar 等迪士尼家族服务 |
 | [Emby_Domain.yaml](Emby_Domain.yaml) | v2.5.1 | 18 | Emby、Infuse、VidHub、Forward、Fileball、AfuseKt、FinFlow 等服务与进程名 |
 | [TikTok_Domain.yaml](TikTok_Domain.yaml) | v2.5.1 | 256 | TikTok、CapCut、Coze、Lark 海外版、BytePlus、Pico 等字节跳动海外服务及全球共用基础设施 |
-| [TikTok_IP.yaml](TikTok_IP.yaml) | v2.5.0 | 4 | 字节跳动海外主体官方 ASN 地址段（Bytedance、TikTok、BytePlus） |
 | [Spotify_Domain.yaml](Spotify_Domain.yaml) | v2.5.0 | 32 | Spotify、Anchor 等服务域名 |
 | [Spotify_IP.yaml](Spotify_IP.yaml) | v2.5.0 | 2 | Spotify 全球 IP 地址段 |
 | [Telegram_Domain.yaml](Telegram_Domain.yaml) | v2.5.0 | 35 | Telegram、Telegra.ph、Fragment、TON 等服务域名 |
-| [Telegram_IP.yaml](Telegram_IP.yaml) | v2.5.1 | 18 | Telegram 全球 IP 地址段 |
+| [Telegram_IP.yaml](Telegram_IP.yaml) | v2.5.2 | 13 | Telegram 全球 IP 地址段 |
 | [Meta_Domain.yaml](Meta_Domain.yaml) | v2.5.1 | 559 | Facebook、Instagram、WhatsApp、Messenger、Threads、Meta Quest、Meta AI 等服务域名 |
-| [Meta_IP.yaml](Meta_IP.yaml) | v2.5.1 | 149 | Meta 全球 IP 地址段 |
+| [Meta_IP.yaml](Meta_IP.yaml) | v2.5.2 | 148 | Meta 全球 IP 地址段 |
 | [Twitter_Domain.yaml](Twitter_Domain.yaml) | v2.5.0 | 27 | X / Twitter、t.co、xAI / Grok 等服务域名 |
 | [Twitter_IP.yaml](Twitter_IP.yaml) | v2.5.0 | 21 | X / Twitter 全球 IP 地址段 |
 | [AI_Domain.yaml](AI_Domain.yaml) | v2.5.3 | 193 | ChatGPT、Claude、Perplexity、Midjourney、Runway、Suno、Cursor、Copilot 等海外 AI 服务域名 |
 | [AI_IP.yaml](AI_IP.yaml) | v2.5.1 | 2 | 海外 AI 服务 IP 地址段 |
-| [Domestic-Direct_Domain.yaml](Domestic-Direct_Domain.yaml) | v2.5.11 | 642 | OPPO 系、微信、QQ、搜狗输入法、百度输入法、支付宝、淘宝、盒马、京东、拼多多、美团、得物、航旅纵横、中国联通、币安等交易所与国内银行服务域名（用户点名名单制重构） |
-| [Domestic-Direct_IP.yaml](Domestic-Direct_IP.yaml) | v2.5.2 | 76 | 腾讯、阿里巴巴、中国联通等名单内公司作者源 IP 地址段 |
+| [Domestic-Direct_Domain.yaml](Domestic-Direct_Domain.yaml) | v2.5.12 | 641 | OPPO 系、微信、QQ、搜狗输入法、百度输入法、支付宝、淘宝、盒马、京东、拼多多、美团、得物、航旅纵横、中国联通、币安等交易所与国内银行服务域名（用户点名名单制重构） |
+| [Domestic-Direct_IP.yaml](Domestic-Direct_IP.yaml) | v2.5.3 | 75 | 腾讯、阿里巴巴、中国联通等名单内公司作者源 IP 地址段 |
 
 ## 手动接入：rule-provider
 
