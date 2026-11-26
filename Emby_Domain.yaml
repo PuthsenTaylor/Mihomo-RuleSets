@@ -1,21 +1,21 @@
 # Emby_Domain
-# 版本 v2.5.0 · 日期 2026-11-25 · 时间 10:04 · 共 18 条
+# 版本 v2.5.1 · 日期 2026-11-25 · 时间 21:27 · 共 18 条
 # 内容：Emby、Infuse、VidHub、Forward、Fileball、AfuseKt、FinFlow 等服务与进程名
 payload:
-  - PROCESS-NAME,com.riri.finflow
   - PROCESS-NAME,com.mb.android
-  - PROCESS-NAME,tv.emby.embyatv
-  - PROCESS-NAME,EmbyClientWinUI.exe
+  - PROCESS-NAME,com.riri.finflow
   - PROCESS-NAME,Emby.Theater.exe
+  - PROCESS-NAME,EmbyClientWinUI.exe
   - PROCESS-NAME,EmbyServer.exe
+  - PROCESS-NAME,tv.emby.embyatv
   - DOMAIN-SUFFIX,uhdnow.online
-  - DOMAIN-SUFFIX,mb3admin.com
-  - DOMAIN-SUFFIX,firecore.com
   - DOMAIN-SUFFIX,fileball.app
+  - DOMAIN-SUFFIX,firecore.com
+  - DOMAIN-SUFFIX,mb3admin.com
   - DOMAIN-SUFFIX,okaapps.com
+  - DOMAIN-SUFFIX,afusekt.cn
   - DOMAIN-SUFFIX,emby.media
   - DOMAIN-SUFFIX,uhdnow.com
-  - DOMAIN-SUFFIX,afusekt.cn
   - DOMAIN-SUFFIX,uhdgo.com
   - DOMAIN-SUFFIX,emby.org
   - DOMAIN-SUFFIX,inch.red
