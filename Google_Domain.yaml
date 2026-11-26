@@ -1,4 +1,4 @@
-# 版本 v2.5.2 · 日期 2026-11-26 · 时间 09:35 · 共 880 条
+# 版本 v2.5.3 · 日期 2026-11-26 · 时间 09:48 · 共 878 条
 # 内容：YouTube、Gmail、Gemini、Google Play、Google Search、Google Maps、Google Drive、Google Photos 等谷歌全线服务
 payload:
   - PROCESS-NAME,BackupandSync
@@ -11,7 +11,6 @@ payload:
   - DOMAIN-SUFFIX,app-analytics-services-att.com
   - DOMAIN-SUFFIX,googleacquisitionmigration.com
   - DOMAIN-SUFFIX,googletraveladservices-cn.com
-  - DOMAIN-SUFFIX,certificate-transparency.dev
   - DOMAIN-SUFFIX,certificate-transparency.org
   - DOMAIN-SUFFIX,xn--p8j9a0d9c9a.xn--q9jyb4c
   - DOMAIN-SUFFIX,adsensecustomsearchads.com
@@ -75,7 +74,6 @@ payload:
   - DOMAIN-SUFFIX,youtubeeducation.com
   - DOMAIN-SUFFIX,zukunftswerkstatt.de
   - DOMAIN-SUFFIX,app-measurement.com
-  - DOMAIN-SUFFIX,app-measurement.net
   - DOMAIN-SUFFIX,crossmediapanel.com
   - DOMAIN-SUFFIX,data-vocabulary.org
   - DOMAIN-SUFFIX,googleadsserving.cn
