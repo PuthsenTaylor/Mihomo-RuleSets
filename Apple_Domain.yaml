@@ -1,5 +1,5 @@
 # Apple_Domain
-# 版本 v2.5.1 · 日期 2026-11-25 · 时间 21:27 · 共 1468 条
+# 版本 v2.5.2 · 日期 2026-11-25 · 时间 22:04 · 共 1462 条
 # 内容：iCloud、App Store、Apple Music、Apple TV、Beats 等苹果全线服务
 payload:
   - PROCESS-NAME,apsd
@@ -547,7 +547,6 @@ payload:
   - DOMAIN-SUFFIX,applecenter.com.cn
   - DOMAIN-SUFFIX,applecentre.com.au
   - DOMAIN-SUFFIX,applefilmmaker.com
-  - DOMAIN-SUFFIX,applehealth.com.hk
   - DOMAIN-SUFFIX,appleid-applemx.us
   - DOMAIN-SUFFIX,appleiservices.com
   - DOMAIN-SUFFIX,applemusic.hamburg
@@ -613,8 +612,6 @@ payload:
   - DOMAIN-SUFFIX,applecare.hamburg
   - DOMAIN-SUFFIX,applecentar.co.rs
   - DOMAIN-SUFFIX,applecomputer.com
-  - DOMAIN-SUFFIX,appledaily.com.hk
-  - DOMAIN-SUFFIX,appledaily.com.tw
   - DOMAIN-SUFFIX,applefilmaker.com
   - DOMAIN-SUFFIX,applehongkong.com
   - DOMAIN-SUFFIX,appleid-iclou.com
@@ -804,7 +801,6 @@ payload:
   - DOMAIN-SUFFIX,appledarwin.com
   - DOMAIN-SUFFIX,appledarwin.net
   - DOMAIN-SUFFIX,appledns.com.cn
-  - DOMAIN-SUFFIX,applefruity.com
   - DOMAIN-SUFFIX,appleid.hamburg
   - DOMAIN-SUFFIX,appleiphone.net
   - DOMAIN-SUFFIX,applemusic.wang
@@ -888,7 +884,6 @@ payload:
   - DOMAIN-SUFFIX,applecare.wang
   - DOMAIN-SUFFIX,applecentar.rs
   - DOMAIN-SUFFIX,applecenter.cn
-  - DOMAIN-SUFFIX,appledaily.com
   - DOMAIN-SUFFIX,appleenews.com
   - DOMAIN-SUFFIX,appleexpo.info
   - DOMAIN-SUFFIX,appleicloud.cn
@@ -971,7 +966,6 @@ payload:
   - DOMAIN-SUFFIX,apple-pay.com
   - DOMAIN-SUFFIX,apple-usa.net
   - DOMAIN-SUFFIX,apple.hamburg
-  - DOMAIN-SUFFIX,appledaily.hk
   - DOMAIN-SUFFIX,appleid-uk.us
   - DOMAIN-SUFFIX,appleimac.com
   - DOMAIN-SUFFIX,applelink.com
