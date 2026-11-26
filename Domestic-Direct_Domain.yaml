@@ -1,5 +1,5 @@
-# 版本 v2.5.9 · 日期 2026-11-26 · 时间 06:53 · 共 636 条
-# 内容：OPPO 系、微信、QQ、搜狗输入法、支付宝、淘宝、盒马、京东、拼多多、美团、得物、航旅纵横、中国联通、币安等交易所与国内银行服务域名（用户点名名单制重构）
+# 版本 v2.5.10 · 日期 2026-11-26 · 时间 07:12 · 共 643 条
+# 内容：OPPO 系、微信、QQ、搜狗输入法、百度输入法、支付宝、淘宝、盒马、京东、拼多多、美团、得物、航旅纵横、中国联通、币安等交易所与国内银行服务域名（用户点名名单制重构）
 payload:
   - PROCESS-NAME,Binance.exe
   - PROCESS-NAME,OKX.exe
@@ -9,6 +9,10 @@ payload:
   - DOMAIN,zftksc.launches.appsflyersdk.com
   - DOMAIN,bybit-exchange.github.io
   - DOMAIN,bybit.ada.support
+  - DOMAIN,ime.baidu.com
+  - DOMAIN,input.baidu.com
+  - DOMAIN,olime.baidu.com
+  - DOMAIN,shurufa.baidu.com
   - DOMAIN,slife.xy-asia.com
   - DOMAIN-SUFFIX,okx.com.cdn.cloudflare.net
   - DOMAIN-SUFFIX,growthsharequestion.cn
@@ -327,6 +331,7 @@ payload:
   - DOMAIN-SUFFIX,binancezh.cc
   - DOMAIN-SUFFIX,binancezh.co
   - DOMAIN-SUFFIX,binancezh.sh
+  - DOMAIN-SUFFIX,bitget.cloud
   - DOMAIN-SUFFIX,bnbchain.org
   - DOMAIN-SUFFIX,bocichina.cn
   - DOMAIN-SUFFIX,bocifunds.cn
@@ -358,6 +363,7 @@ payload:
   - DOMAIN-SUFFIX,jcloudlv.com
   - DOMAIN-SUFFIX,jcloudss.com
   - DOMAIN-SUFFIX,jd-ex.com.cn
+  - DOMAIN-SUFFIX,jdhealth.com
   - DOMAIN-SUFFIX,jdpaydns.com
   - DOMAIN-SUFFIX,jingdong.com
   - DOMAIN-SUFFIX,minitiao.com
@@ -532,6 +538,7 @@ payload:
   - DOMAIN-SUFFIX,cmburl.cn
   - DOMAIN-SUFFIX,dewuhd.cn
   - DOMAIN-SUFFIX,dwhhd.com
+  - DOMAIN-SUFFIX,gateio.ws
   - DOMAIN-SUFFIX,gd165.com
   - DOMAIN-SUFFIX,heytap.cn
   - DOMAIN-SUFFIX,imdada.cn
