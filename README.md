@@ -12,6 +12,18 @@
 - **零自建**：每条规则均有公开作者出处，不凭空编写域名；拿不准归属的条目不入集。
 - **字节跳动三分离**：海外字节（TikTok、CapCut、Lark 海外版、BytePlus 等）与全球共用基础设施归 TikTok 集走代理，国内字节（抖音、头条、飞书、火山引擎等）归国内直连集，两边彻底划开。
 
+## 一键使用：覆写脚本（推荐）
+
+不想自己写规则的，直接用配套覆写脚本 **MihomoOverride.js**：在支持 JavaScript 覆写的 Mihomo 客户端中，把脚本地址填入覆写（脚本）一栏即可。脚本会保留你订阅自带的节点与传输参数，只重建 DNS、嗅探、13 个策略组、本仓库 25 个规则集的引用与全部分流规则；脚本本身不包含任何节点信息，节点全部来自你自己的订阅。
+
+脚本地址（raw 直链，可直接粘贴到客户端）：
+
+```
+https://gist.github.com/PuthsenTaylor/6d3a119274d974d6dbadf6c05e669ccd/raw/MihomoOverride.js
+```
+
+脚本版本与本仓库配套维护、同步更新。用脚本接入后，无需再按下面的手动方式逐个添加 rule-provider。
+
 ## 文件清单
 
 全仓 25 份文件，共 18,545 条；每份集按域名与 IP 拆分为 `_Domain` / `_IP` 双文件（个别集只有域名文件）。
@@ -44,9 +56,9 @@
 | [Domestic-Direct_Domain.yaml](Domestic-Direct_Domain.yaml) | v2.5.0 | 5833 | 币安、欧易等交易所，腾讯、阿里巴巴、字节跳动、京东、百度、三网运营商等国内服务域名 |
 | [Domestic-Direct_IP.yaml](Domestic-Direct_IP.yaml) | v2.5.0 | 200 | 国内服务 IP 地址段 |
 
-## 使用方法
+## 手动接入：rule-provider
 
-在 Mihomo 配置中以 rule-provider 引入，按需选用：
+也可以在 Mihomo 配置中以 rule-provider 逐个引入，按需选用：
 
 ```yaml
 rule-providers:
