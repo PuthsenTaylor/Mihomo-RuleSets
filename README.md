@@ -51,9 +51,9 @@ https://gist.github.com/PuthsenTaylor/6d3a119274d974d6dbadf6c05e669ccd/raw/Mihom
 | [Meta_IP.yaml](Meta_IP.yaml) | v2.5.1 | 149 | Meta 全球 IP 地址段 |
 | [Twitter_Domain.yaml](Twitter_Domain.yaml) | v2.5.0 | 27 | X / Twitter、t.co、xAI / Grok 等服务域名 |
 | [Twitter_IP.yaml](Twitter_IP.yaml) | v2.5.0 | 21 | X / Twitter 全球 IP 地址段 |
-| [AI_Domain.yaml](AI_Domain.yaml) | v2.5.0 | 206 | ChatGPT、Claude、Perplexity、Midjourney、Runway、Suno、Cursor、Copilot 等海外 AI 服务域名 |
+| [AI_Domain.yaml](AI_Domain.yaml) | v2.5.1 | 193 | ChatGPT、Claude、Perplexity、Midjourney、Runway、Suno、Cursor、Copilot 等海外 AI 服务域名 |
 | [AI_IP.yaml](AI_IP.yaml) | v2.5.0 | 2 | 海外 AI 服务 IP 地址段 |
-| [Domestic-Direct_Domain.yaml](Domestic-Direct_Domain.yaml) | v2.5.6 | 6269 | 币安、欧易、火币等交易所，腾讯、阿里巴巴、字节跳动、京东、百度、银行与支付、证券基金、三网运营商等国内服务域名 |
+| [Domestic-Direct_Domain.yaml](Domestic-Direct_Domain.yaml) | v2.5.7 | 6282 | 币安、欧易、火币等交易所，腾讯、阿里巴巴、字节跳动、京东、百度、国产 AI、银行与支付、证券基金、三网运营商等国内服务域名 |
 | [Domestic-Direct_IP.yaml](Domestic-Direct_IP.yaml) | v2.5.1 | 170 | 国内服务 IP 地址段 |
 
 ## 手动接入：rule-provider
