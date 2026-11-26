@@ -1,5 +1,5 @@
 # AI_Domain
-# 版本 v2.5.0 · 日期 2026-11-25 · 时间 10:04 · 共 206 条
+# 版本 v2.5.1 · 日期 2026-11-25 · 时间 22:17 · 共 193 条
 # 内容：ChatGPT、Claude、Perplexity、Midjourney、Runway、Suno、Cursor、Copilot 等海外 AI 服务域名
 payload:
   - DOMAIN,api.msn.com
@@ -71,7 +71,6 @@ payload:
   - DOMAIN-SUFFIX,cursor-cdn.com
   - DOMAIN-SUFFIX,diabrowser.com
   - DOMAIN-SUFFIX,elevenlabs.com
-  - DOMAIN-SUFFIX,hailuoai.video
   - DOMAIN-SUFFIX,huggingface.co
   - DOMAIN-SUFFIX,jetbrains.team
   - DOMAIN-SUFFIX,kotlinconf.com
@@ -117,7 +116,6 @@ payload:
   - DOMAIN-SUFFIX,synthesia.io
   - DOMAIN-SUFFIX,together.xyz
   - DOMAIN-SUFFIX,windsurf.com
-  - DOMAIN-SUFFIX,youmind.site
   - DOMAIN-SUFFIX,cerebras.ai
   - DOMAIN-SUFFIX,chatgpt.com
   - DOMAIN-SUFFIX,civitai.com
@@ -133,14 +131,11 @@ payload:
   - DOMAIN-SUFFIX,lovable.dev
   - DOMAIN-SUFFIX,lumalabs.ai
   - DOMAIN-SUFFIX,manus.space
-  - DOMAIN-SUFFIX,moonshot.ai
   - DOMAIN-SUFFIX,novelai.net
   - DOMAIN-SUFFIX,openclaw.ai
   - DOMAIN-SUFFIX,opencode.ai
-  - DOMAIN-SUFFIX,talkai.info
   - DOMAIN-SUFFIX,together.ai
   - DOMAIN-SUFFIX,typesafe.ai
-  - DOMAIN-SUFFIX,youmind.com
   - DOMAIN-SUFFIX,claude.app
   - DOMAIN-SUFFIX,claude.com
   - DOMAIN-SUFFIX,claude.dev
@@ -152,7 +147,6 @@ payload:
   - DOMAIN-SUFFIX,cursor.com
   - DOMAIN-SUFFIX,envato.com
   - DOMAIN-SUFFIX,heygen.com
-  - DOMAIN-SUFFIX,minimax.io
   - DOMAIN-SUFFIX,mistral.ai
   - DOMAIN-SUFFIX,mozilla.ai
   - DOMAIN-SUFFIX,notegpt.io
@@ -163,8 +157,6 @@ payload:
   - DOMAIN-SUFFIX,poecdn.net
   - DOMAIN-SUFFIX,recraft.ai
   - DOMAIN-SUFFIX,runway.com
-  - DOMAIN-SUFFIX,tripo3d.ai
-  - DOMAIN-SUFFIX,youmind.ai
   - DOMAIN-SUFFIX,chutes.ai
   - DOMAIN-SUFFIX,claude.ai
   - DOMAIN-SUFFIX,cline.bot
@@ -173,9 +165,6 @@ payload:
   - DOMAIN-SUFFIX,cursor.sh
   - DOMAIN-SUFFIX,grazie.ai
   - DOMAIN-SUFFIX,jasper.ai
-  - DOMAIN-SUFFIX,lovart.ai
-  - DOMAIN-SUFFIX,qoder.com
-  - DOMAIN-SUFFIX,tapnow.ai
   - DOMAIN-SUFFIX,arena.ai
   - DOMAIN-SUFFIX,chat.com
   - DOMAIN-SUFFIX,devin.ai
@@ -192,9 +181,7 @@ payload:
   - DOMAIN-SUFFIX,udio.com
   - DOMAIN-SUFFIX,ant.dev
   - DOMAIN-SUFFIX,clau.de
-  - DOMAIN-SUFFIX,dify.ai
   - DOMAIN-SUFFIX,duck.ai
-  - DOMAIN-SUFFIX,kimi.ai
   - DOMAIN-SUFFIX,krea.ai
   - DOMAIN-SUFFIX,poe.com
   - DOMAIN-SUFFIX,pplx.ai
