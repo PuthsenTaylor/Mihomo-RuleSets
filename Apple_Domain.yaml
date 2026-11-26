@@ -1,5 +1,5 @@
 # Apple_Domain
-# 版本 v2.5.0 · 日期 2026-11-25 · 时间 10:04 · 共 1468 条
+# 版本 v2.5.1 · 日期 2026-11-25 · 时间 21:27 · 共 1468 条
 # 内容：iCloud、App Store、Apple Music、Apple TV、Beats 等苹果全线服务
 payload:
   - PROCESS-NAME,apsd
@@ -1315,6 +1315,7 @@ payload:
   - DOMAIN-SUFFIX,appsto.re
   - DOMAIN-SUFFIX,appye.com
   - DOMAIN-SUFFIX,apyle.com
+  - DOMAIN-SUFFIX,beats.com
   - DOMAIN-SUFFIX,beats1.cc
   - DOMAIN-SUFFIX,beats1.cn
   - DOMAIN-SUFFIX,beats1.tv
@@ -1366,7 +1367,6 @@ payload:
   - DOMAIN-SUFFIX,iwork.com
   - DOMAIN-SUFFIX,qwapi.com
   - DOMAIN-SUFFIX,swift.org
-  - DOMAIN-SUFFIX,beats.com
   - DOMAIN-SUFFIX,5lml.com
   - DOMAIN-SUFFIX,aple.com
   - DOMAIN-SUFFIX,appl.com
