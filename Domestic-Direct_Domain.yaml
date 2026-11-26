@@ -2,11 +2,9 @@
 # 内容：OPPO 系、微信、QQ、搜狗输入法、百度输入法、支付宝、淘宝、盒马、京东、拼多多、美团、得物、航旅纵横、中国联通、币安等交易所与国内银行服务域名（用户点名名单制重构）
 payload:
   - PROCESS-NAME,Binance.exe
-  - PROCESS-NAME,OKX.exe
   - PROCESS-NAME,com.taobao.taobao
+  - PROCESS-NAME,OKX.exe
   - DOMAIN,apd-pcdnwxlogin.teg.tencent-cloud.net
-  - DOMAIN,zftksc.cdn-settings.appsflyersdk.com
-  - DOMAIN,zftksc.launches.appsflyersdk.com
   - DOMAIN,bybit-exchange.github.io
   - DOMAIN,bybit.ada.support
   - DOMAIN,ime.baidu.com
@@ -14,6 +12,8 @@ payload:
   - DOMAIN,olime.baidu.com
   - DOMAIN,shurufa.baidu.com
   - DOMAIN,slife.xy-asia.com
+  - DOMAIN,zftksc.cdn-settings.appsflyersdk.com
+  - DOMAIN,zftksc.launches.appsflyersdk.com
   - DOMAIN-SUFFIX,okx.com.cdn.cloudflare.net
   - DOMAIN-SUFFIX,growthsharequestion.cn
   - DOMAIN-SUFFIX,chinaunicombidding.cn
