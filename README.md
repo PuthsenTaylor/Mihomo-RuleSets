@@ -26,7 +26,7 @@ https://gist.github.com/PuthsenTaylor/6d3a119274d974d6dbadf6c05e669ccd/raw/Mihom
 
 ## 文件清单
 
-全仓 26 份文件，共 18,657 条；每份集按域名与 IP 拆分为 `_Domain` / `_IP` 双文件（个别集只有域名文件）。
+全仓 27 份文件，共 18,804 条；每份集按域名与 IP 拆分为 `_Domain` / `_IP` 双文件（个别集只有域名文件）。
 
 | 文件 | 版本 | 条数 | 内容 |
 | --- | --- | --- | --- |
@@ -50,7 +50,8 @@ https://gist.github.com/PuthsenTaylor/6d3a119274d974d6dbadf6c05e669ccd/raw/Mihom
 | [Meta_IP.yaml](Meta_IP.yaml) | v2.5.1 | 149 | Meta 全球 IP 地址段 |
 | [Twitter_Domain.yaml](Twitter_Domain.yaml) | v2.5.0 | 27 | X / Twitter、t.co、xAI / Grok 等服务域名 |
 | [Twitter_IP.yaml](Twitter_IP.yaml) | v2.5.0 | 21 | X / Twitter 全球 IP 地址段 |
-| [AI_Domain.yaml](AI_Domain.yaml) | v2.5.2 | 48 | OpenAI（ChatGPT / Codex）、Anthropic（Claude）、Manus 四家主流海外 AI 服务域名（用户裁定主流集，只收四家） |
+| [AI_Domain.yaml](AI_Domain.yaml) | v2.5.3 | 193 | ChatGPT、Claude、Perplexity、Midjourney、Runway、Suno、Cursor、Copilot 等海外 AI 服务域名 |
+| [AI_IP.yaml](AI_IP.yaml) | v2.5.1 | 2 | 海外 AI 服务 IP 地址段 |
 | [Domestic-AI-Capture_Domain.yaml](Domestic-AI-Capture_Domain.yaml) | v1.0.0 | 12 | 国产 AI 公司服务（含全球站）域名；**用户裁定集**（配置前置捕获收编，无作者出处） |
 | [Overseas-Service-Capture_Domain.yaml](Overseas-Service-Capture_Domain.yaml) | v1.0.0 | 42 | 服务本体在海外的服务域名；**用户裁定集**（配置前置捕获收编，无作者出处） |
 | [Favonis_Domain.yaml](Favonis_Domain.yaml) | v1.0.0 | 3 | favonis 域名（归属查无实据）；**用户裁定集**（从国产 AI 直连摁回 AI 组，无作者出处） |
