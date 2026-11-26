@@ -1,5 +1,5 @@
 # Apple_Domain
-# 版本 v2.5.3 · 日期 2026-11-26 · 时间 01:00 · 共 1457 条
+# 版本 v2.5.4 · 日期 2026-11-26 · 时间 01:30 · 共 1439 条
 # 内容：iCloud、App Store、Apple Music、Apple TV、Beats 等苹果全线服务
 payload:
   - PROCESS-NAME,apsd
@@ -593,8 +593,6 @@ payload:
   - DOMAIN-SUFFIX,monsterbeatsru.com
   - DOMAIN-SUFFIX,mybeatsbydreuk.com
   - DOMAIN-SUFFIX,newdrediscount.com
-  - DOMAIN-SUFFIX,nextdigital.com.hk
-  - DOMAIN-SUFFIX,nextdigital.com.tw
   - DOMAIN-SUFFIX,offrezdesipods.com
   - DOMAIN-SUFFIX,quatrowireless.com
   - DOMAIN-SUFFIX,researchkit.com.cn
@@ -693,7 +691,6 @@ payload:
   - DOMAIN-SUFFIX,thebeatsbydre.com
   - DOMAIN-SUFFIX,thebeatsbydre.net
   - DOMAIN-SUFFIX,thinkdifferent.us
-  - DOMAIN-SUFFIX,twnextdigital.com
   - DOMAIN-SUFFIX,vipbeatsbydre.com
   - DOMAIN-SUFFIX,www-sms-apple.com
   - DOMAIN-SUFFIX,wwwapplemusic.com
@@ -782,7 +779,6 @@ payload:
   - DOMAIN-SUFFIX,macbookair.co.kr
   - DOMAIN-SUFFIX,macbookair.co.uk
   - DOMAIN-SUFFIX,monbeats2013.com
-  - DOMAIN-SUFFIX,nextmedia.com.tw
   - DOMAIN-SUFFIX,quicktime.com.au
   - DOMAIN-SUFFIX,shopbeatsdre.com
   - DOMAIN-SUFFIX,shopdrebeats.com
@@ -867,10 +863,6 @@ payload:
   - DOMAIN-SUFFIX,mbeats-tech.com
   - DOMAIN-SUFFIX,mr-apple.com.tw
   - DOMAIN-SUFFIX,namemybeats.com
-  - DOMAIN-SUFFIX,nextfilm.com.hk
-  - DOMAIN-SUFFIX,nextplus.com.hk
-  - DOMAIN-SUFFIX,nextwork.com.hk
-  - DOMAIN-SUFFIX,nextwork.com.tw
   - DOMAIN-SUFFIX,researchkit.net
   - DOMAIN-SUFFIX,researchkit.org
   - DOMAIN-SUFFIX,truedepth3d.com
@@ -944,7 +936,6 @@ payload:
   - DOMAIN-SUFFIX,macbookpro.net
   - DOMAIN-SUFFIX,macosforge.org
   - DOMAIN-SUFFIX,macosxlion.com
-  - DOMAIN-SUFFIX,nextmag.com.tw
   - DOMAIN-SUFFIX,pullstring.net
   - DOMAIN-SUFFIX,researchkit.cn
   - DOMAIN-SUFFIX,researchkit.hk
@@ -1044,8 +1035,6 @@ payload:
   - DOMAIN-SUFFIX,macboxset.com
   - DOMAIN-SUFFIX,mairbeats.com
   - DOMAIN-SUFFIX,myappleid.com
-  - DOMAIN-SUFFIX,nextmedia.com
-  - DOMAIN-SUFFIX,nexttv.com.tw
   - DOMAIN-SUFFIX,nxtdig.com.hk
   - DOMAIN-SUFFIX,nxtdig.com.tw
   - DOMAIN-SUFFIX,omoplanet.com
@@ -1053,7 +1042,6 @@ payload:
   - DOMAIN-SUFFIX,overapple.com
   - DOMAIN-SUFFIX,quicktime.com
   - DOMAIN-SUFFIX,quicktime.net
-  - DOMAIN-SUFFIX,sharpdaily.tw
   - DOMAIN-SUFFIX,shopbydre.com
   - DOMAIN-SUFFIX,tryrating.com
   - DOMAIN-SUFFIX,vip-beats.com
@@ -1145,7 +1133,6 @@ payload:
   - DOMAIN-SUFFIX,quicktime.cc
   - DOMAIN-SUFFIX,quicktime.eu
   - DOMAIN-SUFFIX,quicktime.tv
-  - DOMAIN-SUFFIX,tomonews.net
   - DOMAIN-SUFFIX,touchid.wang
   - DOMAIN-SUFFIX,wwwapple.com
   - DOMAIN-SUFFIX,wwwapple.net
@@ -1227,9 +1214,6 @@ payload:
   - DOMAIN-SUFFIX,macruby.net
   - DOMAIN-SUFFIX,macruby.org
   - DOMAIN-SUFFIX,mobileme.dk
-  - DOMAIN-SUFFIX,nextmgz.com
-  - DOMAIN-SUFFIX,nextwork.hk
-  - DOMAIN-SUFFIX,nextwork.tw
   - DOMAIN-SUFFIX,spektral.cc
   - DOMAIN-SUFFIX,texture.com
   - DOMAIN-SUFFIX,wwapple.net
@@ -1245,7 +1229,6 @@ payload:
   - DOMAIN-SUFFIX,applfe.com
   - DOMAIN-SUFFIX,applle.com
   - DOMAIN-SUFFIX,appule.com
-  - DOMAIN-SUFFIX,atnext.com
   - DOMAIN-SUFFIX,beatbd.com
   - DOMAIN-SUFFIX,beats4.net
   - DOMAIN-SUFFIX,carbon.com
@@ -1451,7 +1434,6 @@ payload:
   - DOMAIN-SUFFIX,ipod.tw
   - DOMAIN-SUFFIX,itun.es
   - DOMAIN-SUFFIX,mac.com
-  - DOMAIN-SUFFIX,next.hk
   - DOMAIN-SUFFIX,mac.eu
   - DOMAIN-SUFFIX,mac.rs
   - DOMAIN-SUFFIX,me.com
