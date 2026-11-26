@@ -52,8 +52,8 @@ https://gist.github.com/PuthsenTaylor/6d3a119274d974d6dbadf6c05e669ccd/raw/Mihom
 | [Twitter_IP.yaml](Twitter_IP.yaml) | v2.5.0 | 21 | X / Twitter 全球 IP 地址段 |
 | [AI_Domain.yaml](AI_Domain.yaml) | v2.5.3 | 193 | ChatGPT、Claude、Perplexity、Midjourney、Runway、Suno、Cursor、Copilot 等海外 AI 服务域名 |
 | [AI_IP.yaml](AI_IP.yaml) | v2.5.1 | 2 | 海外 AI 服务 IP 地址段 |
-| [Domestic-Direct_Domain.yaml](Domestic-Direct_Domain.yaml) | v2.5.8 | 6278 | 币安、欧易、火币等交易所，腾讯、阿里巴巴、字节跳动、京东、百度、国产 AI、银行与支付、证券基金、三网运营商等国内服务域名 |
-| [Domestic-Direct_IP.yaml](Domestic-Direct_IP.yaml) | v2.5.1 | 170 | 国内服务 IP 地址段 |
+| [Domestic-Direct_Domain.yaml](Domestic-Direct_Domain.yaml) | v2.5.9 | 636 | OPPO 系、微信、QQ、搜狗输入法、支付宝、淘宝、盒马、京东、拼多多、美团、得物、航旅纵横、中国联通、币安等交易所与国内银行服务域名（用户点名名单制重构） |
+| [Domestic-Direct_IP.yaml](Domestic-Direct_IP.yaml) | v2.5.2 | 76 | 腾讯、阿里巴巴、中国联通等名单内公司作者源 IP 地址段 |
 
 ## 手动接入：rule-provider
 
