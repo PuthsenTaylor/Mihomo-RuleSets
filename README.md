@@ -1,13 +1,27 @@
 # Mihomo-RuleSets
 
-自建 Mihomo Rule Set 合集（多作者规则全量合并、零自建），供 Mihomo 以 rule-provider（classical）加载：`https://raw.githubusercontent.com/PuthsenTaylor/Mihomo-RuleSets/main/<文件名>`
+自建 Mihomo 分流规则集（Rule Set）合集：多家公开作者规则全量合并、逐条审计、零自建，供 Mihomo 内核以 rule-provider（classical）方式加载。
+
+文件直链格式：`https://raw.githubusercontent.com/PuthsenTaylor/Mihomo-RuleSets/main/<文件名>`
+
+## 分流理念
+
+- **按公司归属分流**：谷歌走谷歌、苹果走苹果，有总公司归属的服务只进总公司集，不按地理名单混编。
+- **国外全代理、国内全直连**：海外服务的第一命中落自家代理策略组，不落漏网、不落直连；国内服务（包含其海外面）一律直连，在服务商眼中始终是国内 IP，账号风控画像连贯。
+- **宁可漏、不可误杀**：多租户共用平台的整段域名不入集，宁可让个别域名走兜底，也不劫持无关流量。
+- **零自建**：每条规则均有公开作者出处，不凭空编写域名；拿不准归属的条目不入集。
+- **字节跳动三分离**：海外字节（TikTok、CapCut、Lark 海外版、BytePlus 等）与全球共用基础设施归 TikTok 集走代理，国内字节（抖音、头条、飞书、火山引擎等）归国内直连集，两边彻底划开。
+
+## 文件清单
+
+全仓 25 份文件，共 18,545 条；每份集按域名与 IP 拆分为 `_Domain` / `_IP` 双文件（个别集只有域名文件）。
 
 | 文件 | 版本 | 条数 | 内容 |
 | --- | --- | --- | --- |
 | [LAN_Domain.yaml](LAN_Domain.yaml) | v2.5.0 | 142 | 局域网本地域名、路由器管理域名、本地服务发现域名、反向解析域名等 |
 | [LAN_IP.yaml](LAN_IP.yaml) | v2.5.0 | 28 | 私有、保留、环回、链路本地、组播、共享地址空间与文档示例等 IP 地址段 |
 | [NTP_Domain.yaml](NTP_Domain.yaml) | v2.5.0 | 169 | NTP Pool、NIST 等全球 NTP 时间服务器域名 |
-| [Google_Domain.yaml](Google_Domain.yaml) | v2.5.0 | 884 | YouTube、Gmail、Gemini、Google Play、Google Search、Google Maps、Google Drive、Google Photos 等谷歌全线服务 |
+| [Google_Domain.yaml](Google_Domain.yaml) | v2.5.0 | 885 | YouTube、Gmail、Gemini、Google Play、Google Search、Google Maps、Google Drive、Google Photos 等谷歌全线服务 |
 | [Google_IP.yaml](Google_IP.yaml) | v2.5.0 | 7090 | 谷歌全球 IP 地址段 |
 | [Apple_Domain.yaml](Apple_Domain.yaml) | v2.5.0 | 1468 | iCloud、App Store、Apple Music、Apple TV、Beats 等苹果全线服务 |
 | [Apple_IP.yaml](Apple_IP.yaml) | v2.5.0 | 13 | 苹果全球 IP 地址段 |
@@ -29,3 +43,34 @@
 | [AI_IP.yaml](AI_IP.yaml) | v2.5.0 | 2 | 海外 AI 服务 IP 地址段 |
 | [Domestic-Direct_Domain.yaml](Domestic-Direct_Domain.yaml) | v2.5.0 | 5833 | 币安、欧易等交易所，腾讯、阿里巴巴、字节跳动、京东、百度、三网运营商等国内服务域名 |
 | [Domestic-Direct_IP.yaml](Domestic-Direct_IP.yaml) | v2.5.0 | 200 | 国内服务 IP 地址段 |
+
+## 使用方法
+
+在 Mihomo 配置中以 rule-provider 引入，按需选用：
+
+```yaml
+rule-providers:
+  Google_Domain:
+    type: http
+    behavior: classical
+    format: yaml
+    url: "https://raw.githubusercontent.com/PuthsenTaylor/Mihomo-RuleSets/main/Google_Domain.yaml"
+    path: ./ruleset/Google_Domain.yaml
+    interval: 86400
+
+rules:
+  - RULE-SET,Google_Domain,Google,no-resolve
+  - RULE-SET,Google_IP,Google
+  - RULE-SET,Domestic-Direct_Domain,DIRECT,no-resolve
+  - RULE-SET,Domestic-Direct_IP,DIRECT
+```
+
+域名集（`_Domain`）的规则行建议带 `no-resolve`，IP 集（`_IP`）不带，靠解析后比对地址段。
+
+## 维护方式
+
+每日自动同步多家作者（blackmatrix7、MetaCubeX、v2fly、ACL4SSR 等）的公开规则更新：新增条目通过归属、误杀、无用三道审计后自动并入并升补丁版；作者删除的条目与归属存疑的新增不自动处理，留待人工裁定。
+
+## 说明
+
+本仓库规则整理自上述作者的公开清单，版权归原作者所有，仅供学习与个人网络分流配置参考。
