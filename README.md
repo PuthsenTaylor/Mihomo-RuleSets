@@ -14,7 +14,7 @@
 
 ## 一键使用：覆写脚本（推荐）
 
-不想自己写规则的，直接用配套覆写脚本 **MihomoOverride.js**：在支持 JavaScript 覆写的 Mihomo 客户端中，把脚本地址填入覆写（脚本）一栏即可。脚本会保留你订阅自带的节点与传输参数，只重建 DNS、嗅探、13 个策略组、本仓库 25 个规则集的引用与全部分流规则；脚本本身不包含任何节点信息，节点全部来自你自己的订阅。
+不想自己写规则的，直接用配套覆写脚本 **MihomoOverride.js**：在支持 JavaScript 覆写的 Mihomo 客户端中，把脚本地址填入覆写（脚本）一栏即可。脚本会保留你订阅自带的节点与传输参数，只重建 DNS、嗅探、全套策略组、本仓库全套规则集的引用与全部分流规则；脚本本身不包含任何节点信息，节点全部来自你自己的订阅。
 
 脚本地址（raw 直链，可直接粘贴到客户端）：
 
@@ -26,7 +26,7 @@ https://gist.github.com/PuthsenTaylor/6d3a119274d974d6dbadf6c05e669ccd/raw/Mihom
 
 ## 文件清单
 
-全仓 25 份文件，共 18,545 条；每份集按域名与 IP 拆分为 `_Domain` / `_IP` 双文件（个别集只有域名文件）。
+全仓 25 份文件，共 19,018 条；每份集按域名与 IP 拆分为 `_Domain` / `_IP` 双文件（个别集只有域名文件）。
 
 | 文件 | 版本 | 条数 | 内容 |
 | --- | --- | --- | --- |
@@ -41,7 +41,7 @@ https://gist.github.com/PuthsenTaylor/6d3a119274d974d6dbadf6c05e669ccd/raw/Mihom
 | [Netflix_IP.yaml](Netflix_IP.yaml) | v2.5.0 | 1121 | 奈飞全球 IP 地址段 |
 | [Disney_Domain.yaml](Disney_Domain.yaml) | v2.5.0 | 242 | Disney+、Hulu、ESPN、ABC、Marvel、Star Wars、国家地理、Hotstar 等迪士尼家族服务 |
 | [Emby_Domain.yaml](Emby_Domain.yaml) | v2.5.0 | 18 | Emby、Infuse、VidHub、Forward、Fileball、AfuseKt、FinFlow 等服务与进程名 |
-| [TikTok_Domain.yaml](TikTok_Domain.yaml) | v2.5.0 | 257 | TikTok、CapCut、Coze、Lark 海外版、BytePlus、Pico 等字节跳动海外服务及全球共用基础设施 |
+| [TikTok_Domain.yaml](TikTok_Domain.yaml) | v2.5.1 | 256 | TikTok、CapCut、Coze、Lark 海外版、BytePlus、Pico 等字节跳动海外服务及全球共用基础设施 |
 | [TikTok_IP.yaml](TikTok_IP.yaml) | v2.5.0 | 4 | 字节跳动海外主体官方 ASN 地址段（Bytedance、TikTok、BytePlus） |
 | [Spotify_Domain.yaml](Spotify_Domain.yaml) | v2.5.0 | 32 | Spotify、Anchor 等服务域名 |
 | [Spotify_IP.yaml](Spotify_IP.yaml) | v2.5.0 | 2 | Spotify 全球 IP 地址段 |
@@ -53,7 +53,7 @@ https://gist.github.com/PuthsenTaylor/6d3a119274d974d6dbadf6c05e669ccd/raw/Mihom
 | [Twitter_IP.yaml](Twitter_IP.yaml) | v2.5.0 | 21 | X / Twitter 全球 IP 地址段 |
 | [AI_Domain.yaml](AI_Domain.yaml) | v2.5.0 | 206 | ChatGPT、Claude、Perplexity、Midjourney、Runway、Suno、Cursor、Copilot 等海外 AI 服务域名 |
 | [AI_IP.yaml](AI_IP.yaml) | v2.5.0 | 2 | 海外 AI 服务 IP 地址段 |
-| [Domestic-Direct_Domain.yaml](Domestic-Direct_Domain.yaml) | v2.5.1 | 6293 | 币安、欧易等交易所，腾讯、阿里巴巴、字节跳动、京东、百度、银行与支付、证券基金、三网运营商等国内服务域名 |
+| [Domestic-Direct_Domain.yaml](Domestic-Direct_Domain.yaml) | v2.5.2 | 6307 | 币安、欧易等交易所，腾讯、阿里巴巴、字节跳动、京东、百度、银行与支付、证券基金、三网运营商等国内服务域名 |
 | [Domestic-Direct_IP.yaml](Domestic-Direct_IP.yaml) | v2.5.0 | 200 | 国内服务 IP 地址段 |
 
 ## 手动接入：rule-provider
