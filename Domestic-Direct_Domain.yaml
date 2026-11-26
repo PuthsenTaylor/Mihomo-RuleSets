@@ -1,4 +1,4 @@
-# 版本 v2.5.11 · 日期 2026-11-26 · 时间 07:27 · 共 642 条
+# 版本 v2.5.12 · 日期 2026-11-26 · 时间 07:33 · 共 641 条
 # 内容：OPPO 系、微信、QQ、搜狗输入法、百度输入法、支付宝、淘宝、盒马、京东、拼多多、美团、得物、航旅纵横、中国联通、币安等交易所与国内银行服务域名（用户点名名单制重构）
 payload:
   - PROCESS-NAME,Binance.exe
@@ -642,4 +642,3 @@ payload:
   - DOMAIN-SUFFIX,3.cn
   - DOMAIN-SUFFIX,icbc
   - DOMAIN-KEYWORD,binance
-  - DOMAIN-KEYWORD,okx
