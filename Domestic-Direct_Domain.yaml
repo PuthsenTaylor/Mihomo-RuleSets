@@ -1,6 +1,6 @@
 # Domestic-Direct_Domain
-# 版本 v2.5.6 · 日期 2026-11-25 · 时间 21:44 · 共 6269 条
-# 内容：币安、欧易、火币等交易所，腾讯、阿里巴巴、字节跳动、京东、百度、银行与支付、证券基金、三网运营商等国内服务域名
+# 版本 v2.5.7 · 日期 2026-11-25 · 时间 22:17 · 共 6282 条
+# 内容：币安、欧易、火币等交易所，腾讯、阿里巴巴、字节跳动、京东、百度、国产 AI、银行与支付、证券基金、三网运营商等国内服务域名
 payload:
   - PROCESS-NAME,binance.exe
   - PROCESS-NAME,com.taobao.taobao
@@ -2221,6 +2221,7 @@ payload:
   - DOMAIN-SUFFIX,gogokid.com.cn
   - DOMAIN-SUFFIX,goto-game.mobi
   - DOMAIN-SUFFIX,guoguo-app.com
+  - DOMAIN-SUFFIX,hailuoai.video
   - DOMAIN-SUFFIX,happyhlddz.com
   - DOMAIN-SUFFIX,hayday-game.cn
   - DOMAIN-SUFFIX,heytapcloud.cn
@@ -4050,6 +4051,7 @@ payload:
   - DOMAIN-SUFFIX,yjs-cdn8.com
   - DOMAIN-SUFFIX,yjs-cdn9.com
   - DOMAIN-SUFFIX,ymzxconf.com
+  - DOMAIN-SUFFIX,youmind.site
   - DOMAIN-SUFFIX,yunduncc.com
   - DOMAIN-SUFFIX,yunjiasu.com
   - DOMAIN-SUFFIX,yxdmgame.com
@@ -4380,6 +4382,7 @@ payload:
   - DOMAIN-SUFFIX,mnbvtgv.com
   - DOMAIN-SUFFIX,mobmore.com
   - DOMAIN-SUFFIX,modernjs.cn
+  - DOMAIN-SUFFIX,moonshot.ai
   - DOMAIN-SUFFIX,moonton.com
   - DOMAIN-SUFFIX,myqcloud.cn
   - DOMAIN-SUFFIX,nbcb.com.cn
@@ -4490,6 +4493,7 @@ payload:
   - DOMAIN-SUFFIX,tailuosi.cn
   - DOMAIN-SUFFIX,tairos.tech
   - DOMAIN-SUFFIX,taji-ai.com
+  - DOMAIN-SUFFIX,talkai.info
   - DOMAIN-SUFFIX,tanlive.com
   - DOMAIN-SUFFIX,taobao.wang
   - DOMAIN-SUFFIX,taotian.com
@@ -4644,6 +4648,7 @@ payload:
   - DOMAIN-SUFFIX,yeyousg.com
   - DOMAIN-SUFFIX,yiyaojd.com
   - DOMAIN-SUFFIX,yjs-cdn.com
+  - DOMAIN-SUFFIX,youmind.com
   - DOMAIN-SUFFIX,yowhale.com
   - DOMAIN-SUFFIX,yqbmall.com
   - DOMAIN-SUFFIX,yxsgame.com
@@ -5026,6 +5031,7 @@ payload:
   - DOMAIN-SUFFIX,migufm.com
   - DOMAIN-SUFFIX,migugk.com
   - DOMAIN-SUFFIX,migutv.com
+  - DOMAIN-SUFFIX,minimax.io
   - DOMAIN-SUFFIX,mipcdn.com
   - DOMAIN-SUFFIX,mjxpay.com
   - DOMAIN-SUFFIX,mmstat.com
@@ -5225,6 +5231,7 @@ payload:
   - DOMAIN-SUFFIX,totope.com
   - DOMAIN-SUFFIX,tqiangg.cn
   - DOMAIN-SUFFIX,trfgvb.com
+  - DOMAIN-SUFFIX,tripo3d.ai
   - DOMAIN-SUFFIX,trpc.group
   - DOMAIN-SUFFIX,tsa-lp.com
   - DOMAIN-SUFFIX,tsepcn.com
@@ -5318,6 +5325,7 @@ payload:
   - DOMAIN-SUFFIX,ymbank.com
   - DOMAIN-SUFFIX,yonghui.cn
   - DOMAIN-SUFFIX,yoojia.com
+  - DOMAIN-SUFFIX,youmind.ai
   - DOMAIN-SUFFIX,youyou.com
   - DOMAIN-SUFFIX,yqbimg.net
   - DOMAIN-SUFFIX,yqqqbm.com
@@ -5589,6 +5597,7 @@ payload:
   - DOMAIN-SUFFIX,kych5.com
   - DOMAIN-SUFFIX,lackvc.cn
   - DOMAIN-SUFFIX,lldlf.com
+  - DOMAIN-SUFFIX,lovart.ai
   - DOMAIN-SUFFIX,lovev.com
   - DOMAIN-SUFFIX,lufax.com
   - DOMAIN-SUFFIX,lydaas.cn
@@ -5649,6 +5658,7 @@ payload:
   - DOMAIN-SUFFIX,qmail.com
   - DOMAIN-SUFFIX,qmoji.net
   - DOMAIN-SUFFIX,qmrms.com
+  - DOMAIN-SUFFIX,qoder.com
   - DOMAIN-SUFFIX,qplus.com
   - DOMAIN-SUFFIX,qq.cn.com
   - DOMAIN-SUFFIX,qq.com.cn
@@ -5690,6 +5700,7 @@ payload:
   - DOMAIN-SUFFIX,taobao.cn
   - DOMAIN-SUFFIX,taotv.com
   - DOMAIN-SUFFIX,taotv.net
+  - DOMAIN-SUFFIX,tapnow.ai
   - DOMAIN-SUFFIX,tbcdn.com
   - DOMAIN-SUFFIX,tbmkt.com
   - DOMAIN-SUFFIX,tcdnx1.cn
@@ -6094,6 +6105,7 @@ payload:
   - DOMAIN-SUFFIX,csci.hk
   - DOMAIN-SUFFIX,cupb.cn
   - DOMAIN-SUFFIX,dewu.co
+  - DOMAIN-SUFFIX,dify.ai
   - DOMAIN-SUFFIX,dns.pub
   - DOMAIN-SUFFIX,doh.pub
   - DOMAIN-SUFFIX,dot.pub
@@ -6127,6 +6139,7 @@ payload:
   - DOMAIN-SUFFIX,jdx.com
   - DOMAIN-SUFFIX,jyzq.cn
   - DOMAIN-SUFFIX,keke.cn
+  - DOMAIN-SUFFIX,kimi.ai
   - DOMAIN-SUFFIX,ktv.com
   - DOMAIN-SUFFIX,kufm.cn
   - DOMAIN-SUFFIX,kuwo.cn
