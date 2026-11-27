@@ -102,14 +102,14 @@ rule-providers:
     interval: 86400
 
 rules:
-  - RULE-SET,Google_Domain,Google,no-resolve
-  - RULE-SET,Google_IP,Google
+  - RULE-SET,Google_Domain,Google
+  - RULE-SET,Google_IP,Google,no-resolve
 #使用代理软件自身数据库兜底
   - GEOSITE,google,Google
   - GEOIP,google,Google,no-resolve
 ```
 
-域名集（`_Domain`）的规则行建议带 `no-resolve`，IP 集（`_IP`）不带，靠解析后比对地址段。
+域名集（`_Domain`）的规则行不带 `no-resolve`，靠域名本身比对，不涉及解析；IP 集（`_IP`）与 GEOIP 的规则行带 `no-resolve`，避免内核为了比对地址段而提前做一次 DNS 解析，目标已经是 IP 或已完成解析时照常命中。
 
 ## 更新与维护机制
 
