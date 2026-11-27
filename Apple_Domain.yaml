@@ -1,4 +1,4 @@
-# 版本 v2.5.4 · 日期 2026-11-26 · 时间 01:30 · 共 1439 条
+# 版本 v2.5.5 · 日期 2026-11-26 · 时间 21:17 · 共 1441 条
 # 内容：iCloud、App Store、Apple Music、Apple TV、Beats 等苹果全线服务
 payload:
   - PROCESS-NAME,apsd
@@ -10,6 +10,8 @@ payload:
   - PROCESS-NAME,TV
   - PROCESS-NAME,WeatherWidget
   - DOMAIN,apple-events.akamaized.net
+  - DOMAIN,apple-relay.cloudflare.com
+  - DOMAIN,apple-relay.fastly-edge.com
   - DOMAIN,beatselectronicsllc.tt.omtrdc.net
   - DOMAIN,lookup-api.apple.com.edgekey.net
   - DOMAIN-SUFFIX,notary-submissions-prod.s3-accelerate.amazonaws.com
