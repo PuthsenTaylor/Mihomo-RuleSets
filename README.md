@@ -34,14 +34,14 @@ https://gist.github.com/PuthsenTaylor/6d3a119274d974d6dbadf6c05e669ccd/raw/Mihom
 
 ## 文件清单
 
-全仓 23 份文件，共 12,943 条；每份集按域名与 IP 拆分为 `_Domain` / `_IP` 双文件，其中 Disney、Emby 只有域名文件，TikTok 的 IP 侧覆盖由 ASN 直达行承载、同样只有域名文件（见上文「架构与口径」）。
+全仓 23 份文件，共 12,663 条；每份集按域名与 IP 拆分为 `_Domain` / `_IP` 双文件，其中 Disney、Emby 只有域名文件，TikTok 的 IP 侧覆盖由 ASN 直达行承载、同样只有域名文件（见上文「架构与口径」）。
 
 | 文件 | 版本 | 条数 | 内容 |
 | --- | --- | --- | --- |
 | [LAN_Domain.yaml](LAN_Domain.yaml) | v2.5.2 | 151 | 局域网本地域名、路由器管理域名、本地服务发现域名、反向解析域名等 |
 | [LAN_IP.yaml](LAN_IP.yaml) | v2.5.0 | 28 | 私有、保留、环回、链路本地、组播、共享地址空间与文档示例等 IP 地址段 |
-| [Google_Domain.yaml](Google_Domain.yaml) | v2.5.3 | 878 | YouTube、Gmail、Gemini、Google Play、Google Search、Google Maps、Google Drive、Google Photos 等谷歌全线服务 |
-| [Google_IP.yaml](Google_IP.yaml) | v2.5.1 | 7089 | 谷歌全球 IP 地址段 |
+| [Google_Domain.yaml](Google_Domain.yaml) | v2.5.4 | 878 | YouTube、Gmail、Gemini、Google Play、Google Search、Google Maps、Google Drive、Google Photos 等谷歌全线服务 |
+| [Google_IP.yaml](Google_IP.yaml) | v2.5.2 | 6809 | 谷歌全球 IP 地址段 |
 | [Apple_Domain.yaml](Apple_Domain.yaml) | v2.5.4 | 1439 | iCloud、App Store、Apple Music、Apple TV、Beats 等苹果全线服务 |
 | [Apple_IP.yaml](Apple_IP.yaml) | v2.5.1 | 11 | 苹果全球 IP 地址段 |
 | [Netflix_Domain.yaml](Netflix_Domain.yaml) | v2.5.0 | 23 | Netflix、Fast.com 等奈飞服务域名 |
