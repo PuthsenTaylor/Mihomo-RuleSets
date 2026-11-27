@@ -103,13 +103,13 @@ rule-providers:
 
 rules:
   - RULE-SET,Google_Domain,Google
-  - RULE-SET,Google_IP,Google,no-resolve
+  - RULE-SET,Google_IP,Google
 #使用代理软件自身数据库兜底
   - GEOSITE,google,Google
   - GEOIP,google,Google,no-resolve
 ```
 
-域名集（`_Domain`）的规则行不带 `no-resolve`，靠域名本身比对，不涉及解析；IP 集（`_IP`）与 GEOIP 的规则行带 `no-resolve`，避免内核为了比对地址段而提前做一次 DNS 解析，目标已经是 IP 或已完成解析时照常命中。
+域名集（`_Domain`）与 GEOSITE 的规则行不带 `no-resolve`，靠域名本身比对，不涉及解析；IP 集（`_IP`）的规则行同样不带——这是有意为之：内核为了比对地址段，会先经本地 DNS 把域名解析成 IP，IP 集规则才能对域名流量真正命中，解析走向由配置中的 nameserver-policy 分流决定；GEOIP 与 IP-ASN 的规则行带 `no-resolve`，直接复用已解析出的 IP 比对，不重复触发解析。目标本来就是 IP 时，各行均照常命中。
 
 ## 更新与维护机制
 
