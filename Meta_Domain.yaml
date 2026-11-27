@@ -1,4 +1,4 @@
-# 版本 v2.5.1 · 日期 2026-11-25 · 时间 21:27 · 共 559 条
+# 版本 v2.5.2 · 日期 2026-11-26 · 时间 22:18 · 共 560 条
 # 内容：Facebook、Instagram、WhatsApp、Messenger、Threads、Meta Quest、Meta AI 等服务域名
 payload:
   - DOMAIN-SUFFIX,facebookcanadianelectionintegrityinitiative.com
@@ -364,6 +364,7 @@ payload:
   - DOMAIN-SUFFIX,workplace.com
   - DOMAIN-SUFFIX,worldhack.com
   - DOMAIN-SUFFIX,acebooik.com
+  - DOMAIN-SUFFIX,atdmt2.com
   - DOMAIN-SUFFIX,atlasdmt.com
   - DOMAIN-SUFFIX,dacebook.com
   - DOMAIN-SUFFIX,faacebok.com
