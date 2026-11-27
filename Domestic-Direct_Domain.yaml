@@ -1,4 +1,4 @@
-# 版本 v2.5.13 · 日期 2026-11-26 · 时间 09:49 · 共 640 条
+# 版本 v2.5.14 · 日期 2026-11-26 · 时间 22:55 · 共 642 条
 # 内容：OPPO 系、微信、QQ、搜狗输入法、百度输入法、支付宝、淘宝、盒马、京东、拼多多、美团、得物、航旅纵横、中国联通、币安等交易所与国内银行服务域名（用户点名名单制重构）
 payload:
   - PROCESS-NAME,Binance.exe
@@ -472,6 +472,7 @@ payload:
   - DOMAIN-SUFFIX,ccb.com.cn
   - DOMAIN-SUFFIX,ccbcos.com
   - DOMAIN-SUFFIX,ccbfund.cn
+  - DOMAIN-SUFFIX,ccbhome.cn
   - DOMAIN-SUFFIX,cmbimg.com
   - DOMAIN-SUFFIX,cmbuat.com
   - DOMAIN-SUFFIX,cmfunds.cn
@@ -575,6 +576,7 @@ payload:
   - DOMAIN-SUFFIX,wo.com.cn
   - DOMAIN-SUFFIX,yixun.com
   - DOMAIN-SUFFIX,10010.cn
+  - DOMAIN-SUFFIX,95599.cn
   - DOMAIN-SUFFIX,bnbzh.ac
   - DOMAIN-SUFFIX,cuecp.cn
   - DOMAIN-SUFFIX,dewu.com
@@ -638,6 +640,4 @@ payload:
   - DOMAIN-SUFFIX,sg.cn
   - DOMAIN-SUFFIX,tmall
   - DOMAIN-SUFFIX,wo.cn
-  - DOMAIN-SUFFIX,3.cn
-  - DOMAIN-SUFFIX,icbc
   - DOMAIN-KEYWORD,binance
