@@ -1,8 +1,9 @@
-# 版本 v2.5.0 · 日期 2026-11-25 · 时间 10:04 · 共 142 条
+# 版本 v2.5.1 · 日期 2026-11-26 · 时间 20:50 · 共 152 条
 # 内容：局域网本地域名、路由器管理域名、本地服务发现域名、反向解析域名等
 payload:
-  - DOMAIN,asusrouter.com
+  - DOMAIN,aterm.me
   - DOMAIN,board.zash.run.place
+  - DOMAIN,console.gl-inet.com
   - DOMAIN,dash.sing-box.app
   - DOMAIN,instant.arubanetworks.com
   - DOMAIN,local.adguard.org
@@ -11,6 +12,7 @@ payload:
   - DOMAIN,metacubex.github.io
   - DOMAIN,metacubexd.pages.dev
   - DOMAIN,oasisauth.h3c.com
+  - DOMAIN,repeater.asus.com
   - DOMAIN,router.asus.com
   - DOMAIN,setmeup.arubanetworks.com
   - DOMAIN,sing-box-dashboard.sagernet.org
@@ -143,3 +145,11 @@ payload:
   - DOMAIN-SUFFIX,p.to
   - DOMAIN-SUFFIX,test
   - DOMAIN-SUFFIX,lan
+  - DOMAIN-SUFFIX,asusrouter.com
+  - DOMAIN-SUFFIX,huaweimobilewifi.com
+  - DOMAIN-SUFFIX,routerlogin.net
+  - DOMAIN-SUFFIX,tplinkap.net
+  - DOMAIN-SUFFIX,tplinkmodem.net
+  - DOMAIN-SUFFIX,tplinkplclogin.net
+  - DOMAIN-SUFFIX,tplinkrepeater.net
+  - DOMAIN-SUFFIX,ui.direct
