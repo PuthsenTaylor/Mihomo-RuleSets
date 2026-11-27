@@ -34,7 +34,7 @@ https://gist.github.com/PuthsenTaylor/6d3a119274d974d6dbadf6c05e669ccd/raw/Mihom
 
 ## 文件清单
 
-全仓 23 份文件，共 12,671 条；每份集按域名与 IP 拆分为 `_Domain` / `_IP` 双文件，其中 Disney、Emby 只有域名文件，TikTok 的 IP 侧覆盖由 ASN 直达行承载、同样只有域名文件（见上文「架构与口径」）。
+全仓 23 份文件，共 12,673 条；每份集按域名与 IP 拆分为 `_Domain` / `_IP` 双文件，其中 Disney、Emby 只有域名文件，TikTok 的 IP 侧覆盖由 ASN 直达行承载、同样只有域名文件（见上文「架构与口径」）。
 
 | 文件 | 版本 | 条数 | 内容 |
 | --- | --- | --- | --- |
@@ -53,8 +53,8 @@ https://gist.github.com/PuthsenTaylor/6d3a119274d974d6dbadf6c05e669ccd/raw/Mihom
 | [Spotify_IP.yaml](Spotify_IP.yaml) | v2.5.0 | 2 | Spotify 全球 IP 地址段 |
 | [Telegram_Domain.yaml](Telegram_Domain.yaml) | v2.5.0 | 35 | Telegram、Telegra.ph、Fragment、TON 等服务域名 |
 | [Telegram_IP.yaml](Telegram_IP.yaml) | v2.5.5 | 15 | Telegram 全球 IP 地址段 |
-| [Meta_Domain.yaml](Meta_Domain.yaml) | v2.5.1 | 559 | Facebook、Instagram、WhatsApp、Messenger、Threads、Meta Quest、Meta AI 等服务域名 |
-| [Meta_IP.yaml](Meta_IP.yaml) | v2.5.4 | 138 | Meta 全球 IP 地址段 |
+| [Meta_Domain.yaml](Meta_Domain.yaml) | v2.5.2 | 560 | Facebook、Instagram、WhatsApp、Messenger、Threads、Meta Quest、Meta AI 等服务域名 |
+| [Meta_IP.yaml](Meta_IP.yaml) | v2.5.5 | 139 | Meta 全球 IP 地址段 |
 | [Twitter_Domain.yaml](Twitter_Domain.yaml) | v2.5.0 | 27 | X / Twitter、t.co、xAI / Grok 等服务域名 |
 | [Twitter_IP.yaml](Twitter_IP.yaml) | v2.5.0 | 21 | X / Twitter 全球 IP 地址段 |
 | [AI_Domain.yaml](AI_Domain.yaml) | v2.5.3 | 193 | ChatGPT、Claude、Perplexity、Mistral、Midjourney、Runway、Suno、Cursor 等无总公司集的海外 AI 服务域名（全量收录） |
