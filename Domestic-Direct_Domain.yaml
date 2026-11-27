@@ -640,4 +640,6 @@ payload:
   - DOMAIN-SUFFIX,sg.cn
   - DOMAIN-SUFFIX,tmall
   - DOMAIN-SUFFIX,wo.cn
+  - DOMAIN-SUFFIX,3.cn
+  - DOMAIN-SUFFIX,icbc
   - DOMAIN-KEYWORD,binance
