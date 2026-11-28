@@ -1,9 +1,10 @@
-# 版本 v2.5.14 · 日期 2026-11-26 · 时间 22:55 · 共 642 条
+# 版本 v2.5.15 · 日期 2026-11-27 · 时间 22:20 · 共 643 条
 # 内容：OPPO 系、微信、QQ、搜狗输入法、百度输入法、支付宝、淘宝、盒马、京东、拼多多、美团、得物、航旅纵横、中国联通、币安等交易所与国内银行服务域名（用户点名名单制重构）
 payload:
   - PROCESS-NAME,Binance.exe
   - PROCESS-NAME,com.taobao.taobao
   - PROCESS-NAME,OKX.exe
+  - PROCESS-NAME,SGTool.exe
   - DOMAIN,apd-pcdnwxlogin.teg.tencent-cloud.net
   - DOMAIN,bybit-exchange.github.io
   - DOMAIN,bybit.ada.support
