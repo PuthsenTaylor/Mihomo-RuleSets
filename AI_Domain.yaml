@@ -1,8 +1,9 @@
-# 版本 v2.5.4 · 日期 2026-11-26 · 时间 22:39 · 共 235 条
+# 版本 v2.5.5 · 日期 2026-11-27 · 时间 22:20 · 共 236 条
 # 内容：ChatGPT、Claude、Perplexity、Midjourney、Runway、Suno、Cursor、Copilot 等海外 AI 服务域名
 payload:
   - DOMAIN,api.msn.com
   - DOMAIN,assets.msn.com
+  - DOMAIN,aurora-customization-usw2.lithium.com
   - DOMAIN,copilot-proxy.githubusercontent.com
   - DOMAIN,copilot-telemetry-service.githubusercontent.com
   - DOMAIN,copilot-telemetry.githubusercontent.com
