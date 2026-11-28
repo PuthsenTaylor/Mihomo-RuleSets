@@ -59,7 +59,7 @@ https://gist.github.com/PuthsenTaylor/6d3a119274d974d6dbadf6c05e669ccd/raw/Mihom
 
 ## 文件清单
 
-全仓 23 份文件，共 12,717 条；每份集按域名与 IP 拆分为 `_Domain` / `_IP` 双文件，其中 Disney、Emby 只有域名文件，TikTok 的 IP 侧覆盖由 ASN 直达行承载、同样只有域名文件（见上文「架构与口径」）。
+全仓 23 份文件，共 12,719 条；每份集按域名与 IP 拆分为 `_Domain` / `_IP` 双文件，其中 Disney、Emby 只有域名文件，TikTok 的 IP 侧覆盖由 ASN 直达行承载、同样只有域名文件（见上文「架构与口径」）。
 
 | 文件 | 版本 | 条数 | 内容 |
 | --- | --- | --- | --- |
@@ -82,9 +82,9 @@ https://gist.github.com/PuthsenTaylor/6d3a119274d974d6dbadf6c05e669ccd/raw/Mihom
 | [Meta_IP.yaml](Meta_IP.yaml) | v2.5.5 | 139 | Meta 全球 IP 地址段 |
 | [Twitter_Domain.yaml](Twitter_Domain.yaml) | v2.5.0 | 27 | X / Twitter、t.co、xAI / Grok 等服务域名 |
 | [Twitter_IP.yaml](Twitter_IP.yaml) | v2.5.0 | 21 | X / Twitter 全球 IP 地址段 |
-| [AI_Domain.yaml](AI_Domain.yaml) | v2.5.4 | 235 | ChatGPT、Claude、Perplexity、Mistral、Midjourney、Runway、Suno、Cursor 等无总公司集的海外 AI 服务域名（全量收录） |
+| [AI_Domain.yaml](AI_Domain.yaml) | v2.5.5 | 236 | ChatGPT、Claude、Perplexity、Mistral、Midjourney、Runway、Suno、Cursor 等无总公司集的海外 AI 服务域名（全量收录） |
 | [AI_IP.yaml](AI_IP.yaml) | v2.5.1 | 2 | 海外 AI 服务 IP 地址段 |
-| [Domestic-Direct_Domain.yaml](Domestic-Direct_Domain.yaml) | v2.5.14 | 642 | OPPO 系、微信、QQ、搜狗输入法、百度输入法、支付宝、淘宝、盒马、京东、拼多多、美团、得物、航旅纵横、中国联通、币安等交易所与国内银行服务域名（用户点名名单制重构） |
+| [Domestic-Direct_Domain.yaml](Domestic-Direct_Domain.yaml) | v2.5.15 | 643 | OPPO 系、微信、QQ、搜狗输入法、百度输入法、支付宝、淘宝、盒马、京东、拼多多、美团、得物、航旅纵横、中国联通、币安等交易所与国内银行服务域名（用户点名名单制重构） |
 | [Domestic-Direct_IP.yaml](Domestic-Direct_IP.yaml) | v2.5.4 | 70 | 腾讯、阿里巴巴、中国联通等名单内公司作者源 IP 地址段 |
 
 ## 手动接入：rule-provider
